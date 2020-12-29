@@ -1,0 +1,71 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2020-12-29 19:30+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: translation.js\n"
+
+#: translation.js:10 translation.js:16
+msgid "bits"
+msgstr "bits"
+
+#: translation.js:11
+msgid "bit-0"
+msgstr "bit-0"
+
+#: translation.js:12
+msgid "Constant bit 0"
+msgstr "Bit 0 constante"
+
+#: translation.js:13
+msgid "bit-1"
+msgstr "bit-1"
+
+#: translation.js:14
+msgid "Constant bit 1"
+msgstr "Bit 1 constante"
+
+#: translation.js:15
+msgid "TESTs"
+msgstr "PRUEBAs"
+
+#: translation.js:17
+msgid "Alhambra-II"
+msgstr "Alhambra-II"
+
+#: translation.js:18
+msgid "01-bit-0"
+msgstr "01-bit-0"
+
+#: translation.js:19
+msgid ""
+"## Turn off an LED\n"
+"\n"
+"Output the 0-bit value. It will turn off the LED"
+msgstr ""
+"## Apagar un LED\n"
+"\n"
+"Sacar el valor 0. El LED se apagará"
+
+#: translation.js:20
+msgid "02-bit-1"
+msgstr "02-bit-1"
+
+#: translation.js:21
+msgid ""
+"## Turn on an LED\n"
+"\n"
+"Output the 1-bit value. It will turn on the LED"
+msgstr ""
+"## Encender un LED\n"
+"\n"
+"Sacar el bit 1.  Se encenderá el LED"
