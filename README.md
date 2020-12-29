@@ -20,8 +20,6 @@ Constants.
   * *bits*
     * *Alhambra-II*
       * 01-bit-0
-      * *ice-build*
-        * *01-bit-0*
 
 
 ## Authors

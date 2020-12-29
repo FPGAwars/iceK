@@ -13,7 +13,5 @@ gettext('Constant bit 0');
 gettext('TESTs');
 gettext('bits');
 gettext('Alhambra-II');
-gettext('ice-build');
 gettext('01-bit-0');
 gettext('## Turn off an LED\n\nOutput the 0-bit value. It will turn off the LED');
-gettext('01-bit-0');
