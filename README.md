@@ -14,12 +14,17 @@ Constants.
 ## Blocks
 * *bits*
   * bit-0
+  * bit-1
 
 ## Examples
 * *TESTs*
   * *bits*
     * *Alhambra-II*
       * 01-bit-0
+      * 02-bit-1
+      * *ice-build*
+        * *01-bit-0*
+        * *02-bit-1*
 
 
 ## Authors
