@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2020-12-29 19:30+0100\n"
+"POT-Creation-Date: 2020-12-29 20:37+0100\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -14,7 +14,7 @@ msgstr ""
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-SearchPath-0: translation.js\n"
 
-#: translation.js:10 translation.js:16
+#: translation.js:10 translation.js:18
 msgid "bits"
 msgstr "bits"
 
@@ -35,18 +35,26 @@ msgid "Constant bit 1"
 msgstr "Bit 1 constante"
 
 #: translation.js:15
+msgid "generic"
+msgstr "generico"
+
+#: translation.js:16
+msgid "1-bit generic constant (0/1)"
+msgstr "Constante genérica de 1 bit (0/1)"
+
+#: translation.js:17
 msgid "TESTs"
 msgstr "PRUEBAs"
 
-#: translation.js:17
+#: translation.js:19
 msgid "Alhambra-II"
 msgstr "Alhambra-II"
 
-#: translation.js:18
+#: translation.js:20
 msgid "01-bit-0"
 msgstr "01-bit-0"
 
-#: translation.js:19
+#: translation.js:21
 msgid ""
 "## Turn off an LED\n"
 "\n"
@@ -56,11 +64,11 @@ msgstr ""
 "\n"
 "Sacar el valor 0. El LED se apagará"
 
-#: translation.js:20
+#: translation.js:22
 msgid "02-bit-1"
 msgstr "02-bit-1"
 
-#: translation.js:21
+#: translation.js:23
 msgid ""
 "## Turn on an LED\n"
 "\n"
@@ -69,3 +77,19 @@ msgstr ""
 "## Encender un LED\n"
 "\n"
 "Sacar el bit 1.  Se encenderá el LED"
+
+#: translation.js:24
+msgid "03-generic-bit"
+msgstr "03-generic-bit"
+
+#: translation.js:25
+msgid ""
+"## Changing the state of an LED\n"
+"\n"
+"Output the value given by the parameter. This value  \n"
+"will turn on or off the LED"
+msgstr ""
+"## Cambiando el estado de un LED\n"
+"\n"
+"Sacar el valor indicado por el parámetro. Este valor \n"
+"encenderá o apagará el LED"

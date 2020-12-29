@@ -15,6 +15,7 @@ Constants.
 * *bits*
   * bit-0
   * bit-1
+  * generic
 
 ## Examples
 * *TESTs*
@@ -22,11 +23,12 @@ Constants.
     * *Alhambra-II*
       * 01-bit-0
       * 02-bit-1
+      * 03-generic-bit
 
 ## Languages
 | Language | Translated strings |
 |:--------:|:------------------:|
-| es_ES    | 100%               |
+| es_ES | 100% |
 
 ## Authors
 * [Juan Gonzalez-Gomez (Obijuan)](https://github.com/Obijuan)
