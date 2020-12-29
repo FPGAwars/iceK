@@ -23,6 +23,10 @@ Constants.
       * 01-bit-0
       * 02-bit-1
 
+## Languages
+| Language | Translated strings |
+|:--------:|:------------------:|
+| es_ES | ![Progress](http://progressed.io/bar/100) |
 
 ## Authors
 * [Juan Gonzalez-Gomez (Obijuan)](https://github.com/Obijuan)
