@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2020-12-29 20:37+0100\n"
+"POT-Creation-Date: 2021-03-24 16:57+0100\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -14,47 +14,149 @@ msgstr ""
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-SearchPath-0: translation.js\n"
 
-#: translation.js:10 translation.js:18
-msgid "bits"
-msgstr "bits"
+#: translation.js:10
+msgid "Bits"
+msgstr "Bits"
 
-#: translation.js:11
+#: translation.js:11 translation.js:33
+msgid "Bus"
+msgstr "Bus"
+
+#: translation.js:12
 msgid "bit-0"
 msgstr "bit-0"
 
-#: translation.js:12
+#: translation.js:13
 msgid "Constant bit 0"
 msgstr "Bit 0 constante"
 
-#: translation.js:13
+#: translation.js:14
 msgid "bit-1"
 msgstr "bit-1"
 
-#: translation.js:14
+#: translation.js:15
 msgid "Constant bit 1"
 msgstr "Bit 1 constante"
 
-#: translation.js:15
+#: translation.js:16 translation.js:19
 msgid "generic"
 msgstr "generico"
 
-#: translation.js:16
+#: translation.js:17
 msgid "1-bit generic constant (0/1)"
 msgstr "Constante genérica de 1 bit (0/1)"
 
-#: translation.js:17
+#: translation.js:18 translation.js:35
+msgid "Bus-02"
+msgstr "Bus-02"
+
+#: translation.js:20
+msgid "Generic: 2-bits generic constant (0,1,2,3)"
+msgstr "Constante genérica de 2 bits (0, 1, 2, 3)"
+
+#: translation.js:21
+msgid "value-3"
+msgstr "valor-3"
+
+#: translation.js:22
+msgid "2bits constant value: 3"
+msgstr "Valor constante 3 de 2 bits"
+
+#: translation.js:23
 msgid "TESTs"
 msgstr "PRUEBAs"
 
-#: translation.js:19
+#: translation.js:24
+msgid "00-Index"
+msgstr "00-Indice"
+
+#: translation.js:25
+msgid "# INDEX: IceK Collection"
+msgstr "# ÍNDICE: Colección iceK"
+
+#: translation.js:26
+msgid "bit 0"
+msgstr "bit 0"
+
+#: translation.js:27
+msgid "## Bits Menu"
+msgstr "## Menú Bits"
+
+#: translation.js:28
+msgid "bit 1"
+msgstr "bit 1"
+
+#: translation.js:29
+msgid "## Bus Menu"
+msgstr "## Menú Bus"
+
+#: translation.js:30
+msgid "1-bit generic constant"
+msgstr "Constante genérica de 1 bit"
+
+#: translation.js:31
+msgid "2-bits generic constant"
+msgstr "Constante genérica de 2 bits"
+
+#: translation.js:32
+msgid "2-bits Value 3"
+msgstr "Valor 3 de 2 bits"
+
+#: translation.js:34
+msgid "bits"
+msgstr "bits"
+
+#: translation.js:36 translation.js:43
 msgid "Alhambra-II"
 msgstr "Alhambra-II"
 
-#: translation.js:20
+#: translation.js:37
+msgid "01-generic"
+msgstr "01-generic"
+
+#: translation.js:38
+msgid "Generic: 2-bits generic constant (0/1)"
+msgstr "Constante genérica de 2 bits (0/1)"
+
+#: translation.js:39
+msgid ""
+"## Changing the state of two LEDs\n"
+"\n"
+"Output the value given by the parameter. This value  \n"
+"will turn on or off the LEDs"
+msgstr ""
+"## Cambiando el estado de dos LEDs\n"
+"\n"
+"Sacar el valor indicado por el parámetro. Este valor \n"
+"encenderá o apagará el LED"
+
+#: translation.js:40
+msgid ""
+"Values for testing:  \n"
+"0, 1, 2 and 3"
+msgstr ""
+"Valores para probar:  \n"
+"0, 1, 2 y 3"
+
+#: translation.js:41
+msgid "05-value-3"
+msgstr "05-value-3"
+
+#: translation.js:42
+msgid ""
+"## 2-bits Value 3: Turning on two LEDs\n"
+"\n"
+"It will turn on the Two LEDs"
+msgstr ""
+"## Valor 3 de dos bits: Encendiendo dos LEDs\n"
+"\n"
+"Enciende los dos LEDs"
+
+#: translation.js:44
 msgid "01-bit-0"
 msgstr "01-bit-0"
 
-#: translation.js:21
+#: translation.js:45
 msgid ""
 "## Turn off an LED\n"
 "\n"
@@ -64,11 +166,11 @@ msgstr ""
 "\n"
 "Sacar el valor 0. El LED se apagará"
 
-#: translation.js:22
+#: translation.js:46
 msgid "02-bit-1"
 msgstr "02-bit-1"
 
-#: translation.js:23
+#: translation.js:47
 msgid ""
 "## Turn on an LED\n"
 "\n"
@@ -78,11 +180,11 @@ msgstr ""
 "\n"
 "Sacar el bit 1.  Se encenderá el LED"
 
-#: translation.js:24
+#: translation.js:48
 msgid "03-generic-bit"
 msgstr "03-generic-bit"
 
-#: translation.js:25
+#: translation.js:49
 msgid ""
 "## Changing the state of an LED\n"
 "\n"

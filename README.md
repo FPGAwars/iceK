@@ -12,13 +12,23 @@ Constants.
 * Load the collection: *Select > Collection*
 
 ## Blocks
-* *bits*
+* *Bits*
   * bit-0
   * bit-1
   * generic
+* *Bus*
+  * *Bus-02*
+    * generic
+    * value-3
 
 ## Examples
+* 00-Index
 * *TESTs*
+  * *Bus*
+    * *Bus-02*
+      * *Alhambra-II*
+        * 01-generic
+        * 05-value-3
   * *bits*
     * *Alhambra-II*
       * 01-bit-0
@@ -28,7 +38,7 @@ Constants.
 ## Languages
 | Language | Translated strings |
 |:--------:|:------------------:|
-| es_ES | 100% |
+| es_ES | ![Progress](http://progressed.io/bar/100) |
 
 ## Authors
 * [Juan Gonzalez-Gomez (Obijuan)](https://github.com/Obijuan)
