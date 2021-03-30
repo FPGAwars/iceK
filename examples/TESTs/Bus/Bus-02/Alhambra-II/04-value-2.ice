@@ -40,7 +40,7 @@
           "id": "b4517b7b-4304-495d-b23e-be5a5b7cdd88",
           "type": "basic.info",
           "data": {
-            "info": "## 2-bits Value 1: Tests on LEDs\n\nIt will turn on one LED",
+            "info": "## 2-bits Value 2: Test on leds\n\nIt will turn on one LED",
             "readonly": true
           },
           "position": {
@@ -53,8 +53,8 @@
           }
         },
         {
-          "id": "4a367260-55d9-4b3e-9979-892782f437ba",
-          "type": "1393c63e7134b6492f66de01d9a8b9ba46af7a6b",
+          "id": "450dee4a-475b-442c-ac3c-0e75b74ea090",
+          "type": "a6140213d7a803ae4fe94dc73e4b4ba9fa473563",
           "position": {
             "x": 568,
             "y": 136
@@ -68,7 +68,7 @@
       "wires": [
         {
           "source": {
-            "block": "4a367260-55d9-4b3e-9979-892782f437ba",
+            "block": "450dee4a-475b-442c-ac3c-0e75b74ea090",
             "port": "6a253ddf-22b2-43cd-ba6f-561bd1af6970"
           },
           "target": {
@@ -81,13 +81,13 @@
     }
   },
   "dependencies": {
-    "1393c63e7134b6492f66de01d9a8b9ba46af7a6b": {
+    "a6140213d7a803ae4fe94dc73e4b4ba9fa473563": {
       "package": {
-        "name": "2bits-Value_1",
+        "name": "2bits-Value_2",
         "version": "0.0.1",
-        "description": "2bits constant value: 1",
+        "description": "2bits constant value: 2",
         "author": "Juan Gonzalez-Gomez (Obijuan)",
-        "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22137.835%22%20height=%22231.483%22%20viewBox=%220%200%20129.22058%20217.01499%22%3E%3Cg%20style=%22line-height:0%25;-inkscape-font-specification:'Ubuntu%20Mono'%22%3E%3Cpath%20d=%22M4.215%20192.305h47.967V26.745L0%2037.211V10.466L51.892%200h29.361v192.305h47.968v24.71H4.215z%22%20style=%22line-height:1.25%22%20font-size=%22297.687%22%20font-family=%22sans-serif%22%20stroke-width=%227.442%22%20font-weight=%22400%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22green%22/%3E%3C/g%3E%3C/svg%3E"
+        "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22145.419%22%20height=%22233.162%22%20viewBox=%220%200%20136.33054%20218.58904%22%3E%3Cg%20style=%22line-height:0%25;-inkscape-font-specification:'Ubuntu%20Mono'%22%3E%3Cpath%20d=%22M34.945%20194.142h101.386v24.447H0v-24.447q16.538-17.114%2045.012-45.875Q73.63%20119.36%2080.964%20111.02q13.95-15.675%2019.414-26.46%205.609-10.93%205.609-21.428%200-17.113-12.08-27.899-11.936-10.786-31.206-10.786-13.662%200-28.906%204.746-15.1%204.746-32.357%2014.381V14.237Q18.983%207.19%2034.226%203.595%2049.47%200%2062.126%200q33.363%200%2053.208%2016.682%2019.846%2016.682%2019.846%2044.58%200%2013.23-5.033%2025.167-4.89%2011.792-17.976%2027.899-3.596%204.17-22.866%2024.16-19.27%2019.845-54.36%2055.654z%22%20style=%22line-height:1.25%22%20font-size=%22294.52%22%20font-family=%22sans-serif%22%20stroke-width=%227.363%22%20font-weight=%22400%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22green%22/%3E%3C/g%3E%3C/svg%3E"
       },
       "design": {
         "graph": {
@@ -110,7 +110,7 @@
               "type": "basic.constant",
               "data": {
                 "name": "",
-                "value": "1",
+                "value": "2",
                 "local": true
               },
               "position": {

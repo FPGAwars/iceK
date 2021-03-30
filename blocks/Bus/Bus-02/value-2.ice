@@ -1,63 +1,48 @@
 {
   "version": "1.2",
   "package": {
-    "name": "",
-    "version": "",
-    "description": "",
-    "author": "",
-    "image": ""
+    "name": "2bits-Value_2",
+    "version": "0.0.1",
+    "description": "2bits constant value: 2",
+    "author": "Juan Gonzalez-Gomez (Obijuan)",
+    "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22145.419%22%20height=%22233.162%22%20viewBox=%220%200%20136.33054%20218.58904%22%3E%3Cg%20style=%22line-height:0%25;-inkscape-font-specification:'Ubuntu%20Mono'%22%3E%3Cpath%20d=%22M34.945%20194.142h101.386v24.447H0v-24.447q16.538-17.114%2045.012-45.875Q73.63%20119.36%2080.964%20111.02q13.95-15.675%2019.414-26.46%205.609-10.93%205.609-21.428%200-17.113-12.08-27.899-11.936-10.786-31.206-10.786-13.662%200-28.906%204.746-15.1%204.746-32.357%2014.381V14.237Q18.983%207.19%2034.226%203.595%2049.47%200%2062.126%200q33.363%200%2053.208%2016.682%2019.846%2016.682%2019.846%2044.58%200%2013.23-5.033%2025.167-4.89%2011.792-17.976%2027.899-3.596%204.17-22.866%2024.16-19.27%2019.845-54.36%2055.654z%22%20style=%22line-height:1.25%22%20font-size=%22294.52%22%20font-family=%22sans-serif%22%20stroke-width=%227.363%22%20font-weight=%22400%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22green%22/%3E%3C/g%3E%3C/svg%3E"
   },
   "design": {
     "board": "alhambra-ii",
     "graph": {
       "blocks": [
         {
-          "id": "069c011e-c57a-4822-b365-bf7a307daf29",
+          "id": "6a253ddf-22b2-43cd-ba6f-561bd1af6970",
           "type": "basic.output",
           "data": {
-            "name": "LED",
+            "name": "",
             "range": "[1:0]",
-            "pins": [
-              {
-                "index": "1",
-                "name": "LED1",
-                "value": "44"
-              },
-              {
-                "index": "0",
-                "name": "LED0",
-                "value": "45"
-              }
-            ],
-            "virtual": false
+            "size": 2
           },
           "position": {
-            "x": 752,
-            "y": 120
+            "x": 928,
+            "y": 256
           }
         },
         {
-          "id": "b4517b7b-4304-495d-b23e-be5a5b7cdd88",
-          "type": "basic.info",
+          "id": "ad7918eb-22dd-4b6c-949f-e428f5a55530",
+          "type": "basic.constant",
           "data": {
-            "info": "## 2-bits Value 1: Tests on LEDs\n\nIt will turn on one LED",
-            "readonly": true
+            "name": "",
+            "value": "2",
+            "local": true
           },
           "position": {
-            "x": 512,
-            "y": 8
-          },
-          "size": {
-            "width": 384,
-            "height": 64
+            "x": 728,
+            "y": 152
           }
         },
         {
-          "id": "4a367260-55d9-4b3e-9979-892782f437ba",
-          "type": "1393c63e7134b6492f66de01d9a8b9ba46af7a6b",
+          "id": "09416344-3224-41d1-a9fc-98978da859f1",
+          "type": "6525b989af99aee444a834dd02f09b907148ce0b",
           "position": {
-            "x": 568,
-            "y": 136
+            "x": 728,
+            "y": 256
           },
           "size": {
             "width": 96,
@@ -68,95 +53,29 @@
       "wires": [
         {
           "source": {
-            "block": "4a367260-55d9-4b3e-9979-892782f437ba",
-            "port": "6a253ddf-22b2-43cd-ba6f-561bd1af6970"
+            "block": "09416344-3224-41d1-a9fc-98978da859f1",
+            "port": "6b687c8b-6b6d-49f4-8db5-dfa53c52d638"
           },
           "target": {
-            "block": "069c011e-c57a-4822-b365-bf7a307daf29",
+            "block": "6a253ddf-22b2-43cd-ba6f-561bd1af6970",
             "port": "in"
           },
           "size": 2
+        },
+        {
+          "source": {
+            "block": "ad7918eb-22dd-4b6c-949f-e428f5a55530",
+            "port": "constant-out"
+          },
+          "target": {
+            "block": "09416344-3224-41d1-a9fc-98978da859f1",
+            "port": "c0fb4784-5e8c-4f41-9f4b-6daa2e9e03a4"
+          }
         }
       ]
     }
   },
   "dependencies": {
-    "1393c63e7134b6492f66de01d9a8b9ba46af7a6b": {
-      "package": {
-        "name": "2bits-Value_1",
-        "version": "0.0.1",
-        "description": "2bits constant value: 1",
-        "author": "Juan Gonzalez-Gomez (Obijuan)",
-        "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22137.835%22%20height=%22231.483%22%20viewBox=%220%200%20129.22058%20217.01499%22%3E%3Cg%20style=%22line-height:0%25;-inkscape-font-specification:'Ubuntu%20Mono'%22%3E%3Cpath%20d=%22M4.215%20192.305h47.967V26.745L0%2037.211V10.466L51.892%200h29.361v192.305h47.968v24.71H4.215z%22%20style=%22line-height:1.25%22%20font-size=%22297.687%22%20font-family=%22sans-serif%22%20stroke-width=%227.442%22%20font-weight=%22400%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22green%22/%3E%3C/g%3E%3C/svg%3E"
-      },
-      "design": {
-        "graph": {
-          "blocks": [
-            {
-              "id": "6a253ddf-22b2-43cd-ba6f-561bd1af6970",
-              "type": "basic.output",
-              "data": {
-                "name": "",
-                "range": "[1:0]",
-                "size": 2
-              },
-              "position": {
-                "x": 928,
-                "y": 256
-              }
-            },
-            {
-              "id": "ad7918eb-22dd-4b6c-949f-e428f5a55530",
-              "type": "basic.constant",
-              "data": {
-                "name": "",
-                "value": "1",
-                "local": true
-              },
-              "position": {
-                "x": 728,
-                "y": 152
-              }
-            },
-            {
-              "id": "09416344-3224-41d1-a9fc-98978da859f1",
-              "type": "6525b989af99aee444a834dd02f09b907148ce0b",
-              "position": {
-                "x": 728,
-                "y": 256
-              },
-              "size": {
-                "width": 96,
-                "height": 64
-              }
-            }
-          ],
-          "wires": [
-            {
-              "source": {
-                "block": "09416344-3224-41d1-a9fc-98978da859f1",
-                "port": "6b687c8b-6b6d-49f4-8db5-dfa53c52d638"
-              },
-              "target": {
-                "block": "6a253ddf-22b2-43cd-ba6f-561bd1af6970",
-                "port": "in"
-              },
-              "size": 2
-            },
-            {
-              "source": {
-                "block": "ad7918eb-22dd-4b6c-949f-e428f5a55530",
-                "port": "constant-out"
-              },
-              "target": {
-                "block": "09416344-3224-41d1-a9fc-98978da859f1",
-                "port": "c0fb4784-5e8c-4f41-9f4b-6daa2e9e03a4"
-              }
-            }
-          ]
-        }
-      }
-    },
     "6525b989af99aee444a834dd02f09b907148ce0b": {
       "package": {
         "name": "2-bits-gen-constant",
