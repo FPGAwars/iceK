@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2021-03-24 16:57+0100\n"
+"POT-Creation-Date: 2021-03-30 13:33+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -18,7 +18,7 @@ msgstr ""
 msgid "Bits"
 msgstr "Bits"
 
-#: translation.js:11 translation.js:33
+#: translation.js:11 translation.js:69
 msgid "Bus"
 msgstr "Bus"
 
@@ -38,7 +38,7 @@ msgstr "bit-1"
 msgid "Constant bit 1"
 msgstr "Bit 1 constante"
 
-#: translation.js:16 translation.js:19
+#: translation.js:16 translation.js:21 translation.js:31 translation.js:43
 msgid "generic"
 msgstr "generico"
 
@@ -46,79 +46,186 @@ msgstr "generico"
 msgid "1-bit generic constant (0/1)"
 msgstr "Constante genérica de 1 bit (0/1)"
 
-#: translation.js:18 translation.js:35
+#: translation.js:18 translation.js:71
 msgid "Bus-02"
 msgstr "Bus-02"
 
-#: translation.js:20
+#: translation.js:19 translation.js:72
+msgid "Bus-03"
+msgstr "Bus-03"
+
+#: translation.js:20 translation.js:73
+msgid "Bus-04"
+msgstr "Bus-04"
+
+#: translation.js:22
 msgid "Generic: 2-bits generic constant (0,1,2,3)"
 msgstr "Constante genérica de 2 bits (0, 1, 2, 3)"
 
-#: translation.js:21
+#: translation.js:23 translation.js:33 translation.js:45 translation.js:91
+#: translation.js:105
+msgid "value-0"
+msgstr "valor-0"
+
+#: translation.js:24
+msgid "2bits constant value: 0"
+msgstr "Valor constante 0 de 2 bits"
+
+#: translation.js:25 translation.js:35 translation.js:47 translation.js:93
+#: translation.js:107
+msgid "value-1"
+msgstr "valor-1"
+
+#: translation.js:26
+msgid "2bits constant value: 1"
+msgstr "Valor constante 1 de 2 bits"
+
+#: translation.js:27 translation.js:37 translation.js:49 translation.js:95
+#: translation.js:109
+msgid "value-2"
+msgstr "valor-2"
+
+#: translation.js:28
+msgid "2bits constant value: 2"
+msgstr "Valor constante 2 de 2 bits"
+
+#: translation.js:29
 msgid "value-3"
 msgstr "valor-3"
 
-#: translation.js:22
+#: translation.js:30
 msgid "2bits constant value: 3"
 msgstr "Valor constante 3 de 2 bits"
 
-#: translation.js:23
+#: translation.js:32
+msgid "Generic: 3-bits generic constant (0-7)"
+msgstr "Constante genérica de 3 bits (0-7)"
+
+#: translation.js:34
+msgid "3bits constant value: 0"
+msgstr "Valor constante 0 de 3 bits"
+
+#: translation.js:36
+msgid "3bits constant value: 1"
+msgstr "Valor constante 1 de 3 bits"
+
+#: translation.js:38
+msgid "3bits constant value: 2"
+msgstr "Valor constante 2 de 3 bits"
+
+#: translation.js:39 translation.js:51 translation.js:97 translation.js:111
+msgid "value-4"
+msgstr "valor-4"
+
+#: translation.js:40
+msgid "3bits constant value: 4"
+msgstr "Valor constante 4 de 3 bits"
+
+#: translation.js:41 translation.js:99
+msgid "value-7"
+msgstr "valor-7"
+
+#: translation.js:42
+msgid "3bits constant value: 7"
+msgstr "Valor constante 7 de 3 bits"
+
+#: translation.js:44
+msgid "Generic: 4-bits generic constant (0-15)"
+msgstr "Constante genérica de 4 bits (0-15)"
+
+#: translation.js:46
+msgid "4bits constant value: 0"
+msgstr "Valor constante 0 de 4 bits"
+
+#: translation.js:48
+msgid "4bits constant value: 1"
+msgstr "Valor constante 1 de 4 bits"
+
+#: translation.js:50
+msgid "4bits constant value: 2"
+msgstr "Valor constante 2 de 4 bits"
+
+#: translation.js:52
+msgid "4bits constant value: 4"
+msgstr "Valor constante 4 de 4 bits"
+
+#: translation.js:53 translation.js:113
+msgid "value-8"
+msgstr "valor-8"
+
+#: translation.js:54
+msgid "4bits constant value: 8"
+msgstr "Valor constante 8 de 4 bits"
+
+#: translation.js:55 translation.js:115
+msgid "value-F"
+msgstr "valor-F"
+
+#: translation.js:56
+msgid "4bits constant value: 15"
+msgstr "Valor constante 15 de 4 bits"
+
+#: translation.js:57
 msgid "TESTs"
 msgstr "PRUEBAs"
 
-#: translation.js:24
+#: translation.js:58
+msgid "ice-build"
+msgstr ""
+
+#: translation.js:59 translation.js:124
 msgid "00-Index"
 msgstr "00-Indice"
 
-#: translation.js:25
+#: translation.js:60
 msgid "# INDEX: IceK Collection"
 msgstr "# ÍNDICE: Colección iceK"
 
-#: translation.js:26
+#: translation.js:61
 msgid "bit 0"
 msgstr "bit 0"
 
-#: translation.js:27
-msgid "## Bits Menu"
-msgstr "## Menú Bits"
+#: translation.js:62
+msgid "## Bits"
+msgstr "## Bits"
 
-#: translation.js:28
+#: translation.js:63
 msgid "bit 1"
 msgstr "bit 1"
 
-#: translation.js:29
-msgid "## Bus Menu"
-msgstr "## Menú Bus"
+#: translation.js:64
+msgid "## Bus"
+msgstr "## Bus"
 
-#: translation.js:30
+#: translation.js:65
 msgid "1-bit generic constant"
 msgstr "Constante genérica de 1 bit"
 
-#: translation.js:31
+#: translation.js:66
 msgid "2-bits generic constant"
 msgstr "Constante genérica de 2 bits"
 
-#: translation.js:32
-msgid "2-bits Value 3"
-msgstr "Valor 3 de 2 bits"
+#: translation.js:67
+msgid "3-bits generic constant"
+msgstr "Constante genérica de 3 bits"
 
-#: translation.js:34
+#: translation.js:68
+msgid "4-bits generic constant"
+msgstr "Constante genérica de 4 bits"
+
+#: translation.js:70
 msgid "bits"
 msgstr "bits"
 
-#: translation.js:36 translation.js:43
+#: translation.js:74 translation.js:87 translation.js:101 translation.js:117
 msgid "Alhambra-II"
 msgstr "Alhambra-II"
 
-#: translation.js:37
+#: translation.js:75 translation.js:88 translation.js:102
 msgid "01-generic"
 msgstr "01-generic"
 
-#: translation.js:38
-msgid "Generic: 2-bits generic constant (0/1)"
-msgstr "Constante genérica de 2 bits (0/1)"
-
-#: translation.js:39
+#: translation.js:76
 msgid ""
 "## Changing the state of two LEDs\n"
 "\n"
@@ -130,7 +237,7 @@ msgstr ""
 "Sacar el valor indicado por el parámetro. Este valor \n"
 "encenderá o apagará el LED"
 
-#: translation.js:40
+#: translation.js:77
 msgid ""
 "Values for testing:  \n"
 "0, 1, 2 and 3"
@@ -138,11 +245,57 @@ msgstr ""
 "Valores para probar:  \n"
 "0, 1, 2 y 3"
 
-#: translation.js:41
+#: translation.js:78
+msgid "02-value-0"
+msgstr "02-valor-0"
+
+#: translation.js:79
+msgid "Generic: 2-bits generic constant (0/1)"
+msgstr "Constante genérica de 2 bits (0-3)"
+
+#: translation.js:80
+msgid ""
+"## 2-bits Value 0: Turning off two LEDs\n"
+"\n"
+"It will turn off the Two LEDs"
+msgstr ""
+"## Valor 0 de 2 bits: Apagando dos LEDs\n"
+"\n"
+"Se apagan dos LEDs"
+
+#: translation.js:81
+msgid "03-value-1"
+msgstr "03-valor-1"
+
+#: translation.js:82
+msgid ""
+"## 2-bits Value 1: Tests on LEDs\n"
+"\n"
+"It will turn on one LED"
+msgstr ""
+"## Valor 1 de 2 bits: Prueba en los LEDs\n"
+"\n"
+"Se enciende un LED"
+
+#: translation.js:83
+msgid "04-value-2"
+msgstr "04-valor-3"
+
+#: translation.js:84
+msgid ""
+"## 2-bits Value 2: Test on leds\n"
+"\n"
+"It will turn on one LED"
+msgstr ""
+"## Valor 2 de 2 bits: Prueba en los LEDs\n"
+"\n"
+"Se enciende un LED"
+
+#: translation.js:85
 msgid "05-value-3"
 msgstr "05-value-3"
 
-#: translation.js:42
+#: translation.js:86
 msgid ""
 "## 2-bits Value 3: Turning on two LEDs\n"
 "\n"
@@ -152,11 +305,161 @@ msgstr ""
 "\n"
 "Enciende los dos LEDs"
 
-#: translation.js:44
+#: translation.js:89
+msgid ""
+"## Changing the state of 3 LEDs\n"
+"\n"
+"Output the value given by the parameter. This value  \n"
+"will turn on or off the LEDs"
+msgstr ""
+"## Cambiando el estado de 3 LEDs\n"
+"\n"
+"Sacar el valor indicado por el parámetro. Este valor \n"
+"encenderá o apagará los LEDs"
+
+#: translation.js:90
+msgid ""
+"Values for testing:  \n"
+"0-7"
+msgstr ""
+"Valores para probar:  \n"
+"0-7"
+
+#: translation.js:92
+msgid ""
+"## 3-bits Value 0: Test on LEDs\n"
+"\n"
+"It will turn off the Three LEDs"
+msgstr ""
+"## Valor 0 de 3 bits: Prueba en los LEDs\n"
+"\n"
+"Se apagan los tres LEDs"
+
+#: translation.js:94
+msgid ""
+"## 3-bits Value 1: Test on LEDs\n"
+"\n"
+"Show the value on the LEDs"
+msgstr ""
+"## Valor 1 de 3 bits: Prueba en los  LEDs\n"
+"\n"
+"Mostrar el valor en los LEDs"
+
+#: translation.js:96
+msgid ""
+"## 3-bits Value 2: Test on LEDs\n"
+"\n"
+"Show the value on the LEDs"
+msgstr ""
+"## Valor 2 de 3 bits: Prueba en los LEDs\n"
+"\n"
+"Mostrar el valor en los LEDs"
+
+#: translation.js:98
+msgid ""
+"## 3-bits Value 4: Test on LEDs\n"
+"\n"
+"Show the value on the LEDs"
+msgstr ""
+"## Valor 4 de 3 bits: Prueba en los LEDs\n"
+"\n"
+"Mostrar el valor en los LEDs"
+
+#: translation.js:100
+msgid ""
+"## 3-bits Value 7: Turning on three LEDs\n"
+"\n"
+"It will turn on the Three LEDs"
+msgstr ""
+"## Valor 7 de 3 bits: Prueba en los LEDs\n"
+"\n"
+"Mostrar el valor en los LEDs"
+
+#: translation.js:103
+msgid ""
+"## Changing the state of 4 LEDs\n"
+"\n"
+"Output the value given by the parameter. This value  \n"
+"will turn on or off the LEDs"
+msgstr ""
+"## Cambiando el estado de 4 LEDs\n"
+"\n"
+"Sacar el valor indicado por el parámetro. Este valor \n"
+"encenderá o apagará los LEDs"
+
+#: translation.js:104
+msgid ""
+"Values for testing:  \n"
+"0-15"
+msgstr ""
+"Valores para probar:  \n"
+"0-15"
+
+#: translation.js:106
+msgid ""
+"## 4-bits Value 0: Test on LEDs\n"
+"\n"
+"Show the values on the LEDs"
+msgstr ""
+"## Valor 0 de 4 bits: Prueba en los LEDs\n"
+"\n"
+"Mostrar el valor en los LEDs"
+
+#: translation.js:108
+msgid ""
+"## 4-bits Value 1: Test on LEDs\n"
+"\n"
+"Show the values on the LEDs"
+msgstr ""
+"## Valor 1 de 4 bits: Prueba en los LEDs\n"
+"\n"
+"Mostrar el valor en los LEDs"
+
+#: translation.js:110
+msgid ""
+"## 4-bits Value 2: Test on LEDs\n"
+"\n"
+"Show the values on the LEDs"
+msgstr ""
+"## Valor 2 de 4 bits: Prueba en los LEDs\n"
+"\n"
+"Mostrar el valor en los LEDs"
+
+#: translation.js:112
+msgid ""
+"## 4-bits Value 4: Test on LEDs\n"
+"\n"
+"Show the values on the LEDs"
+msgstr ""
+"## Valor 4 de 4 bits: Prueba en LEDs\n"
+"\n"
+"Mostrar el valor en los LEDs"
+
+#: translation.js:114
+msgid ""
+"## 4-bits Value 8: Test on LEDs\n"
+"\n"
+"Show the values on the LEDs"
+msgstr ""
+"## Valor 8 de 4 bits: Prueba en LEDs\n"
+"\n"
+"Mostrar el valor en los LEDs"
+
+#: translation.js:116
+msgid ""
+"## 4-bits Value 15: Test on LEDs\n"
+"\n"
+"Show the values on the LEDs"
+msgstr ""
+"## Valor 15 de 4 bits: Prueba en los LEDs\n"
+"\n"
+"Mostrar el valor en los LEDs"
+
+#: translation.js:118
 msgid "01-bit-0"
 msgstr "01-bit-0"
 
-#: translation.js:45
+#: translation.js:119
 msgid ""
 "## Turn off an LED\n"
 "\n"
@@ -166,11 +469,11 @@ msgstr ""
 "\n"
 "Sacar el valor 0. El LED se apagará"
 
-#: translation.js:46
+#: translation.js:120
 msgid "02-bit-1"
 msgstr "02-bit-1"
 
-#: translation.js:47
+#: translation.js:121
 msgid ""
 "## Turn on an LED\n"
 "\n"
@@ -180,11 +483,11 @@ msgstr ""
 "\n"
 "Sacar el bit 1.  Se encenderá el LED"
 
-#: translation.js:48
+#: translation.js:122
 msgid "03-generic-bit"
 msgstr "03-generic-bit"
 
-#: translation.js:49
+#: translation.js:123
 msgid ""
 "## Changing the state of an LED\n"
 "\n"
@@ -195,3 +498,6 @@ msgstr ""
 "\n"
 "Sacar el valor indicado por el parámetro. Este valor \n"
 "encenderá o apagará el LED"
+
+#~ msgid "2-bits Value 3"
+#~ msgstr "Valor 3 de 2 bits"

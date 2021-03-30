@@ -19,7 +19,25 @@ Constants.
 * *Bus*
   * *Bus-02*
     * generic
+    * value-0
+    * value-1
+    * value-2
     * value-3
+  * *Bus-03*
+    * generic
+    * value-0
+    * value-1
+    * value-2
+    * value-4
+    * value-7
+  * *Bus-04*
+    * generic
+    * value-0
+    * value-1
+    * value-2
+    * value-4
+    * value-8
+    * value-F
 
 ## Examples
 * 00-Index
@@ -28,17 +46,39 @@ Constants.
     * *Bus-02*
       * *Alhambra-II*
         * 01-generic
+        * 02-value-0
+        * 03-value-1
+        * 04-value-2
         * 05-value-3
+    * *Bus-03*
+      * *Alhambra-II*
+        * 01-generic
+        * value-0
+        * value-1
+        * value-2
+        * value-4
+        * value-7
+    * *Bus-04*
+      * *Alhambra-II*
+        * 01-generic
+        * value-0
+        * value-1
+        * value-2
+        * value-4
+        * value-8
+        * value-F
   * *bits*
     * *Alhambra-II*
       * 01-bit-0
       * 02-bit-1
       * 03-generic-bit
+* *ice-build*
+  * *00-Index*
 
 ## Languages
 | Language | Translated strings |
 |:--------:|:------------------:|
-| es_ES | ![Progress](http://progressed.io/bar/100) |
+| es_ES | ![Progress](http://progressed.io/bar/98) |
 
 ## Authors
 * [Juan Gonzalez-Gomez (Obijuan)](https://github.com/Obijuan)
