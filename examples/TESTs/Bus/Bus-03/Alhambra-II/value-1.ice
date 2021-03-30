@@ -45,7 +45,7 @@
           "id": "b4517b7b-4304-495d-b23e-be5a5b7cdd88",
           "type": "basic.info",
           "data": {
-            "info": "## 3-bits Value 0: Test on LEDs\n\nShow the value on the LEDs",
+            "info": "## 3-bits Value 1: Test on LEDs\n\nShow the value on the LEDs",
             "readonly": true
           },
           "position": {
