@@ -20,13 +20,13 @@
             "pins": [
               {
                 "index": "3",
-                "name": "LED4",
-                "value": "41"
+                "name": "LED3",
+                "value": "42"
               },
               {
                 "index": "2",
-                "name": "LED3",
-                "value": "42"
+                "name": "LED2",
+                "value": "43"
               },
               {
                 "index": "1",
