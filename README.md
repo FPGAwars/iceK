@@ -38,6 +38,18 @@ Constants.
     * value-4
     * value-8
     * value-F
+  * *Bus-05*
+    * generic
+    * value-0
+  * *Bus-06*
+    * generic
+    * value-0
+  * *Bus-07*
+    * generic
+    * value-0
+  * *Bus-08*
+    * generic
+    * value-0
 
 ## Examples
 * 00-Index
@@ -67,6 +79,37 @@ Constants.
         * value-4
         * value-8
         * value-F
+        * *ice-build*
+          * *01-generic*
+          * *value-0*
+    * *Bus-05*
+      * *Alhambra-II*
+        * 01-generic
+        * value-0
+        * *ice-build*
+          * *01-generic*
+          * *value-0*
+    * *Bus-06*
+      * *Alhambra-II*
+        * 01-generic
+        * value-0
+        * *ice-build*
+          * *01-generic*
+          * *value-0*
+    * *Bus-07*
+      * *Alhambra-II*
+        * 01-generic
+        * value-0
+        * *ice-build*
+          * *01-generic*
+          * *value-0*
+    * *Bus-08*
+      * *Alhambra-II*
+        * 01-generic
+        * value-0
+        * *ice-build*
+          * *01-generic*
+          * *value-0*
   * *bits*
     * *Alhambra-II*
       * 01-bit-0
