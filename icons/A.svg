@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="55.741432mm"
+   height="60.834763mm"
+   viewBox="0 0 197.50902 215.55624"
+   id="svg2"
+   version="1.1"
+   inkscape:version="1.1-beta1 (3b541c4d32, 2021-04-25)"
+   sodipodi:docname="A.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.693982"
+     inkscape:cx="141.97317"
+     inkscape:cy="95.92782"
+     inkscape:document-units="px"
+     inkscape:current-layer="text852"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1860"
+     inkscape:window-height="1016"
+     inkscape:window-x="60"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:document-rotation="0"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     objecttolerance="10.0"
+     gridtolerance="10.0"
+     guidetolerance="10.0"
+     inkscape:pagecheckerboard="0">
+    <sodipodi:guide
+       position="108.7048,214.74085"
+       orientation="0,-1"
+       id="guide854" />
+    <sodipodi:guide
+       position="118.1131,-1.6501568"
+       orientation="0,-1"
+       id="guide856" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-271.71759,-435.77462)">
+    <g
+       aria-label="3"
+       id="text4150"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1">
+      <g
+         aria-label="0"
+         id="text852"
+         style="font-style:normal;font-weight:normal;font-size:285.851px;line-height:1.25;font-family:sans-serif;fill:#008000;fill-opacity:1;stroke:none;stroke-width:7.14628px">
+        <g
+           aria-label="A"
+           id="text2336"
+           style="font-size:295.686px;stroke-width:52.8264px"
+           transform="translate(-205.95443)">
+          <path
+             d="m 576.42652,464.50583 -39.55955,107.2728 h 79.26348 z m -16.45908,-28.73121 h 33.06254 l 82.15105,215.55625 h -30.31937 l -19.6354,-55.29675 h -97.16635 l -19.63539,55.29675 h -30.7525 z"
+             id="path4870" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
