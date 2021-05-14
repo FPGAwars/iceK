@@ -1,6 +1,6 @@
 {
   "name": "icek",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Constants",
   "keywords": ["constants","numbers"],
   "license": "GPL-2.0",
@@ -12,7 +12,7 @@
   "contributors": [],
   "repository": {
     "type": "git",
-    "branch": "master",
+    "branch": "main",
     "url": "https://github.com/FPGAwars/iceK"
   }
 }
