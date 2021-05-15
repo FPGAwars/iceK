@@ -1,13 +1,13 @@
 # icek Collection
 
-[![Icestudio](https://img.shields.io/badge/collection-icestudio-blue.svg)](https://github.com/FPGAwars/icestudio)
-![Version](https://img.shields.io/badge/version-v0.1.0-orange.svg)
+[![Icestudio][icestudio-image]][icestudio-url]
+![Version][version-image]
 
 Constants.
 
 ## Install
 
-* Download the collection: [stable](https://github.com/FPGAwars/iceK/archive/v0.1.0.zip) or [development](https://github.com/FPGAwars/iceK/archive/master.zip)
+* Download the collection: [stable](https://github.com/FPGAwars/iceK/archive/refs/tags/v0.1.0.zip) or [development](https://github.com/FPGAwars/iceK/archive/refs/heads/main.zip)
 * Install the collection: *Tools > Collections > Add*
 * Load the collection: *Select > Collection*
 
@@ -19,6 +19,7 @@ Constants.
 * *Bus*
   * *Bus-02*
     * generic
+    * k-1
     * value-0
     * value-1
     * value-2
@@ -48,6 +49,7 @@ Constants.
     * generic
     * value-0
   * *Bus-08*
+    * Ascii-A
     * generic
     * value-0
 
@@ -62,6 +64,10 @@ Constants.
         * 03-value-1
         * 04-value-2
         * 05-value-3
+        * 06-k-1
+        * *ice-build*
+          * *01-generic*
+          * *06-k-1*
     * *Bus-03*
       * *Alhambra-II*
         * 01-generic
@@ -121,7 +127,7 @@ Constants.
 ## Languages
 | Language | Translated strings |
 |:--------:|:------------------:|
-| es_ES | ![Progress](http://progressed.io/bar/98) |
+| es_ES | ![](https://progress-bar.dev/98) |
 
 ## Authors
 * [Juan Gonzalez-Gomez (Obijuan)](https://github.com/Obijuan)
@@ -130,3 +136,8 @@ Constants.
 ## License
 
 Licensed under [GPL-2.0](https://opensource.org/licenses/GPL-2.0).
+
+<!-- Badges -->
+[icestudio-image]: https://img.shields.io/badge/collection-icestudio-blue.svg
+[icestudio-url]: https://github.com/FPGAwars/icestudio
+[version-image]: https://img.shields.io/badge/version-v0.1.0-orange.svg
