@@ -5,7 +5,7 @@
 
 ![](wiki/Logo/iceK-logo.png)
 
-Working with Constants values
+Working with Constant values
 ## Documentation
 Find more information in the [WIKI page](https://github.com/FPGAwars/iceK/wiki)  
 
