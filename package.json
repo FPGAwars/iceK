@@ -1,7 +1,9 @@
 {
   "name": "icek",
   "version": "0.1.0",
-  "description": "Constants",
+  "description": "Working with Constants values",
+  "logo": "wiki/Logo/iceK-logo.png",
+  "wiki": "https://github.com/FPGAwars/iceK/wiki",
   "keywords": ["constants","numbers"],
   "license": "GPL-2.0",
   "authors": [{
