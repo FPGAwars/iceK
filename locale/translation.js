@@ -122,6 +122,7 @@ gettext('## 2-bits Value 3: Turning on two LEDs\n\nIt will turn on the Two LEDs'
 gettext('06-k-1');
 gettext('Values for testing:  \n1, 2, 3 and 4');
 gettext('01-generic');
+gettext('05-value-3');
 gettext('06-k-1');
 gettext('Alhambra-II');
 gettext('01-generic');
