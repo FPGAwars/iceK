@@ -111,10 +111,10 @@ For installing and using this colection in Icestudio follow these steps:
       * 02-bit-1
       * 03-generic-bit
 
-## Languages
+## Translations
 | Language | Translated strings |
 |:--------:|:------------------:|
-| es_ES | ![](https://progress-bar.dev/98) |
+| es_ES | ![](https://progress-bar.dev/100) |
 
 ## Authors
 * [Juan Gonzalez-Gomez (Obijuan)](https://github.com/Obijuan)
