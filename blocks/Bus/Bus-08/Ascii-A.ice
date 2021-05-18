@@ -5,7 +5,7 @@
     "version": "0.0.1",
     "description": "8bits ASCII Letter A",
     "author": "Juan Gonzalez-Gomez (Obijuan)",
-    "image": "%3Csvg%20width=%22210.676%22%20height=%22229.927%22%20viewBox=%220%200%20197.50902%20215.55624%22%20xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cg%20style=%22line-height:0%25;-inkscape-font-specification:'Ubuntu%20Mono'%22%3E%3Cpath%20d=%22M98.755%2028.731l-39.56%20107.273h79.263zM82.294%200h33.063l82.151%20215.556h-30.32l-19.635-55.297H50.388l-19.636%2055.297H0z%22%20font-size=%22295.686%22%20stroke-width=%2252.826%22%20style=%22line-height:1.25%22%20font-family=%22sans-serif%22%20font-weight=%22400%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22green%22/%3E%3C/g%3E%3C/svg%3E"
+    "image": "%3Csvg%20width=%22331.85%22%20height=%22232.171%22%20viewBox=%220%200%20311.10969%20217.66015%22%20xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cg%20style=%22line-height:0%25;-inkscape-font-specification:'Ubuntu%20Mono'%22%3E%3Cg%20font-size=%22298.572%22%20stroke-width=%2253.342%22%20style=%22line-height:1.25%22%20font-family=%22sans-serif%22%20font-weight=%22400%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22green%22%3E%3Cpath%20d=%22M24.784%200v80.912H0V0zM155.41%2029.012l-39.947%20108.32h80.038zM138.79%200h33.385l82.952%20217.66h-30.615l-19.827-55.836H106.57L86.743%20217.66H55.691zM311.11%200v80.912h-24.784V0z%22/%3E%3C/g%3E%3C/g%3E%3C/svg%3E"
   },
   "design": {
     "board": "alhambra-ii",
