@@ -5,7 +5,7 @@
   "logo": "wiki/Logo/iceK-logo.png",
   "wiki": "https://github.com/FPGAwars/iceK/wiki",
   "keywords": ["constants","numbers"],
-  "license": "GPL-2.0",
+  "license": "LGPL-3.0",
   "authors": [{
     "name": "Juan Gonzalez-Gomez (Obijuan)",
     "email": "",

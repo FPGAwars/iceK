@@ -57,6 +57,7 @@ For installing and using this colection in Icestudio follow these steps:
     * value-0
   * **Bus-08**
     * Ascii-A
+    * Ascii-Asterisk
     * generic
     * value-0
 
@@ -112,9 +113,23 @@ For installing and using this colection in Icestudio follow these steps:
       * 03-generic-bit
 
 ## Translations
-| Language | Translated strings |
-|:--------:|:------------------:|
-| es_ES | ![](https://progress-bar.dev/100) |
+| Language | Locale | Translated strings |
+|----------|--------|--------------------|
+| English  |  en    | ![](https://progress-bar.dev/100) |
+| Catalan |  ca_ES | ![](https://progress-bar.dev/0) |
+| CZech |  cs_CZ | ![](https://progress-bar.dev/0) |
+| German |  de_DE | ![](https://progress-bar.dev/0) |
+| Greek |  el_GR | ![](https://progress-bar.dev/0) |
+| Spanish |  es_ES | ![](https://progress-bar.dev/100) |
+| Basque |  eu_ES | ![](https://progress-bar.dev/0) |
+| French |  fr_FR | ![](https://progress-bar.dev/0) |
+| Galician |  gl_ES | ![](https://progress-bar.dev/0) |
+| Italian |  it_IT | ![](https://progress-bar.dev/0) |
+| Korean |  ko_KR | ![](https://progress-bar.dev/0) |
+| Netherlands |  nl_NL | ![](https://progress-bar.dev/0) |
+| Russian |  ru_RU | ![](https://progress-bar.dev/0) |
+| zh_CN |  zh_CN | ![](https://progress-bar.dev/0) |
+| Tradictional Chinese |  zh_TW | ![](https://progress-bar.dev/0) |
 
 ## Authors
 * [Juan Gonzalez-Gomez (Obijuan)](https://github.com/Obijuan)
@@ -122,7 +137,7 @@ For installing and using this colection in Icestudio follow these steps:
 
 ## License
 
-Licensed under [GPL-2.0](https://opensource.org/licenses/GPL-2.0).
+Licensed under [LGPL-3.0](https://opensource.org/licenses/LGPL-3.0).
 
 <!-- Badges -->
 [icestudio-image]: https://img.shields.io/badge/collection-icestudio-blue.svg
