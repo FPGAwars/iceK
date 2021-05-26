@@ -82,7 +82,7 @@
           "id": "8396c252-072a-4cea-8149-66dbdd3a63ea",
           "type": "basic.info",
           "data": {
-            "info": "## Result\n\nThe green LED (G) is on\n\n(If you are connected to Internet you will see a picture)  \n\n![icebreakerA image]()  ",
+            "info": "## Result\n\nThe green LED (G) is on\n\n(If you are connected to Internet you will see a picture)  \n\n![icebreakerA image](https://raw.githubusercontent.com/FPGAwars/iceK/main/wiki/images/iceBreaker/Example-01-01-2.png)  ",
             "readonly": true
           },
           "position": {
