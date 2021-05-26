@@ -8,7 +8,7 @@
     "image": ""
   },
   "design": {
-    "board": "icestick",
+    "board": "iCEBreaker",
     "graph": {
       "blocks": [
         {
@@ -20,13 +20,13 @@
             "pins": [
               {
                 "index": "1",
-                "name": "D2",
-                "value": "98"
+                "name": "LEDG",
+                "value": "37"
               },
               {
                 "index": "0",
-                "name": "D1",
-                "value": "99"
+                "name": "LEDR",
+                "value": "11"
               }
             ],
             "virtual": false
@@ -69,22 +69,10 @@
           }
         },
         {
-          "id": "9db00ae1-2cda-4064-b9c3-5178db6ed052",
-          "type": "9b3ba2776f303d0d848510b558cc8a1105d89def",
-          "position": {
-            "x": 352,
-            "y": 184
-          },
-          "size": {
-            "width": 96,
-            "height": 64
-          }
-        },
-        {
           "id": "e4a23a81-15a3-42f5-a59b-226624be7b03",
           "type": "basic.info",
           "data": {
-            "info": "2-bit constant value 3  \n(11 in binary)",
+            "info": "2-bit constant value 0  \n(00 in binary)",
             "readonly": true
           },
           "position": {
@@ -100,7 +88,7 @@
           "id": "7a3b8e5f-11d3-4198-b15b-49a6ba3323f6",
           "type": "basic.info",
           "data": {
-            "info": "## Result:\n\nThe LEDs D1 and D2 are turned on  \n\n(If you are connected to internet you will see a picture)  \n\n![iceStick board picture](https://github.com/FPGAwars/iceK/raw/main/wiki/images/iceStick/Example-01-02-2.png)\n\n",
+            "info": "## Result:\n\nThe LEDs G and R are turned on  \n\n(If you are connected to internet you will see a picture)  \n\n![iceBreaker board picture]()\n\n",
             "readonly": true
           },
           "position": {
@@ -111,12 +99,24 @@
             "width": 504,
             "height": 176
           }
+        },
+        {
+          "id": "2fce9377-a602-44ed-9741-da5fec85a611",
+          "type": "2ccfe68ad0d98ec9b60e9128b064381afa99625a",
+          "position": {
+            "x": 352,
+            "y": 184
+          },
+          "size": {
+            "width": 96,
+            "height": 64
+          }
         }
       ],
       "wires": [
         {
           "source": {
-            "block": "9db00ae1-2cda-4064-b9c3-5178db6ed052",
+            "block": "2fce9377-a602-44ed-9741-da5fec85a611",
             "port": "6a253ddf-22b2-43cd-ba6f-561bd1af6970"
           },
           "target": {
@@ -129,13 +129,13 @@
     }
   },
   "dependencies": {
-    "9b3ba2776f303d0d848510b558cc8a1105d89def": {
+    "2ccfe68ad0d98ec9b60e9128b064381afa99625a": {
       "package": {
-        "name": "2bits-Value_3",
+        "name": "2bits-Value_0",
         "version": "0.0.1",
-        "description": "2bits constant value: 3",
+        "description": "2bits constant value: 0",
         "author": "Juan Gonzalez-Gomez (Obijuan)",
-        "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22137.022%22%20height=%22231.112%22%20viewBox=%220%200%20128.45781%20216.66774%22%3E%3Cg%20style=%22line-height:0%25;-inkscape-font-specification:'Ubuntu%20Mono'%22%3E%3Cpath%20d=%22M51.316%20192.184q26.497%200%2037.565-10.398%2011.403-10.733%2011.403-28.509%200-11.403-4.695-19.117-4.696-7.715-12.41-12.41-7.714-4.696-17.776-6.708-10.062-2.013-21.13-2.013h-7.044V90.558h9.727q7.379%200%2015.093-1.342%208.05-1.677%2014.422-5.366%206.708-4.025%2010.733-10.733t4.025-17.105q0-17.106-10.733-24.15-10.398-7.378-24.484-7.378-14.423%200-24.484%204.36-10.062%204.025-16.77%208.385L4.025%2016.1q7.043-5.03%2021.13-10.397Q39.577%200%2057.018%200%2073.452%200%2085.19%204.025q11.74%204.025%2019.118%2011.403%207.714%207.38%2011.404%2017.441%203.689%209.727%203.689%2021.466%200%2016.434-8.72%2027.838-8.385%2011.403-21.801%2017.44%2016.099%204.696%2027.838%2018.447%2011.739%2013.416%2011.739%2035.888%200%2013.416-4.696%2025.155-4.36%2011.404-13.751%2019.789-9.056%208.385-23.813%2013.08-14.423%204.696-34.547%204.696-7.714%200-16.099-1.342-8.05-1.006-15.093-3.018-7.043-1.677-12.745-3.354Q2.348%20206.94%200%20205.935l5.366-23.813q5.367%202.683%2017.106%206.372%2011.739%203.69%2028.844%203.69z%22%20style=%22line-height:1.25%22%20font-size=%22335.399%22%20font-weight=%22400%22%20font-family=%22Ubuntu%20Mono%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22green%22/%3E%3C/g%3E%3C/svg%3E"
+        "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22153.645%22%20height=%22230.616%22%20viewBox=%220%200%20144.04211%20216.20273%22%3E%3Cg%20style=%22line-height:0%25;-inkscape-font-specification:'Ubuntu%20Mono'%22%3E%3Cpath%20d=%22M72.021%2022.332q-21.774%200-32.8%2021.495-10.887%2021.355-10.887%2064.344%200%2042.85%2010.887%2064.345%2011.026%2021.355%2032.8%2021.355%2021.913%200%2032.8-21.355%2011.027-21.495%2011.027-64.345%200-42.99-11.027-64.344-10.887-21.495-32.8-21.495zm0-22.332q35.034%200%2053.458%2027.776%2018.563%2027.636%2018.563%2080.395%200%2052.62-18.563%2080.396-18.424%2027.636-53.458%2027.636-35.033%200-53.597-27.636Q0%20160.79%200%20108.17q0-52.76%2018.424-80.395Q36.988%200%2072.021%200z%22%20style=%22line-height:1.25%22%20font-size=%22285.851%22%20font-family=%22sans-serif%22%20stroke-width=%227.146%22%20font-weight=%22400%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22green%22/%3E%3C/g%3E%3C/svg%3E"
       },
       "design": {
         "graph": {
@@ -158,7 +158,7 @@
               "type": "basic.constant",
               "data": {
                 "name": "",
-                "value": "3",
+                "value": "0",
                 "local": true
               },
               "position": {
@@ -167,7 +167,7 @@
               }
             },
             {
-              "id": "1e7f6e2e-6c21-4760-9566-a76af9881388",
+              "id": "f4eecf60-4ab8-4f36-aa93-3c9534dd91e0",
               "type": "b6461bbbcd4dde3fe466b20c80dbe98c5cea8a72",
               "position": {
                 "x": 728,
@@ -182,7 +182,7 @@
           "wires": [
             {
               "source": {
-                "block": "1e7f6e2e-6c21-4760-9566-a76af9881388",
+                "block": "f4eecf60-4ab8-4f36-aa93-3c9534dd91e0",
                 "port": "6b687c8b-6b6d-49f4-8db5-dfa53c52d638"
               },
               "target": {
@@ -197,7 +197,7 @@
                 "port": "constant-out"
               },
               "target": {
-                "block": "1e7f6e2e-6c21-4760-9566-a76af9881388",
+                "block": "f4eecf60-4ab8-4f36-aa93-3c9534dd91e0",
                 "port": "c0fb4784-5e8c-4f41-9f4b-6daa2e9e03a4"
               }
             }
