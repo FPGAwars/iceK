@@ -94,16 +94,16 @@
           "id": "1303c2fa-1436-4f6f-8fbd-aeac40ea12b6",
           "type": "basic.info",
           "data": {
-            "info": "## Result\n\nThe red LED is on (Boot)\n\n(If you are connected to Internet you will see a picture)  \n\n![TinyFPGA image]()  ",
+            "info": "## Result\n\nThe red LED is on (Boot)\n\n(If you are connected to Internet you will see a picture)  \n\n![TinyFPGA image](https://raw.githubusercontent.com/FPGAwars/iceK/main/wiki/images/TinyFPGA/Example-01-01-2.png)  ",
             "readonly": true
           },
           "position": {
-            "x": 896,
-            "y": 176
+            "x": 872,
+            "y": 184
           },
           "size": {
-            "width": 768,
-            "height": 152
+            "width": 528,
+            "height": 160
           }
         }
       ],
