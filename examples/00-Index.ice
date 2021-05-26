@@ -584,8 +584,24 @@
           }
         },
         {
-          "id": "7370a2a9-686a-4fa9-9179-de5ccb1ff39f",
-          "type": "0df9c44164a8e92b2e400d71e8b88b19023089f3",
+          "id": "f22a3958-0b32-4686-a34d-87e989284c9b",
+          "type": "basic.info",
+          "data": {
+            "info": "Ascii 'A'",
+            "readonly": true
+          },
+          "position": {
+            "x": 1752,
+            "y": -432
+          },
+          "size": {
+            "width": 136,
+            "height": 40
+          }
+        },
+        {
+          "id": "d64f6127-076f-488a-8531-db617a187dcc",
+          "type": "72c5319395e3d22e7611f1508fbd1eb914d572dd",
           "position": {
             "x": 1728,
             "y": -408
@@ -596,15 +612,27 @@
           }
         },
         {
-          "id": "f22a3958-0b32-4686-a34d-87e989284c9b",
+          "id": "7939040f-2a24-4edb-8ec6-92f39da2875e",
+          "type": "79e7889ec3560c332c3f0cac1e5a8e610460bb01",
+          "position": {
+            "x": 1728,
+            "y": -312
+          },
+          "size": {
+            "width": 96,
+            "height": 64
+          }
+        },
+        {
+          "id": "d5f315c1-1074-4419-a690-1b52d756db46",
           "type": "basic.info",
           "data": {
-            "info": "Ascii 'A'",
+            "info": "Ascii '*'",
             "readonly": true
           },
           "position": {
-            "x": 1752,
-            "y": -432
+            "x": 1760,
+            "y": -336
           },
           "size": {
             "width": 136,
@@ -2981,13 +3009,13 @@
         }
       }
     },
-    "0df9c44164a8e92b2e400d71e8b88b19023089f3": {
+    "72c5319395e3d22e7611f1508fbd1eb914d572dd": {
       "package": {
         "name": "8bits-ASCII_A CLONE",
         "version": "0.0.1",
         "description": "8bits ASCII Letter A",
         "author": "Juan Gonzalez-Gomez (Obijuan)",
-        "image": "%3Csvg%20width=%22210.676%22%20height=%22229.927%22%20viewBox=%220%200%20197.50902%20215.55624%22%20xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cg%20style=%22line-height:0%25;-inkscape-font-specification:'Ubuntu%20Mono'%22%3E%3Cpath%20d=%22M98.755%2028.731l-39.56%20107.273h79.263zM82.294%200h33.063l82.151%20215.556h-30.32l-19.635-55.297H50.388l-19.636%2055.297H0z%22%20font-size=%22295.686%22%20stroke-width=%2252.826%22%20style=%22line-height:1.25%22%20font-family=%22sans-serif%22%20font-weight=%22400%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22green%22/%3E%3C/g%3E%3C/svg%3E"
+        "image": "%3Csvg%20width=%22331.85%22%20height=%22232.171%22%20viewBox=%220%200%20311.10969%20217.66015%22%20xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cg%20style=%22line-height:0%25;-inkscape-font-specification:'Ubuntu%20Mono'%22%3E%3Cg%20font-size=%22298.572%22%20stroke-width=%2253.342%22%20style=%22line-height:1.25%22%20font-family=%22sans-serif%22%20font-weight=%22400%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22green%22%3E%3Cpath%20d=%22M24.784%200v80.912H0V0zM155.41%2029.012l-39.947%20108.32h80.038zM138.79%200h33.385l82.952%20217.66h-30.615l-19.827-55.836H106.57L86.743%20217.66H55.691zM311.11%200v80.912h-24.784V0z%22/%3E%3C/g%3E%3C/g%3E%3C/svg%3E"
       },
       "design": {
         "graph": {
@@ -3011,6 +3039,82 @@
               "data": {
                 "name": "",
                 "value": "\"A\"",
+                "local": true
+              },
+              "position": {
+                "x": 728,
+                "y": 152
+              }
+            },
+            {
+              "id": "6db4f25e-c3b1-4cc1-b159-a918b9ce2f53",
+              "type": "ffc517ae50d4171640702dac38a546757cc9ae35",
+              "position": {
+                "x": 728,
+                "y": 256
+              },
+              "size": {
+                "width": 96,
+                "height": 64
+              }
+            }
+          ],
+          "wires": [
+            {
+              "source": {
+                "block": "ad7918eb-22dd-4b6c-949f-e428f5a55530",
+                "port": "constant-out"
+              },
+              "target": {
+                "block": "6db4f25e-c3b1-4cc1-b159-a918b9ce2f53",
+                "port": "c0fb4784-5e8c-4f41-9f4b-6daa2e9e03a4"
+              }
+            },
+            {
+              "source": {
+                "block": "6db4f25e-c3b1-4cc1-b159-a918b9ce2f53",
+                "port": "b5ba4b9b-f5f9-4eb7-9faf-b362f0463917"
+              },
+              "target": {
+                "block": "56102125-3ee5-4ee9-94d5-e66dfcacb7de",
+                "port": "in"
+              },
+              "size": 8
+            }
+          ]
+        }
+      }
+    },
+    "79e7889ec3560c332c3f0cac1e5a8e610460bb01": {
+      "package": {
+        "name": "8bits-ASCII_Asterisk",
+        "version": "0.0.1",
+        "description": "8bits ASCII asterisk symbol *",
+        "author": "Juan Gonzalez-Gomez (Obijuan)",
+        "image": "%3Csvg%20width=%22279.591%22%20height=%22206.482%22%20viewBox=%220%200%20262.11669%20193.57682%22%20xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cg%20style=%22line-height:0%25;-inkscape-font-specification:'Ubuntu%20Mono'%22%3E%3Cg%20style=%22line-height:1.25%22%20font-size=%22285.851%22%20font-family=%22sans-serif%22%20stroke-width=%227.146%22%20font-weight=%22400%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22green%22%3E%3Cpath%20d=%22M24.784%200v80.912H0V0zM262.117%200v80.912h-24.784V0z%22%20font-size=%22298.572%22/%3E%3Cpath%20d=%22M220.86%2076.47l-63.603%2034.37%2063.603%2034.547-10.276%2017.363-59.528-35.965v66.792h-20.197v-66.792L71.331%20162.75l-10.276-17.363%2063.603-34.547-63.603-34.37%2010.276-17.54%2059.528%2035.965V28.103h20.197v66.792l59.528-35.965z%22%20font-size=%22362.838%22%20stroke-width=%2264.823%22/%3E%3C/g%3E%3C/g%3E%3C/svg%3E"
+      },
+      "design": {
+        "graph": {
+          "blocks": [
+            {
+              "id": "56102125-3ee5-4ee9-94d5-e66dfcacb7de",
+              "type": "basic.output",
+              "data": {
+                "name": "",
+                "range": "[7:0]",
+                "size": 8
+              },
+              "position": {
+                "x": 896,
+                "y": 256
+              }
+            },
+            {
+              "id": "ad7918eb-22dd-4b6c-949f-e428f5a55530",
+              "type": "basic.constant",
+              "data": {
+                "name": "",
+                "value": "\"*\"",
                 "local": true
               },
               "position": {
