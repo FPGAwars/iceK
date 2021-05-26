@@ -77,6 +77,8 @@ gettext('7bits constant value: 0');
 gettext('Ascii-A');
 gettext('8bits ASCII Letter A');
 gettext('Generic: 8-bits generic constant (0-255)');
+gettext('Ascii-Asterisk');
+gettext('8bits ASCII asterisk symbol *');
 gettext('generic');
 gettext('value-0');
 gettext('8bits constant value: 0');
