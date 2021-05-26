@@ -3,9 +3,9 @@
   "package": {
     "name": "4bits-Value_15",
     "version": "0.0.1",
-    "description": "4bits constant value: 15",
+    "description": "4bits constant value: 15 (0xF in hexadecimal)",
     "author": "Juan Gonzalez-Gomez (Obijuan)",
-    "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22131.123%22%20height=%22228.165%22%20viewBox=%220%200%20122.92736%20213.90503%22%3E%3Cg%20style=%22line-height:0%25;-inkscape-font-specification:'Ubuntu%20Mono'%22%3E%3Cpath%20d=%22M0%200h122.927v24.356H28.941v63.04h84.817v24.356H28.94v102.153H0z%22%20style=%22line-height:1.25%22%20font-size=%22293.421%22%20font-family=%22sans-serif%22%20stroke-width=%227.336%22%20font-weight=%22400%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22green%22/%3E%3C/g%3E%3C/svg%3E"
+    "image": "%3Csvg%20width=%22396.805%22%20height=%22178.73%22%20viewBox=%220%200%20372.00479%20167.55897%22%20xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cg%20style=%22line-height:0%25;-inkscape-font-specification:'Ubuntu%20Mono'%22%3E%3Cg%20style=%22line-height:1.25%22%20font-size=%22221.537%22%20font-family=%22sans-serif%22%20stroke-width=%225.538%22%20font-weight=%22400%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22green%22%3E%3Cpath%20d=%22M55.817%2017.308q-16.875%200-25.42%2016.658-8.438%2016.55-8.438%2049.868%200%2033.208%208.437%2049.867%208.546%2016.55%2025.42%2016.55%2016.984%200%2025.421-16.55%208.546-16.659%208.546-49.867%200-33.318-8.546-49.868-8.437-16.658-25.42-16.658zm0-17.308q27.151%200%2041.43%2021.526%2014.387%2021.418%2014.387%2062.308%200%2040.78-14.387%2062.307-14.279%2021.418-41.43%2021.418t-41.538-21.418Q0%20124.615%200%2083.834q0-40.89%2014.279-62.308Q28.666%200%2055.817%200zM247.931%2043.269l-43.81%2058.954%2046.082%2062.199h-23.474l-35.264-47.596-35.264%2047.596h-23.474l47.055-63.389-43.052-57.764h23.473l32.127%2043.16%2032.128-43.16zM279.193%202.92h92.812v18.39h-70.961v47.596h64.038v18.39h-64.038v77.126h-21.851z%22/%3E%3C/g%3E%3C/g%3E%3C/svg%3E"
   },
   "design": {
     "board": "alhambra-ii",
