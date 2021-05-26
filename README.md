@@ -41,11 +41,11 @@ For installing and using this colection in Icestudio follow these steps:
   * **Bus-04**
     * generic
     * value-0
+    * value-0xF
     * value-1
     * value-2
     * value-4
     * value-8
-    * value-F
   * **Bus-05**
     * generic
     * value-0
@@ -63,6 +63,15 @@ For installing and using this colection in Icestudio follow these steps:
 
 ## Examples
 * 00-Index
+* **01-Turn-on-LEDs**
+  * **Alhambra-II**
+    * 01-One-LED
+    * 02-Two-LEDs
+* **02-Generic-constants**
+  * **Alhambra-II**
+    * 01-One-LEDs
+    * 02-Two-LEDs
+    * 03-Four-LEDs
 * **TESTs**
   * **Bus**
     * **Bus-02**
@@ -85,6 +94,7 @@ For installing and using this colection in Icestudio follow these steps:
       * **Alhambra-II**
         * 01-generic
         * value-0
+        * value-0xF
         * value-1
         * value-2
         * value-4
