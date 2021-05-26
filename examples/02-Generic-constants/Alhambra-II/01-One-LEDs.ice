@@ -102,6 +102,22 @@
             "width": 96,
             "height": 64
           }
+        },
+        {
+          "id": "2d48ae1c-e566-4457-853b-c09e6cc11caf",
+          "type": "basic.info",
+          "data": {
+            "info": "1-bit generic constant",
+            "readonly": true
+          },
+          "position": {
+            "x": 424,
+            "y": 440
+          },
+          "size": {
+            "width": 232,
+            "height": 56
+          }
         }
       ],
       "wires": [
