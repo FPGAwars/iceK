@@ -10,6 +10,10 @@ Working with Constant values
 Find more information in the [WIKI page](https://github.com/FPGAwars/iceK/wiki)  
 
 
+## License
+
+Licensed under [LGPL-3.0](https://opensource.org/licenses/LGPL-3.0).
+
 ## Install
 
 For installing and using this colection in Icestudio follow these steps:
@@ -17,6 +21,25 @@ For installing and using this colection in Icestudio follow these steps:
 * Download the collection: [stable](https://github.com/FPGAwars/iceK/archive/refs/tags/v0.1.0.zip) or [development](https://github.com/FPGAwars/iceK/archive/refs/heads/main.zip)
 * Install the collection: *Tools > Collections > Add*
 * Select the collection: *Select > Collection*
+
+## Translations
+| Language | Locale | Translated strings |
+|----------|--------|--------------------|
+| English  |  en    | ![](https://progress-bar.dev/100) |
+| Catalan |  ca_ES | ![](https://progress-bar.dev/0) |
+| CZech |  cs_CZ | ![](https://progress-bar.dev/0) |
+| German |  de_DE | ![](https://progress-bar.dev/0) |
+| Greek |  el_GR | ![](https://progress-bar.dev/0) |
+| Spanish |  es_ES | ![](https://progress-bar.dev/82) |
+| Basque |  eu_ES | ![](https://progress-bar.dev/0) |
+| French |  fr_FR | ![](https://progress-bar.dev/0) |
+| Galician |  gl_ES | ![](https://progress-bar.dev/0) |
+| Italian |  it_IT | ![](https://progress-bar.dev/0) |
+| Korean |  ko_KR | ![](https://progress-bar.dev/0) |
+| Netherlands |  nl_NL | ![](https://progress-bar.dev/0) |
+| Russian |  ru_RU | ![](https://progress-bar.dev/0) |
+| zh_CN |  zh_CN | ![](https://progress-bar.dev/0) |
+| Tradictional Chinese |  zh_TW | ![](https://progress-bar.dev/0) |
 
 ## Blocks
 * **Bits**
@@ -122,32 +145,10 @@ For installing and using this colection in Icestudio follow these steps:
       * 02-bit-1
       * 03-generic-bit
 
-## Translations
-| Language | Locale | Translated strings |
-|----------|--------|--------------------|
-| English  |  en    | ![](https://progress-bar.dev/100) |
-| Catalan |  ca_ES | ![](https://progress-bar.dev/0) |
-| CZech |  cs_CZ | ![](https://progress-bar.dev/0) |
-| German |  de_DE | ![](https://progress-bar.dev/0) |
-| Greek |  el_GR | ![](https://progress-bar.dev/0) |
-| Spanish |  es_ES | ![](https://progress-bar.dev/100) |
-| Basque |  eu_ES | ![](https://progress-bar.dev/0) |
-| French |  fr_FR | ![](https://progress-bar.dev/0) |
-| Galician |  gl_ES | ![](https://progress-bar.dev/0) |
-| Italian |  it_IT | ![](https://progress-bar.dev/0) |
-| Korean |  ko_KR | ![](https://progress-bar.dev/0) |
-| Netherlands |  nl_NL | ![](https://progress-bar.dev/0) |
-| Russian |  ru_RU | ![](https://progress-bar.dev/0) |
-| zh_CN |  zh_CN | ![](https://progress-bar.dev/0) |
-| Tradictional Chinese |  zh_TW | ![](https://progress-bar.dev/0) |
-
 ## Authors
 * [Juan Gonzalez-Gomez (Obijuan)](https://github.com/Obijuan)
 
 
-## License
-
-Licensed under [LGPL-3.0](https://opensource.org/licenses/LGPL-3.0).
 
 <!-- Badges -->
 [icestudio-image]: https://img.shields.io/badge/collection-icestudio-blue.svg
