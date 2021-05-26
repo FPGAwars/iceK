@@ -95,6 +95,22 @@
             "width": 216,
             "height": 56
           }
+        },
+        {
+          "id": "7a3b8e5f-11d3-4198-b15b-49a6ba3323f6",
+          "type": "basic.info",
+          "data": {
+            "info": "## Result:\n\nThe LEDs 0 and 1 are turned on  \n\n(If you are connected to internet you will see a picture)  \n\n![Alhambra II board picture](https://github.com/FPGAwars/iceK/raw/main/wiki/images/Alhambra-II/Example-01-02-2.png)\n\n",
+            "readonly": true
+          },
+          "position": {
+            "x": 888,
+            "y": 16
+          },
+          "size": {
+            "width": 328,
+            "height": 176
+          }
         }
       ],
       "wires": [
