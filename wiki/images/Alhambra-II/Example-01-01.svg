@@ -12859,13 +12859,19 @@ f1MaoWcqcbN6tcDw/wCB2eivmHb+YQAAAABJRU5ErkJggg==
 "
        id="image17665"
        x="-1.9355084"
-       y="57.748093" />
+       y="57.748093"
+       inkscape:export-filename="/home/obijuan/Develop/FPGAwars/iceK/wiki/images/Alhambra-II/Example-01-01.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
        x="4.5167041"
        y="101.20105"
-       id="text18618"><tspan
+       id="text18618"
+       inkscape:export-filename="/home/obijuan/Develop/FPGAwars/iceK/wiki/images/Alhambra-II/Example-01-01.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
          sodipodi:role="line"
          id="tspan18616"
          style="stroke-width:0.264583"
@@ -12873,7 +12879,10 @@ f1MaoWcqcbN6tcDw/wCB2eivmHb+YQAAAABJRU5ErkJggg==
          y="101.20105">LED 0</tspan></text>
     <g
        id="path19687"
-       transform="translate(7.0852801,-15.132296)">
+       transform="translate(7.0852801,-15.132296)"
+       inkscape:export-filename="/home/obijuan/Develop/FPGAwars/iceK/wiki/images/Alhambra-II/Example-01-01.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
       <path
          style="color:#000000;fill:#ffffff;-inkscape-stroke:none"
          d="m 10.669922,118.87305 v 17.32226 h 29.203442 v -2.64648 H 13.314453 v -14.67578 z"
@@ -12890,6 +12899,9 @@ f1MaoWcqcbN6tcDw/wCB2eivmHb+YQAAAABJRU5ErkJggg==
     <path
        style="fill:none;stroke:#000000;stroke-width:0.79375;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend)"
        d="m 18.999475,104.02039 v 15.99849 h 32.412394"
-       id="path19296" />
+       id="path19296"
+       inkscape:export-filename="/home/obijuan/Develop/FPGAwars/iceK/wiki/images/Alhambra-II/Example-01-01.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
   </g>
 </svg>
