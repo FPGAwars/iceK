@@ -8,7 +8,7 @@
     "image": ""
   },
   "design": {
-    "board": "alhambra-ii",
+    "board": "icestick",
     "graph": {
       "blocks": [
         {
@@ -20,13 +20,13 @@
             "pins": [
               {
                 "index": "1",
-                "name": "LED1",
-                "value": "44"
+                "name": "D2",
+                "value": "98"
               },
               {
                 "index": "0",
-                "name": "LED0",
-                "value": "45"
+                "name": "D1",
+                "value": "99"
               }
             ],
             "virtual": false
@@ -100,7 +100,7 @@
           "id": "7a3b8e5f-11d3-4198-b15b-49a6ba3323f6",
           "type": "basic.info",
           "data": {
-            "info": "## Result:\n\nThe LEDs 0 and 1 are turned on  \n\n(If you are connected to internet you will see a picture)  \n\n![Alhambra II board picture](https://raw.githubusercontent.com/FPGAwars/iceK/main/wiki/images/Alhambra-II/Example-01-02-2.png)\n\n",
+            "info": "## Result:\n\nThe LEDs 0 and 1 are turned on  \n\n(If you are connected to internet you will see a picture)  \n\n![Alhambra II board picture]()\n\n",
             "readonly": true
           },
           "position": {
