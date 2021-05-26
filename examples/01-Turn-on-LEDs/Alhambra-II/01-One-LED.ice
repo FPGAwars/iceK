@@ -89,6 +89,22 @@
             "width": 120,
             "height": 40
           }
+        },
+        {
+          "id": "1303c2fa-1436-4f6f-8fbd-aeac40ea12b6",
+          "type": "basic.info",
+          "data": {
+            "info": "## Result\n\nThe LED0 is on\n\n(If you are connected to Internet you will see a picture)  b\n\n![Alhambra II image](https://github.com/FPGAwars/iceK/raw/main/wiki/images/Alhambra-II/Example-01-01.png)",
+            "readonly": true
+          },
+          "position": {
+            "x": 888,
+            "y": -72
+          },
+          "size": {
+            "width": 808,
+            "height": 152
+          }
         }
       ],
       "wires": [
