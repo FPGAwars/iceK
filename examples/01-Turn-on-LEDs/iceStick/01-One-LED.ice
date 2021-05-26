@@ -94,15 +94,15 @@
           "id": "1303c2fa-1436-4f6f-8fbd-aeac40ea12b6",
           "type": "basic.info",
           "data": {
-            "info": "## Result\n\nThe LED D1 is on\n\n(If you are connected to Internet you will see a picture)  \n\n![Alhambra II image]()",
+            "info": "## Result\n\nThe LED D1 is on\n\n(If you are connected to Internet you will see a picture)  \n\n![Alhambra II image](https://github.com/FPGAwars/iceK/raw/main/wiki/images/iceStick/Example-01-01-2.png)  ",
             "readonly": true
           },
           "position": {
-            "x": 888,
-            "y": -72
+            "x": 896,
+            "y": 176
           },
           "size": {
-            "width": 808,
+            "width": 768,
             "height": 152
           }
         }
