@@ -34,7 +34,7 @@
           "id": "0c74b03d-1ae7-4807-af25-2031df48292d",
           "type": "basic.output",
           "data": {
-            "name": "LED",
+            "name": "USB",
             "pins": [
               {
                 "index": "0",
@@ -53,7 +53,7 @@
           "id": "12e0307f-98a3-4d4d-a044-969bee1a179e",
           "type": "basic.output",
           "data": {
-            "name": "LED",
+            "name": "USB",
             "pins": [
               {
                 "index": "0",
@@ -72,7 +72,7 @@
           "id": "a2b93ab8-3750-4758-bea1-bb5b00478c36",
           "type": "basic.output",
           "data": {
-            "name": "LED",
+            "name": "USB",
             "pins": [
               {
                 "index": "0",
