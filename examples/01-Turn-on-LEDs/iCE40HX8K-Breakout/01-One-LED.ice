@@ -82,12 +82,12 @@
           "id": "8396c252-072a-4cea-8149-66dbdd3a63ea",
           "type": "basic.info",
           "data": {
-            "info": "## Result\n\nThe LED0 (red, D9) is on\n\n(If you are connected to Internet you will see a picture)  \n\n![Lattice ice40HX8K Breakout Board image]()  ",
+            "info": "## Result\n\nThe LED0 (red, D9) is on\n\n(If you are connected to Internet you will see a picture)  \n\n![Lattice ice40HX8K Breakout Board image](https://github.com/FPGAwars/iceK/raw/main/wiki/images/iCE40HX8K-Breakout/Example-01-01-2.png)  ",
             "readonly": true
           },
           "position": {
             "x": 912,
-            "y": 176
+            "y": 168
           },
           "size": {
             "width": 528,
