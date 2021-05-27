@@ -337,45 +337,43 @@ msgstr "Alhambra-II"
 
 #: translation.js:106
 msgid "Fomu"
-msgstr ""
+msgstr "Fomu"
 
 #: translation.js:107
-#, fuzzy
-#| msgid "Alhambra-II"
 msgid "IceZum-Alhambra"
-msgstr "Alhambra-II"
+msgstr "IceZum-Alhambra"
 
 #: translation.js:108
 msgid "MyStorm-BlackIce"
-msgstr ""
+msgstr "MyStorm-BlackIce"
 
 #: translation.js:109
 msgid "Nandland-Go-board"
-msgstr ""
+msgstr "Nandland-Go-board"
 
 #: translation.js:110
 msgid "Radiona-ULX3S-12F"
-msgstr ""
+msgstr "Radiona-ULX3S-12F"
 
 #: translation.js:111
 msgid "iCE40HX8K-Breakout"
-msgstr ""
+msgstr "iCE40HX8K-Breakout"
 
 #: translation.js:112
 msgid "iCE40UP-Breakout"
-msgstr ""
+msgstr "iCE40UP-Breakout"
 
 #: translation.js:113
 msgid "iCESugar-1.5"
-msgstr ""
+msgstr "iCESugar-1.5"
 
 #: translation.js:114
 msgid "iceBreaker"
-msgstr ""
+msgstr "iceBreaker"
 
 #: translation.js:115
 msgid "iceStick"
-msgstr ""
+msgstr "iceStick"
 
 #: translation.js:116
 msgid "tinyFPGA"
@@ -413,6 +411,14 @@ msgid ""
 "![Alhambra II image](https://github.com/FPGAwars/iceK/raw/main/wiki/images/"
 "Alhambra-II/Example-01-01.png)"
 msgstr ""
+"## Resultado:\n"
+"\n"
+"Se enciende el LED0  \n"
+"\n"
+"(Si tienes conexión a internet verás una imagen)  \n"
+"\n"
+"![Alhambra II image](https://github.com/FPGAwars/iceK/raw/main/wiki/images/"
+"Alhambra-II/Example-01-01.png)"
 
 #: translation.js:122 translation.js:128 translation.js:138 translation.js:145
 #: translation.js:148 translation.js:151 translation.js:155 translation.js:158
@@ -457,6 +463,15 @@ msgid ""
 "main/wiki/images/Alhambra-II/Example-01-02-2.png)\n"
 "\n"
 msgstr ""
+"## Resultado:\n"
+"\n"
+"Se encienden los LEDs 0 y 1  \n"
+"\n"
+"(Si tienes conexión a internet verás una imagen)  \n"
+"\n"
+"![Alhambra II board picture](https://raw.githubusercontent.com/FPGAwars/iceK/"
+"main/wiki/images/Alhambra-II/Example-01-02-2.png)\n"
+"\n"
 
 #: translation.js:130
 msgid ""
@@ -469,6 +484,14 @@ msgid ""
 "![Fomu image](https://github.com/FPGAwars/iceK/raw/main/wiki/images/Fomu/"
 "Example-01-02-2.png)"
 msgstr ""
+"## Resultado:\n"
+"\n"
+"El LED RGB se pone en verde  \n"
+"\n"
+"(Si tienes conexión a internet verás una imagen)  \n"
+"\n"
+"![Fomu image](https://github.com/FPGAwars/iceK/raw/main/wiki/images/Fomu/"
+"Example-01-02-2.png)"
 
 #: translation.js:131
 msgid "usb pins must be \"0\""
@@ -480,15 +503,15 @@ msgstr "usb_dp_pu"
 
 #: translation.js:133
 msgid "Green"
-msgstr ""
+msgstr "Verde"
 
 #: translation.js:134
 msgid "Red"
-msgstr ""
+msgstr "Rojo"
 
 #: translation.js:135
 msgid "Blue"
-msgstr ""
+msgstr "Azul"
 
 #: translation.js:136
 msgid ""
@@ -499,18 +522,24 @@ msgid ""
 "The three components (red, green, blue) act as  \n"
 "independent LEDs"
 msgstr ""
+"El LED RGB funcion con   \n"
+"lógica negativa:  \n"
+"* 0: Encender el  LED  \n"
+"* 1: Apagar el LED  \n"
+"Las tres componentes (rojo, verde, azul) funcionan  \n"
+"como LEDs independientes"
 
 #: translation.js:137
 msgid ""
 "The Red and Blue components  \n"
 "are turned off"
 msgstr ""
+"Las componentes roja y azul  \n"
+"se apagan"
 
 #: translation.js:139
-#, fuzzy
-#| msgid "# Turn on a LED"
 msgid "# Turn on two LEDs"
-msgstr "# Encender un LED"
+msgstr "# Encender dos LEDs"
 
 #: translation.js:140
 msgid ""
@@ -524,16 +553,23 @@ msgid ""
 "![Fomu image](https://github.com/FPGAwars/iceK/raw/main/wiki/images/Fomu/"
 "Example-01-02-2.png)"
 msgstr ""
+"## Resultado:\n"
+"\n"
+"Las componentes Verde y Roja del LED RGB se enciende, de forma que  \n"
+"se muestra el color Amarillo\n"
+"\n"
+"(Si tienes conexión a internet verás una imagen)  \n"
+"\n"
+"![Fomu image](https://github.com/FPGAwars/iceK/raw/main/wiki/images/Fomu/"
+"Example-01-02-2.png)"
 
 #: translation.js:141
-#, fuzzy
-#| msgid ""
-#| "2-bit constant value 3  \n"
-#| "(11 in binary)"
 msgid ""
 "2-bit constant value 0  \n"
 "(00 in binary)"
-msgstr "Valor constante 3 de 2 bits (11 en binario)"
+msgstr ""
+"Valor constante 0 de 2 bits  \n"
+"(00 en binario)"
 
 #: translation.js:142
 msgid ""
@@ -542,6 +578,10 @@ msgid ""
 "* 0: Turn LED on  \n"
 "* 1: Turn LED off"
 msgstr ""
+"Los LEDs R y G funcionan  \n"
+"con lógica negativa:  \n"
+"* 0: Encender LED\n"
+"* 1: Apagar LED"
 
 #: translation.js:143
 msgid ""
@@ -564,6 +604,14 @@ msgid ""
 "![Icezum Alhambra image](https://github.com/FPGAwars/iceK/raw/main/wiki/"
 "images/Icezum-Alhambra/Example-01-01-2.png)  "
 msgstr ""
+"## Resultado:\n"
+"\n"
+"Se enciende el LED0  \n"
+"\n"
+"(Si tienes conexión a internet verás una imagen)  \n"
+"\n"
+"![Icezum Alhambra image](https://github.com/FPGAwars/iceK/raw/main/wiki/"
+"images/Icezum-Alhambra/Example-01-01-2.png)  "
 
 #: translation.js:149
 msgid ""
@@ -577,6 +625,15 @@ msgid ""
 "images/Icezum-Alhambra/Example-01-02-2.png)\n"
 "\n"
 msgstr ""
+"## Resultado:\n"
+"\n"
+"Se encienden los LEDs 0 y 1  \n"
+"\n"
+"(Si tienes conexión a internet verás una imagen)  \n"
+"\n"
+"![Icezum Alhambra picture](https://github.com/FPGAwars/iceK/raw/main/wiki/"
+"images/Icezum-Alhambra/Example-01-02-2.png)\n"
+"\n"
 
 #: translation.js:153
 msgid ""
@@ -589,6 +646,14 @@ msgid ""
 "![MyStorm blackIce image](https://raw.githubusercontent.com/FPGAwars/iceK/"
 "main/wiki/images/MyStorm-Blackice/Example-01-01-2.png)  "
 msgstr ""
+"## Resultado:\n"
+"\n"
+"Se enciende el LED1 (azul)  \n"
+"\n"
+"(Si tienes conexión a internet verás una imagen)  \n"
+"\n"
+"![MyStorm blackIce image](https://raw.githubusercontent.com/FPGAwars/iceK/"
+"main/wiki/images/MyStorm-Blackice/Example-01-01-2.png)  "
 
 #: translation.js:154
 msgid ""
@@ -612,6 +677,15 @@ msgid ""
 "MyStorm-Blackice/Example-01-02-2.png)\n"
 "\n"
 msgstr ""
+"## Resultado:\n"
+"\n"
+"Se encienden los LEDs 1 (azul) y 2 (verde)  \n"
+"\n"
+"(Si tienes conexión a internet verás una imagen)  \n"
+"\n"
+"![Mystorm Blackice](https://github.com/FPGAwars/iceK/raw/main/wiki/images/"
+"MyStorm-Blackice/Example-01-02-2.png)\n"
+"\n"
 
 #: translation.js:160
 msgid ""
@@ -624,6 +698,14 @@ msgid ""
 "![Nandland-Go-board image](https://raw.githubusercontent.com/FPGAwars/iceK/"
 "main/wiki/images/NandLand-Go-Board/Example-01-01-2.png)  "
 msgstr ""
+"## Resultado:\n"
+"\n"
+"Se enciende el LED D1  \n"
+"\n"
+"(Si tienes conexión a internet verás una imagen)  \n"
+"\n"
+"![Nandland-Go-board image](https://raw.githubusercontent.com/FPGAwars/iceK/"
+"main/wiki/images/NandLand-Go-Board/Example-01-01-2.png)  "
 
 #: translation.js:162
 msgid ""
@@ -637,6 +719,15 @@ msgid ""
 "main/wiki/images/NandLand-Go-Board/Example-01-02-2.png)\n"
 "\n"
 msgstr ""
+"## Resultado:\n"
+"\n"
+"Se encienden los LED D1 y D2  \n"
+"\n"
+"(Si tienes conexión a internet verás una imagen)  \n"
+"\n"
+"![Nandland Go Board picture](https://raw.githubusercontent.com/FPGAwars/iceK/"
+"main/wiki/images/NandLand-Go-Board/Example-01-02-2.png)\n"
+"\n"
 
 #: translation.js:166
 msgid ""
@@ -649,6 +740,14 @@ msgid ""
 "![Radiona ULX3S-12F image](https://github.com/FPGAwars/iceK/raw/main/wiki/"
 "images/Radiona-ULX3S-12F/Example-01-01-2.png)"
 msgstr ""
+"## Resultado:\n"
+"\n"
+"Se enciende el LED0 (D0)  \n"
+"\n"
+"(Si tienes conexión a internet verás una imagen)  \n"
+"\n"
+"![Radiona ULX3S-12F image](https://github.com/FPGAwars/iceK/raw/main/wiki/"
+"images/Radiona-ULX3S-12F/Example-01-01-2.png)"
 
 #: translation.js:167
 msgid ""
@@ -669,6 +768,14 @@ msgid ""
 "![Radiona ULX3S-12F image](https://github.com/FPGAwars/iceK/raw/main/wiki/"
 "images/Radiona-ULX3S-12F/Example-01-02-2.png)"
 msgstr ""
+"## Resultado:\n"
+"\n"
+"Se encienden los LEDs 0 (D0, rojo) y 1 (D1, naranja)  \n"
+"\n"
+"(Si tienes conexión a internet verás una imagen)  \n"
+"\n"
+"![Radiona ULX3S-12F image](https://github.com/FPGAwars/iceK/raw/main/wiki/"
+"images/Radiona-ULX3S-12F/Example-01-02-2.png)"
 
 #: translation.js:173
 msgid ""
@@ -681,6 +788,14 @@ msgid ""
 "![Lattice ice40HX8K Breakout Board image](https://github.com/FPGAwars/iceK/"
 "raw/main/wiki/images/iCE40HX8K-Breakout/Example-01-01-2.png)  "
 msgstr ""
+"## Resultado:\n"
+"\n"
+"Se enciende el LED0 (rojo, D9)  \n"
+"\n"
+"(Si tienes conexión a internet verás una imagen)  \n"
+"\n"
+"![Lattice ice40HX8K Breakout Board image](https://github.com/FPGAwars/iceK/"
+"raw/main/wiki/images/iCE40HX8K-Breakout/Example-01-01-2.png)  "
 
 #: translation.js:175
 msgid ""
@@ -694,6 +809,15 @@ msgid ""
 "raw/main/wiki/images/iCE40HX8K-Breakout/Example-01-02-2.png)\n"
 "\n"
 msgstr ""
+"## Resultado:\n"
+"\n"
+"Se encienden los LEDs 0 (D9) y 1 (D8)  \n"
+"\n"
+"(Si tienes conexión a internet verás una imagen)  \n"
+"\n"
+"![Lattice iCE40-HX8K Breakout board Image](https://github.com/FPGAwars/iceK/"
+"raw/main/wiki/images/iCE40HX8K-Breakout/Example-01-02-2.png)\n"
+"\n"
 
 #: translation.js:179
 msgid ""
@@ -706,12 +830,22 @@ msgid ""
 "![Lattice ice40UP Breakout Board image](https://github.com/FPGAwars/iceK/raw/"
 "main/wiki/images/iCE40UP-Breakout/Example-01-01-2.png)  "
 msgstr ""
+"## Resultado:\n"
+"\n"
+"El LED RGB se pone en rojo  \n"
+"\n"
+"(Si tienes conexión a internet verás una imagen)  \n"
+"\n"
+"![Lattice ice40UP Breakout Board image](https://github.com/FPGAwars/iceK/raw/"
+"main/wiki/images/iCE40UP-Breakout/Example-01-01-2.png)  "
 
 #: translation.js:180
 msgid ""
 "The Green and Blue components  \n"
 "are turned off"
 msgstr ""
+"Las componentes verde y azul  \n"
+"se apagan"
 
 #: translation.js:182
 msgid ""
@@ -725,6 +859,15 @@ msgid ""
 "![Lattice ice40UP Breakout Board image](https://github.com/FPGAwars/iceK/raw/"
 "main/wiki/images/iCE40UP-Breakout/Example-01-02-2.png)  "
 msgstr ""
+"## Resultado:\n"
+"\n"
+"Las componentes Roja y Verde del LED RGB se enciende, de forma que  \n"
+"se muestra el color Amarillo\n"
+"\n"
+"(Si tienes conexión a internet verás una imagen)  \n"
+"\n"
+"![Lattice ice40UP Breakout Board image](https://github.com/FPGAwars/iceK/raw/"
+"main/wiki/images/iCE40UP-Breakout/Example-01-02-2.png)  "
 
 #: translation.js:183
 msgid ""
@@ -732,10 +875,11 @@ msgid ""
 "(No blue color)  \n"
 "(negative logitc)"
 msgstr ""
+"El LED_B se apaga  \n"
+"(Sin color azul)  \n"
+"(lógica negativa)"
 
 #: translation.js:186
-#, fuzzy
-#| msgid "02-Two-LEDs"
 msgid "0s-Two-LEDs"
 msgstr "02-Two-LEDs"
 
@@ -750,6 +894,14 @@ msgid ""
 "![iCESugar 1.5 image](https://github.com/FPGAwars/iceK/raw/main/wiki/images/"
 "iCESugar-1.5/Example-01-01-2.png)  "
 msgstr ""
+"## Resultado:\n"
+"\n"
+"El LED RGB se pone en rojo  \n"
+"\n"
+"(Si tienes conexión a internet verás una imagen)  \n"
+"\n"
+"![iCESugar 1.5 image](https://github.com/FPGAwars/iceK/raw/main/wiki/images/"
+"iCESugar-1.5/Example-01-01-2.png)  "
 
 #: translation.js:190
 msgid ""
@@ -763,6 +915,15 @@ msgid ""
 "![iCESugar 1.5 image](https://github.com/FPGAwars/iceK/raw/main/wiki/images/"
 "iCESugar-1.5/Example-01-02-2.png)  "
 msgstr ""
+"## Resultado:\n"
+"\n"
+"Las componentes Roja y Azul del LED RGB se enciende, de forma que  \n"
+"se muestra el color Magenta\n"
+"\n"
+"(Si tienes conexión a internet verás una imagen)  \n"
+"\n"
+"![iCESugar 1.5 image](https://github.com/FPGAwars/iceK/raw/main/wiki/images/"
+"iCESugar-1.5/Example-01-02-2.png)  "
 
 #: translation.js:191
 msgid ""
@@ -770,12 +931,13 @@ msgid ""
 "(No blue color)  \n"
 "(negative logitc)"
 msgstr ""
+"El LED_G se apaga  \n"
+"(Sin color azul)  \n"
+"(Lógica negativa)"
 
 #: translation.js:195
-#, fuzzy
-#| msgid "# Turn on a LED"
 msgid "# Turn on the red LED"
-msgstr "# Encender un LED"
+msgstr "# Encender el LED rojo"
 
 #: translation.js:196
 msgid ""
@@ -788,6 +950,14 @@ msgid ""
 "![icebreakerA image](https://raw.githubusercontent.com/FPGAwars/iceK/main/"
 "wiki/images/iceBreaker/Example-01-01-2.png)  "
 msgstr ""
+"## Resultado:\n"
+"\n"
+"Se enciende el LED (G) verde  \n"
+"\n"
+"(Si tienes conexión a internet verás una imagen)  \n"
+"\n"
+"![icebreakerA image](https://raw.githubusercontent.com/FPGAwars/iceK/main/"
+"wiki/images/iceBreaker/Example-01-01-2.png)  "
 
 #: translation.js:197
 msgid ""
@@ -796,14 +966,12 @@ msgid ""
 "* 0: Turn LED on  \n"
 "* 1: Turn LED off"
 msgstr ""
+"Los LEDs G y R funcionan con  \n"
+"lógica negativa:  \n"
+"* 0: Encender LED\n"
+"* 1: Apagar LED"
 
 #: translation.js:199
-#, fuzzy
-#| msgid ""
-#| "# Turning on two LEDs\n"
-#| "\n"
-#| "The 2-bit constant 3 (11 in binary) is used to turn on  \n"
-#| "two LEDs"
 msgid ""
 "# Turning on two LEDs\n"
 "\n"
@@ -812,7 +980,7 @@ msgid ""
 msgstr ""
 "# Encendiendo dos LEDs\n"
 "\n"
-"La constante 3 de 2 bits (11 en binario) se usa para encender  \n"
+"La constante 0 de 2 bits (00 en binario) se usa para encender  \n"
 "dos LEDs"
 
 #: translation.js:200
@@ -827,6 +995,15 @@ msgid ""
 "main/wiki/images/iceBreaker/Example-01-02-2.png)\n"
 "\n"
 msgstr ""
+"## Resultado:\n"
+"\n"
+"Se encienden los LEDs G y R  \n"
+"\n"
+"(Si tienes conexión a internet verás una imagen)  \n"
+"\n"
+"![iceBreaker board picture](https://raw.githubusercontent.com/FPGAwars/iceK/"
+"main/wiki/images/iceBreaker/Example-01-02-2.png)\n"
+"\n"
 
 #: translation.js:204
 msgid ""
@@ -839,6 +1016,14 @@ msgid ""
 "![Alhambra II image](https://github.com/FPGAwars/iceK/raw/main/wiki/images/"
 "iceStick/Example-01-01-2.png)  "
 msgstr ""
+"## Resultado:\n"
+"\n"
+"Se enciende el LED D1  \n"
+"\n"
+"(Si tienes conexión a internet verás una imagen)  \n"
+"\n"
+"![Alhambra II image](https://github.com/FPGAwars/iceK/raw/main/wiki/images/"
+"iceStick/Example-01-01-2.png)  "
 
 #: translation.js:206
 msgid ""
@@ -852,6 +1037,16 @@ msgid ""
 "images/iceStick/Example-01-02-2.png)\n"
 "\n"
 msgstr ""
+"## Resultado:\n"
+"\n"
+"Se encienden los LED D1 y D2  \n"
+"\n"
+"(Si tienes conexión a internet verás una imagen)  \n"
+"\n"
+"![iceStick board picture](https://github.com/FPGAwars/iceK/raw/main/wiki/"
+"images/iceStick/Example-01-02-2.png)\n"
+"\n"
+"\n"
 
 #: translation.js:210
 msgid ""
@@ -864,6 +1059,14 @@ msgid ""
 "![TinyFPGA image](https://raw.githubusercontent.com/FPGAwars/iceK/main/wiki/"
 "images/TinyFPGA/Example-01-01-2.png)  "
 msgstr ""
+"## Resultado:\n"
+"\n"
+"Se enciende el LED rojo (Boot)  \n"
+"\n"
+"(Si tienes conexión a internet verás una imagen)  \n"
+"\n"
+"![TinyFPGA image](https://raw.githubusercontent.com/FPGAwars/iceK/main/wiki/"
+"images/TinyFPGA/Example-01-01-2.png)  "
 
 #: translation.js:213 translation.js:227
 msgid "01-One-LEDs"
@@ -890,10 +1093,8 @@ msgstr ""
 "de la constante k (0 / 1)"
 
 #: translation.js:216
-#, fuzzy
-#| msgid "1-bit generic constant (0/1)"
 msgid "1-bit generic constant"
-msgstr "Constante genérica de 1 bit (0/1)"
+msgstr "Constante genérica de 1 bit"
 
 #: translation.js:218
 msgid ""
@@ -960,10 +1161,8 @@ msgid "..Or in hexa"
 msgstr "..o en hexadecimal"
 
 #: translation.js:226
-#, fuzzy
-#| msgid "1-bit generic constant (0/1)"
 msgid "4-bit generic constant"
-msgstr "Constante genérica de 1 bit (0/1)"
+msgstr "Constante genérica de 4 bits"
 
 #: translation.js:230
 msgid "bits"
