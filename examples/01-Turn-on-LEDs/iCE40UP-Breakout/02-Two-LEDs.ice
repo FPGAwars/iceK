@@ -59,7 +59,7 @@
           "id": "4ed33e2d-b944-4864-9a65-0408bea1ce2d",
           "type": "basic.info",
           "data": {
-            "info": "# Turn on a LED",
+            "info": "# Turn on two LEDs",
             "readonly": true
           },
           "position": {
