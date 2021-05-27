@@ -113,15 +113,15 @@
           "id": "1303c2fa-1436-4f6f-8fbd-aeac40ea12b6",
           "type": "basic.info",
           "data": {
-            "info": "## Result\n\nThe LED0 (D0) is on (red)\n\n(If you are connected to Internet you will see a picture)  \n\n![Radiona ULX3S-12F image]()",
+            "info": "## Result\n\nThe LED0 (D0) is on (red)\n\n(If you are connected to Internet you will see a picture)  \n\n![Radiona ULX3S-12F image](https://github.com/FPGAwars/iceK/raw/main/wiki/images/Radiona-ULX3S-12F/Example-01-01-2.png)",
             "readonly": true
           },
           "position": {
-            "x": 976,
-            "y": 176
+            "x": 1016,
+            "y": 168
           },
           "size": {
-            "width": 808,
+            "width": 512,
             "height": 152
           }
         },
