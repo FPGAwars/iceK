@@ -91,7 +91,7 @@
           "id": "8396c252-072a-4cea-8149-66dbdd3a63ea",
           "type": "basic.info",
           "data": {
-            "info": "## Result\n\nThe components Red and Green of the RGB LED are turned on, so that  \nthe color displayed is Yellow\n\n(If you are connected to Internet you will see a picture)  \n\n![iCESugar 1.5 image]()  ",
+            "info": "## Result\n\nThe components Red and Blue of the RGB LED are turned on, so that  \nthe color displayed is Magenta\n\n(If you are connected to Internet you will see a picture)  \n\n![iCESugar 1.5 image]()  ",
             "readonly": true
           },
           "position": {
