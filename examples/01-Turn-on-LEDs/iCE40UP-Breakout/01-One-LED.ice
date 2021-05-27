@@ -120,7 +120,7 @@
           "id": "8396c252-072a-4cea-8149-66dbdd3a63ea",
           "type": "basic.info",
           "data": {
-            "info": "## Result\n\nThe RGB LED is turned RED\n\n(If you are connected to Internet you will see a picture)  \n\n![Lattice ice40UP Breakout Board image]()  ",
+            "info": "## Result\n\nThe RGB LED is turned RED\n\n(If you are connected to Internet you will see a picture)  \n\n![Lattice ice40UP Breakout Board image](https://github.com/FPGAwars/iceK/raw/main/wiki/images/iCE40UP-Breakout/Example-01-01-2.png)  ",
             "readonly": true
           },
           "position": {
