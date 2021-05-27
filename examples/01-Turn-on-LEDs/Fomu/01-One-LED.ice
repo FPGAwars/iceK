@@ -45,46 +45,8 @@
             "virtual": false
           },
           "position": {
-            "x": 704,
-            "y": 160
-          }
-        },
-        {
-          "id": "12e0307f-98a3-4d4d-a044-969bee1a179e",
-          "type": "basic.output",
-          "data": {
-            "name": "USB",
-            "pins": [
-              {
-                "index": "0",
-                "name": "usb_dn",
-                "value": "A2"
-              }
-            ],
-            "virtual": false
-          },
-          "position": {
-            "x": 704,
-            "y": 240
-          }
-        },
-        {
-          "id": "a2b93ab8-3750-4758-bea1-bb5b00478c36",
-          "type": "basic.output",
-          "data": {
-            "name": "USB",
-            "pins": [
-              {
-                "index": "0",
-                "name": "usb_dp_pu",
-                "value": "A4"
-              }
-            ],
-            "virtual": false
-          },
-          "position": {
-            "x": 704,
-            "y": 320
+            "x": 624,
+            "y": 256
           }
         },
         {
@@ -107,6 +69,25 @@
           }
         },
         {
+          "id": "12e0307f-98a3-4d4d-a044-969bee1a179e",
+          "type": "basic.output",
+          "data": {
+            "name": "USB",
+            "pins": [
+              {
+                "index": "0",
+                "name": "usb_dn",
+                "value": "A2"
+              }
+            ],
+            "virtual": false
+          },
+          "position": {
+            "x": 624,
+            "y": 336
+          }
+        },
+        {
           "id": "bf84c60c-229a-4b84-9270-460695ed9574",
           "type": "basic.output",
           "data": {
@@ -123,6 +104,25 @@
           "position": {
             "x": 232,
             "y": 400
+          }
+        },
+        {
+          "id": "a2b93ab8-3750-4758-bea1-bb5b00478c36",
+          "type": "basic.output",
+          "data": {
+            "name": "USB",
+            "pins": [
+              {
+                "index": "0",
+                "name": "usb_dp_pu",
+                "value": "A4"
+              }
+            ],
+            "virtual": false
+          },
+          "position": {
+            "x": 624,
+            "y": 416
           }
         },
         {
@@ -177,12 +177,12 @@
           "id": "1303c2fa-1436-4f6f-8fbd-aeac40ea12b6",
           "type": "basic.info",
           "data": {
-            "info": "## Result\n\nThe RGB LED is turned GREEN\n\n(If you are connected to Internet you will see a picture)  \n\n![Fomu image]()",
+            "info": "## Result\n\nThe RGB LED is turned GREEN\n\n(If you are connected to Internet you will see a picture)  \n\n![Fomu image](https://github.com/FPGAwars/iceK/raw/main/wiki/images/Fomu/Example-01-02-2.png)",
             "readonly": true
           },
           "position": {
-            "x": 896,
-            "y": -144
+            "x": 864,
+            "y": -160
           },
           "size": {
             "width": 512,
@@ -193,8 +193,8 @@
           "id": "f837936a-cab6-4c49-b194-7ba37555d764",
           "type": "d30ca9ee4f35f6cb76d5e5701447fc2b739bc640",
           "position": {
-            "x": 512,
-            "y": 160
+            "x": 432,
+            "y": 256
           },
           "size": {
             "width": 96,
@@ -209,8 +209,8 @@
             "readonly": true
           },
           "position": {
-            "x": 584,
-            "y": 128
+            "x": 504,
+            "y": 224
           },
           "size": {
             "width": 256,
@@ -225,8 +225,8 @@
             "readonly": true
           },
           "position": {
-            "x": 816,
-            "y": 344
+            "x": 736,
+            "y": 440
           },
           "size": {
             "width": 136,
@@ -237,8 +237,8 @@
           "id": "24e9a15d-4d7a-41eb-8f2a-f8f3f49e7f9b",
           "type": "d30ca9ee4f35f6cb76d5e5701447fc2b739bc640",
           "position": {
-            "x": 512,
-            "y": 240
+            "x": 432,
+            "y": 336
           },
           "size": {
             "width": 96,
@@ -249,8 +249,8 @@
           "id": "3181d65a-5584-4768-92aa-dc3a7768c8dc",
           "type": "d30ca9ee4f35f6cb76d5e5701447fc2b739bc640",
           "position": {
-            "x": 512,
-            "y": 320
+            "x": 432,
+            "y": 416
           },
           "size": {
             "width": 96,
