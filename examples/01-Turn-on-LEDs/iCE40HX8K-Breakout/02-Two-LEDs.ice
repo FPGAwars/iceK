@@ -88,7 +88,7 @@
           "id": "7a3b8e5f-11d3-4198-b15b-49a6ba3323f6",
           "type": "basic.info",
           "data": {
-            "info": "## Result:\n\nThe LEDs 0 (D9) and 1 (D8) are turned on  \n\n(If you are connected to internet you will see a picture)  \n\n![Lattice iCE40-HX8K Breakout board Image]()\n\n",
+            "info": "## Result:\n\nThe LEDs 0 (D9) and 1 (D8) are turned on  \n\n(If you are connected to internet you will see a picture)  \n\n![Lattice iCE40-HX8K Breakout board Image](https://github.com/FPGAwars/iceK/raw/main/wiki/images/iCE40HX8K-Breakout/Example-01-02-2.png)\n\n",
             "readonly": true
           },
           "position": {
