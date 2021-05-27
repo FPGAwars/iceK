@@ -30,7 +30,7 @@ For installing and using this colection in Icestudio follow these steps:
 | CZech |  cs_CZ | ![](https://progress-bar.dev/0) |
 | German |  de_DE | ![](https://progress-bar.dev/0) |
 | Greek |  el_GR | ![](https://progress-bar.dev/0) |
-| Spanish |  es_ES | ![](https://progress-bar.dev/82) |
+| Spanish |  es_ES | ![](https://progress-bar.dev/75) |
 | Basque |  eu_ES | ![](https://progress-bar.dev/0) |
 | French |  fr_FR | ![](https://progress-bar.dev/0) |
 | Galician |  gl_ES | ![](https://progress-bar.dev/0) |
@@ -90,6 +90,38 @@ For installing and using this colection in Icestudio follow these steps:
   * **Alhambra-II**
     * 01-One-LED
     * 02-Two-LEDs
+  * **Fomu**
+    * 01-One-LED
+    * 02-Two-LEDs
+  * **IceZum-Alhambra**
+    * 01-One-LED
+    * 02-Two-LEDs
+  * **MyStorm-BlackIce**
+    * 01-One-LED
+    * 02-Two-LEDs
+  * **Nandland-Go-board**
+    * 01-One-LED
+    * 02-Two-LEDs
+  * **Radiona-ULX3S-12F**
+    * 01-One-LED
+    * 02-Two-LEDs
+  * **iCE40HX8K-Breakout**
+    * 01-One-LED
+    * 02-Two-LEDs
+  * **iCE40UP-Breakout**
+    * 01-One-LED
+    * 02-Two-LEDs
+  * **iCESugar-1.5**
+    * 01-One-LED
+    * 02-Two-LEDs
+  * **iceBreaker**
+    * 01-One-LED
+    * 02-Two-LEDs
+  * **iceStick**
+    * 01-One-LED
+    * 02-Two-LEDs
+  * **tinyFPGA**
+    * 01-One-LED
 * **02-Generic-constants**
   * **Alhambra-II**
     * 01-One-LEDs

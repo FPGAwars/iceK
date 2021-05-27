@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2021-05-26 13:54+0200\n"
+"POT-Creation-Date: 2021-05-27 19:32+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -18,7 +18,7 @@ msgstr ""
 msgid "Bits"
 msgstr "Bits"
 
-#: translation.js:11 translation.js:129
+#: translation.js:11 translation.js:229
 msgid "Bus"
 msgstr "Bus"
 
@@ -47,31 +47,31 @@ msgstr "generico"
 msgid "1-bit generic constant (0/1)"
 msgstr "Constante genérica de 1 bit (0/1)"
 
-#: translation.js:18 translation.js:131
+#: translation.js:18 translation.js:231
 msgid "Bus-02"
 msgstr "Bus-02"
 
-#: translation.js:19 translation.js:132
+#: translation.js:19 translation.js:232
 msgid "Bus-03"
 msgstr "Bus-03"
 
-#: translation.js:20 translation.js:133
+#: translation.js:20 translation.js:233
 msgid "Bus-04"
 msgstr "Bus-04"
 
-#: translation.js:21 translation.js:134
+#: translation.js:21 translation.js:234
 msgid "Bus-05"
 msgstr "Bus-05"
 
-#: translation.js:22 translation.js:135
+#: translation.js:22 translation.js:235
 msgid "Bus-06"
 msgstr "Bus-06"
 
-#: translation.js:23 translation.js:136
+#: translation.js:23 translation.js:236
 msgid "Bus-07"
 msgstr "Bus-07"
 
-#: translation.js:24 translation.js:137
+#: translation.js:24 translation.js:237
 msgid "Bus-08"
 msgstr "Bus-08"
 
@@ -100,10 +100,10 @@ msgid "Inputs: 1,2,3,4"
 msgstr "Entradas: 1,2,3,4"
 
 #: translation.js:31 translation.js:41 translation.js:53 translation.js:67
-#: translation.js:71 translation.js:75 translation.js:83 translation.js:160
-#: translation.js:174 translation.js:189 translation.js:196 translation.js:199
-#: translation.js:204 translation.js:207 translation.js:212 translation.js:215
-#: translation.js:220 translation.js:223
+#: translation.js:71 translation.js:75 translation.js:83 translation.js:260
+#: translation.js:274 translation.js:289 translation.js:296 translation.js:299
+#: translation.js:304 translation.js:307 translation.js:312 translation.js:315
+#: translation.js:320 translation.js:323
 msgid "value-0"
 msgstr "valor-0"
 
@@ -111,8 +111,8 @@ msgstr "valor-0"
 msgid "2bits constant value: 0"
 msgstr "Valor constante 0 de 2 bits"
 
-#: translation.js:33 translation.js:43 translation.js:57 translation.js:162
-#: translation.js:178
+#: translation.js:33 translation.js:43 translation.js:57 translation.js:262
+#: translation.js:278
 msgid "value-1"
 msgstr "valor-1"
 
@@ -120,8 +120,8 @@ msgstr "valor-1"
 msgid "2bits constant value: 1"
 msgstr "Valor constante 1 de 2 bits"
 
-#: translation.js:35 translation.js:45 translation.js:59 translation.js:164
-#: translation.js:180
+#: translation.js:35 translation.js:45 translation.js:59 translation.js:264
+#: translation.js:280
 msgid "value-2"
 msgstr "valor-2"
 
@@ -153,7 +153,7 @@ msgstr "Valor constante 1 de 3 bits"
 msgid "3bits constant value: 2"
 msgstr "Valor constante 2 de 3 bits"
 
-#: translation.js:47 translation.js:61 translation.js:166 translation.js:182
+#: translation.js:47 translation.js:61 translation.js:266 translation.js:282
 msgid "value-4"
 msgstr "valor-4"
 
@@ -161,7 +161,7 @@ msgstr "valor-4"
 msgid "3bits constant value: 4"
 msgstr "Valor constante 4 de 3 bits"
 
-#: translation.js:49 translation.js:168
+#: translation.js:49 translation.js:268
 msgid "value-7"
 msgstr "valor-7"
 
@@ -177,17 +177,13 @@ msgstr "Constante genérica de 4 bits (0-15)"
 msgid "4bits constant value: 0"
 msgstr "Valor constante 0 de 4 bits"
 
-#: translation.js:55 translation.js:176 translation.js:190
-#, fuzzy
-#| msgid "value-0"
+#: translation.js:55 translation.js:276 translation.js:290
 msgid "value-0xF"
-msgstr "valor-0"
+msgstr "valor-0xF"
 
 #: translation.js:56
-#, fuzzy
-#| msgid "4bits constant value: 15"
 msgid "4bits constant value: 15 (0xF in hexadecimal)"
-msgstr "Valor constante 15 de 4 bits"
+msgstr "Valor constante de 4 bits: 15 (0xF en hexadecimal)"
 
 #: translation.js:58
 msgid "4bits constant value: 1"
@@ -201,7 +197,7 @@ msgstr "Valor constante 2 de 4 bits"
 msgid "4bits constant value: 4"
 msgstr "Valor constante 4 de 4 bits"
 
-#: translation.js:63 translation.js:184
+#: translation.js:63 translation.js:284
 msgid "value-8"
 msgstr "valor-8"
 
@@ -246,16 +242,12 @@ msgid "Generic: 8-bits generic constant (0-255)"
 msgstr "Constante genérica de 8 bits (0-255)"
 
 #: translation.js:80
-#, fuzzy
-#| msgid "Ascii-A"
 msgid "Ascii-Asterisk"
-msgstr "Ascii-A"
+msgstr "Ascii-Asterisco"
 
 #: translation.js:81
-#, fuzzy
-#| msgid "8bits ASCII Letter A"
 msgid "8bits ASCII asterisk symbol *"
-msgstr "Letra ASCII de 8 bits"
+msgstr "Símbolo ASCII asterisco * de 8 bits"
 
 #: translation.js:84
 msgid "8bits constant value: 0"
@@ -263,13 +255,11 @@ msgstr "Valor constante 0 de 8 bits"
 
 #: translation.js:85
 msgid "01-Turn-on-LEDs"
-msgstr ""
+msgstr "01-Turn-on-LEDs"
 
 #: translation.js:86
-#, fuzzy
-#| msgid "Generic constant"
 msgid "02-Generic-constants"
-msgstr "Constante genérica"
+msgstr "02-Generic-constants"
 
 #: translation.js:87
 msgid "TESTs"
@@ -339,132 +329,654 @@ msgstr "### Constantes de 8 bits"
 msgid "Ascii "
 msgstr "Ascii "
 
-#: translation.js:105 translation.js:116 translation.js:138 translation.js:156
-#: translation.js:170 translation.js:192 translation.js:200 translation.js:208
-#: translation.js:216 translation.js:224
+#: translation.js:105 translation.js:212 translation.js:238 translation.js:256
+#: translation.js:270 translation.js:292 translation.js:300 translation.js:308
+#: translation.js:316 translation.js:324
 msgid "Alhambra-II"
 msgstr "Alhambra-II"
 
-#: translation.js:106 translation.js:114
-msgid "01-One-LED"
+#: translation.js:106
+msgid "Fomu"
 msgstr ""
 
 #: translation.js:107
-msgid "# Turn on a LED"
-msgstr ""
+#, fuzzy
+#| msgid "Alhambra-II"
+msgid "IceZum-Alhambra"
+msgstr "Alhambra-II"
 
 #: translation.js:108
-#, fuzzy
-#| msgid "### 1-bit constants"
-msgid "1-bit constant"
-msgstr "### Constantes de 1 bit"
-
-#: translation.js:109
-msgid "Output pin"
+msgid "MyStorm-BlackIce"
 msgstr ""
 
-#: translation.js:110 translation.js:115 translation.js:120
-msgid "02-Two-LEDs"
+#: translation.js:109
+msgid "Nandland-Go-board"
+msgstr ""
+
+#: translation.js:110
+msgid "Radiona-ULX3S-12F"
 msgstr ""
 
 #: translation.js:111
+msgid "iCE40HX8K-Breakout"
+msgstr ""
+
+#: translation.js:112
+msgid "iCE40UP-Breakout"
+msgstr ""
+
+#: translation.js:113
+msgid "iCESugar-1.5"
+msgstr ""
+
+#: translation.js:114
+msgid "iceBreaker"
+msgstr ""
+
+#: translation.js:115
+msgid "iceStick"
+msgstr ""
+
+#: translation.js:116
+msgid "tinyFPGA"
+msgstr "tinyFPGA"
+
+#: translation.js:117 translation.js:127 translation.js:129 translation.js:144
+#: translation.js:146 translation.js:150 translation.js:152 translation.js:157
+#: translation.js:159 translation.js:163 translation.js:165 translation.js:170
+#: translation.js:172 translation.js:176 translation.js:178 translation.js:184
+#: translation.js:187 translation.js:192 translation.js:194 translation.js:201
+#: translation.js:203 translation.js:207 translation.js:209 translation.js:211
+msgid "01-One-LED"
+msgstr "01-One-LED"
+
+#: translation.js:118
+msgid "# Turn on a LED"
+msgstr "# Encender un LED"
+
+#: translation.js:119
+msgid "1-bit constant"
+msgstr "Constante de 1 bit"
+
+#: translation.js:120
+msgid "Output pin"
+msgstr "Pin de salida"
+
+#: translation.js:121
+msgid ""
+"## Result\n"
+"\n"
+"The LED0 is on\n"
+"\n"
+"(If you are connected to Internet you will see a picture)  \n"
+"\n"
+"![Alhambra II image](https://github.com/FPGAwars/iceK/raw/main/wiki/images/"
+"Alhambra-II/Example-01-01.png)"
+msgstr ""
+
+#: translation.js:122 translation.js:128 translation.js:138 translation.js:145
+#: translation.js:148 translation.js:151 translation.js:155 translation.js:158
+#: translation.js:161 translation.js:164 translation.js:168 translation.js:171
+#: translation.js:174 translation.js:177 translation.js:181 translation.js:185
+#: translation.js:189 translation.js:193 translation.js:198 translation.js:202
+#: translation.js:205 translation.js:208 translation.js:217
+msgid "02-Two-LEDs"
+msgstr "02-Two-LEDs"
+
+#: translation.js:123
 msgid ""
 "# Turning on two LEDs\n"
 "\n"
 "The 2-bit constant 3 (11 in binary) is used to turn on  \n"
 "two LEDs"
 msgstr ""
+"# Encendiendo dos LEDs\n"
+"\n"
+"La constante 3 de 2 bits (11 en binario) se usa para encender  \n"
+"dos LEDs"
 
-#: translation.js:112
+#: translation.js:124
 msgid "Output pins"
-msgstr ""
+msgstr "Pines de salida"
 
-#: translation.js:113
-#, fuzzy
-#| msgid "2bits constant value: 1"
+#: translation.js:125
 msgid ""
 "2-bit constant value 3  \n"
 "(11 in binary)"
-msgstr "Valor constante 1 de 2 bits"
+msgstr "Valor constante 3 de 2 bits (11 en binario)"
 
-#: translation.js:117
-msgid "01-One-LEDs"
+#: translation.js:126
+msgid ""
+"## Result:\n"
+"\n"
+"The LEDs 0 and 1 are turned on  \n"
+"\n"
+"(If you are connected to internet you will see a picture)  \n"
+"\n"
+"![Alhambra II board picture](https://raw.githubusercontent.com/FPGAwars/iceK/"
+"main/wiki/images/Alhambra-II/Example-01-02-2.png)\n"
+"\n"
 msgstr ""
 
-#: translation.js:118
+#: translation.js:130
+msgid ""
+"## Result\n"
+"\n"
+"The RGB LED is turned GREEN\n"
+"\n"
+"(If you are connected to Internet you will see a picture)  \n"
+"\n"
+"![Fomu image](https://github.com/FPGAwars/iceK/raw/main/wiki/images/Fomu/"
+"Example-01-02-2.png)"
+msgstr ""
+
+#: translation.js:131
+msgid "usb pins must be \"0\""
+msgstr "Los pines USB deben estar a \"0\""
+
+#: translation.js:132
+msgid "usb_dp_pu"
+msgstr "usb_dp_pu"
+
+#: translation.js:133
+msgid "Green"
+msgstr ""
+
+#: translation.js:134
+msgid "Red"
+msgstr ""
+
+#: translation.js:135
+msgid "Blue"
+msgstr ""
+
+#: translation.js:136
+msgid ""
+"RGB LED work with  \n"
+"negative logic:  \n"
+"* 0: Turn LED on  \n"
+"* 1: Turn LED off  \n"
+"The three components (red, green, blue) act as  \n"
+"independent LEDs"
+msgstr ""
+
+#: translation.js:137
+msgid ""
+"The Red and Blue components  \n"
+"are turned off"
+msgstr ""
+
+#: translation.js:139
+#, fuzzy
+#| msgid "# Turn on a LED"
+msgid "# Turn on two LEDs"
+msgstr "# Encender un LED"
+
+#: translation.js:140
+msgid ""
+"## Result\n"
+"\n"
+"The components Green and Red of the RGB LED are turned on, so that  \n"
+"the color displayed is Yellow\n"
+"\n"
+"(If you are connected to Internet you will see a picture)  \n"
+"\n"
+"![Fomu image](https://github.com/FPGAwars/iceK/raw/main/wiki/images/Fomu/"
+"Example-01-02-2.png)"
+msgstr ""
+
+#: translation.js:141
+#, fuzzy
+#| msgid ""
+#| "2-bit constant value 3  \n"
+#| "(11 in binary)"
+msgid ""
+"2-bit constant value 0  \n"
+"(00 in binary)"
+msgstr "Valor constante 3 de 2 bits (11 en binario)"
+
+#: translation.js:142
+msgid ""
+"LEDs R and G work with  \n"
+"negative logic:  \n"
+"* 0: Turn LED on  \n"
+"* 1: Turn LED off"
+msgstr ""
+
+#: translation.js:143
+msgid ""
+"The RGB2 is turned off   \n"
+"(No blue color)  \n"
+"(negative logic)"
+msgstr ""
+"El RGB2 se apaga  \n"
+"(sin color azul)  \n"
+"(lógica negativa)"
+
+#: translation.js:147
+msgid ""
+"## Result\n"
+"\n"
+"The LED0 is on\n"
+"\n"
+"(If you are connected to Internet you will see a picture)  \n"
+"\n"
+"![Icezum Alhambra image](https://github.com/FPGAwars/iceK/raw/main/wiki/"
+"images/Icezum-Alhambra/Example-01-01-2.png)  "
+msgstr ""
+
+#: translation.js:149
+msgid ""
+"## Result:\n"
+"\n"
+"The LEDs 0 and 1 are turned on  \n"
+"\n"
+"(If you are connected to internet you will see a picture)  \n"
+"\n"
+"![Icezum Alhambra picture](https://github.com/FPGAwars/iceK/raw/main/wiki/"
+"images/Icezum-Alhambra/Example-01-02-2.png)\n"
+"\n"
+msgstr ""
+
+#: translation.js:153
+msgid ""
+"## Result\n"
+"\n"
+"The LED1 (blue) is on\n"
+"\n"
+"(If you are connected to Internet you will see a picture)  \n"
+"\n"
+"![MyStorm blackIce image](https://raw.githubusercontent.com/FPGAwars/iceK/"
+"main/wiki/images/MyStorm-Blackice/Example-01-01-2.png)  "
+msgstr ""
+
+#: translation.js:154
+msgid ""
+"Turn off LED2  \n"
+"(The FPGA pins are in high impedance state  \n"
+"so that not driven LEDs bright a little bit)  "
+msgstr ""
+"Apagar el LED2  \n"
+"(Los pines de la FPGA están en alta impedancia  \n"
+"por lo que los LEDs no usados brillan un poquito)  "
+
+#: translation.js:156
+msgid ""
+"## Result:\n"
+"\n"
+"The LEDs 1 (blue) and 2 (green) are turned on  \n"
+"\n"
+"(If you are connected to internet you will see a picture)  \n"
+"\n"
+"![Mystorm Blackice](https://github.com/FPGAwars/iceK/raw/main/wiki/images/"
+"MyStorm-Blackice/Example-01-02-2.png)\n"
+"\n"
+msgstr ""
+
+#: translation.js:160
+msgid ""
+"## Result\n"
+"\n"
+"The LED D1 (green) is on\n"
+"\n"
+"(If you are connected to Internet you will see a picture)  \n"
+"\n"
+"![Nandland-Go-board image](https://raw.githubusercontent.com/FPGAwars/iceK/"
+"main/wiki/images/NandLand-Go-Board/Example-01-01-2.png)  "
+msgstr ""
+
+#: translation.js:162
+msgid ""
+"## Result:\n"
+"\n"
+"The LEDs D1 and D2 are turned on  \n"
+"\n"
+"(If you are connected to internet you will see a picture)  \n"
+"\n"
+"![Nandland Go Board picture](https://raw.githubusercontent.com/FPGAwars/iceK/"
+"main/wiki/images/NandLand-Go-Board/Example-01-02-2.png)\n"
+"\n"
+msgstr ""
+
+#: translation.js:166
+msgid ""
+"## Result\n"
+"\n"
+"The LED0 (D0) is on (red)\n"
+"\n"
+"(If you are connected to Internet you will see a picture)  \n"
+"\n"
+"![Radiona ULX3S-12F image](https://github.com/FPGAwars/iceK/raw/main/wiki/"
+"images/Radiona-ULX3S-12F/Example-01-01-2.png)"
+msgstr ""
+
+#: translation.js:167
+msgid ""
+"wifi_gpio0 should be 0 if wifi  \n"
+"is not used"
+msgstr ""
+"wifi_spio0 debe estar a 0 si  \n"
+"no se usa la wiki"
+
+#: translation.js:169
+msgid ""
+"## Result:\n"
+"\n"
+"The LEDs 0 (D0,red) and 1 (D1, orange) are turned on\n"
+"\n"
+"(If you are connected to Internet you will see a picture)  \n"
+"\n"
+"![Radiona ULX3S-12F image](https://github.com/FPGAwars/iceK/raw/main/wiki/"
+"images/Radiona-ULX3S-12F/Example-01-02-2.png)"
+msgstr ""
+
+#: translation.js:173
+msgid ""
+"## Result\n"
+"\n"
+"The LED0 (red, D9) is on\n"
+"\n"
+"(If you are connected to Internet you will see a picture)  \n"
+"\n"
+"![Lattice ice40HX8K Breakout Board image](https://github.com/FPGAwars/iceK/"
+"raw/main/wiki/images/iCE40HX8K-Breakout/Example-01-01-2.png)  "
+msgstr ""
+
+#: translation.js:175
+msgid ""
+"## Result:\n"
+"\n"
+"The LEDs 0 (D9) and 1 (D8) are turned on  \n"
+"\n"
+"(If you are connected to internet you will see a picture)  \n"
+"\n"
+"![Lattice iCE40-HX8K Breakout board Image](https://github.com/FPGAwars/iceK/"
+"raw/main/wiki/images/iCE40HX8K-Breakout/Example-01-02-2.png)\n"
+"\n"
+msgstr ""
+
+#: translation.js:179
+msgid ""
+"## Result\n"
+"\n"
+"The RGB LED is turned RED\n"
+"\n"
+"(If you are connected to Internet you will see a picture)  \n"
+"\n"
+"![Lattice ice40UP Breakout Board image](https://github.com/FPGAwars/iceK/raw/"
+"main/wiki/images/iCE40UP-Breakout/Example-01-01-2.png)  "
+msgstr ""
+
+#: translation.js:180
+msgid ""
+"The Green and Blue components  \n"
+"are turned off"
+msgstr ""
+
+#: translation.js:182
+msgid ""
+"## Result\n"
+"\n"
+"The components Red and Green of the RGB LED are turned on, so that  \n"
+"the color displayed is Yellow\n"
+"\n"
+"(If you are connected to Internet you will see a picture)  \n"
+"\n"
+"![Lattice ice40UP Breakout Board image](https://github.com/FPGAwars/iceK/raw/"
+"main/wiki/images/iCE40UP-Breakout/Example-01-02-2.png)  "
+msgstr ""
+
+#: translation.js:183
+msgid ""
+"The LED_B is turned off   \n"
+"(No blue color)  \n"
+"(negative logitc)"
+msgstr ""
+
+#: translation.js:186
+#, fuzzy
+#| msgid "02-Two-LEDs"
+msgid "0s-Two-LEDs"
+msgstr "02-Two-LEDs"
+
+#: translation.js:188
+msgid ""
+"## Result\n"
+"\n"
+"The RGB LED is turned RED\n"
+"\n"
+"(If you are connected to Internet you will see a picture)  \n"
+"\n"
+"![iCESugar 1.5 image](https://github.com/FPGAwars/iceK/raw/main/wiki/images/"
+"iCESugar-1.5/Example-01-01-2.png)  "
+msgstr ""
+
+#: translation.js:190
+msgid ""
+"## Result\n"
+"\n"
+"The components Red and Blue of the RGB LED are turned on, so that  \n"
+"the color displayed is Magenta\n"
+"\n"
+"(If you are connected to Internet you will see a picture)  \n"
+"\n"
+"![iCESugar 1.5 image](https://github.com/FPGAwars/iceK/raw/main/wiki/images/"
+"iCESugar-1.5/Example-01-02-2.png)  "
+msgstr ""
+
+#: translation.js:191
+msgid ""
+"The LED_G is turned off   \n"
+"(No blue color)  \n"
+"(negative logitc)"
+msgstr ""
+
+#: translation.js:195
+#, fuzzy
+#| msgid "# Turn on a LED"
+msgid "# Turn on the red LED"
+msgstr "# Encender un LED"
+
+#: translation.js:196
+msgid ""
+"## Result\n"
+"\n"
+"The green LED (G) is on\n"
+"\n"
+"(If you are connected to Internet you will see a picture)  \n"
+"\n"
+"![icebreakerA image](https://raw.githubusercontent.com/FPGAwars/iceK/main/"
+"wiki/images/iceBreaker/Example-01-01-2.png)  "
+msgstr ""
+
+#: translation.js:197
+msgid ""
+"LEDs G and R works with  \n"
+"negative logic:  \n"
+"* 0: Turn LED on  \n"
+"* 1: Turn LED off"
+msgstr ""
+
+#: translation.js:199
+#, fuzzy
+#| msgid ""
+#| "# Turning on two LEDs\n"
+#| "\n"
+#| "The 2-bit constant 3 (11 in binary) is used to turn on  \n"
+#| "two LEDs"
+msgid ""
+"# Turning on two LEDs\n"
+"\n"
+"The 2-bit constant 0 (00 in binary) is used to turn on  \n"
+"two LEDs"
+msgstr ""
+"# Encendiendo dos LEDs\n"
+"\n"
+"La constante 3 de 2 bits (11 en binario) se usa para encender  \n"
+"dos LEDs"
+
+#: translation.js:200
+msgid ""
+"## Result:\n"
+"\n"
+"The LEDs G and R are turned on  \n"
+"\n"
+"(If you are connected to internet you will see a picture)  \n"
+"\n"
+"![iceBreaker board picture](https://raw.githubusercontent.com/FPGAwars/iceK/"
+"main/wiki/images/iceBreaker/Example-01-02-2.png)\n"
+"\n"
+msgstr ""
+
+#: translation.js:204
+msgid ""
+"## Result\n"
+"\n"
+"The LED D1 is on\n"
+"\n"
+"(If you are connected to Internet you will see a picture)  \n"
+"\n"
+"![Alhambra II image](https://github.com/FPGAwars/iceK/raw/main/wiki/images/"
+"iceStick/Example-01-01-2.png)  "
+msgstr ""
+
+#: translation.js:206
+msgid ""
+"## Result:\n"
+"\n"
+"The LEDs D1 and D2 are turned on  \n"
+"\n"
+"(If you are connected to internet you will see a picture)  \n"
+"\n"
+"![iceStick board picture](https://github.com/FPGAwars/iceK/raw/main/wiki/"
+"images/iceStick/Example-01-02-2.png)\n"
+"\n"
+msgstr ""
+
+#: translation.js:210
+msgid ""
+"## Result\n"
+"\n"
+"The red LED is on (Boot)\n"
+"\n"
+"(If you are connected to Internet you will see a picture)  \n"
+"\n"
+"![TinyFPGA image](https://raw.githubusercontent.com/FPGAwars/iceK/main/wiki/"
+"images/TinyFPGA/Example-01-01-2.png)  "
+msgstr ""
+
+#: translation.js:213 translation.js:227
+msgid "01-One-LEDs"
+msgstr "01-One-LEDs"
+
+#: translation.js:214
 msgid ""
 "# 1-bit Generic constant on one LED\n"
 "\n"
 "The value of the 1-bit generic constante is used for turning  \n"
 "on or off the LED"
 msgstr ""
+"# Constante genérica de 1 bit1 en un LEDs\n"
+"\n"
+"El valor de la constante genérica de 1-bit se usa para  \n"
+"encender o apagar un LED"
 
-#: translation.js:119
+#: translation.js:215
 msgid ""
 "Set the value  \n"
 "of the k constant (0 / 1)"
 msgstr ""
+"Establecer el valor  \n"
+"de la constante k (0 / 1)"
 
-#: translation.js:121
+#: translation.js:216
+#, fuzzy
+#| msgid "1-bit generic constant (0/1)"
+msgid "1-bit generic constant"
+msgstr "Constante genérica de 1 bit (0/1)"
+
+#: translation.js:218
 msgid ""
 "# 2-bit Generic constant on two LEDs\n"
 "\n"
 "The value of the 2-bit generic constante is used for turning  \n"
 "on or off two LEDs"
 msgstr ""
+"# Constante genérica de 2 bits en dos LEDs\n"
+"\n"
+"El valor de la constante genérica de 2-bits se usa para  \n"
+"encender o apagar dos LEDs"
 
-#: translation.js:122
+#: translation.js:219
 msgid ""
 "Set the value  \n"
 "of the k constant (0-3)"
 msgstr ""
+"Establecer el valor  \n"
+"the la constante k (0-3)"
 
-#: translation.js:123
+#: translation.js:220
 msgid ""
 "You can write the constants  \n"
 "in binary"
 msgstr ""
+"Puedes escribir las constantes  \n"
+"en binary"
 
-#: translation.js:124
+#: translation.js:221 translation.js:228
 msgid "03-Four-LEDs"
-msgstr ""
+msgstr "03-Four-LEDs"
 
-#: translation.js:125
+#: translation.js:222
 msgid ""
 "# 4-bit Generic constant on four LEDs\n"
 "\n"
 "The value of the 4-bit generic constante is used for turning  \n"
 "on or off two LEDs"
 msgstr ""
+"# Constante genérica de 4 bits en cuatro LEDs\n"
+"\n"
+"El valor de genérico constante de 4 bits se usa para  \n"
+"encender o apagar dos LEDs"
 
-#: translation.js:126
+#: translation.js:223
 msgid ""
 "Set the value  \n"
 "of the k constant (0-15)"
 msgstr ""
+"Establecer el valor  \n"
+"de la constante k (0-15)"
 
-#: translation.js:127
+#: translation.js:224
 msgid ""
 "You can write the  \n"
 "constants in binary"
 msgstr ""
+"Puedes escribir las  \n"
+"constantes en binario"
 
-#: translation.js:128
+#: translation.js:225
 msgid "..Or in hexa"
-msgstr ""
+msgstr "..o en hexadecimal"
 
-#: translation.js:130
+#: translation.js:226
+#, fuzzy
+#| msgid "1-bit generic constant (0/1)"
+msgid "4-bit generic constant"
+msgstr "Constante genérica de 1 bit (0/1)"
+
+#: translation.js:230
 msgid "bits"
 msgstr "bits"
 
-#: translation.js:139 translation.js:153 translation.js:157 translation.js:171
-#: translation.js:188 translation.js:193 translation.js:198 translation.js:201
-#: translation.js:206 translation.js:209 translation.js:214 translation.js:217
-#: translation.js:222
+#: translation.js:239 translation.js:253 translation.js:257 translation.js:271
+#: translation.js:288 translation.js:293 translation.js:298 translation.js:301
+#: translation.js:306 translation.js:309 translation.js:314 translation.js:317
+#: translation.js:322
 msgid "01-generic"
 msgstr "01-generic"
 
-#: translation.js:140
+#: translation.js:240
 msgid ""
 "## Changing the state of two LEDs\n"
 "\n"
@@ -476,7 +988,7 @@ msgstr ""
 "Sacar el valor indicado por el parámetro. Este valor \n"
 "encenderá o apagará el LED"
 
-#: translation.js:141
+#: translation.js:241
 msgid ""
 "Values for testing:  \n"
 "0, 1, 2 and 3"
@@ -484,15 +996,15 @@ msgstr ""
 "Valores para probar:  \n"
 "0, 1, 2 y 3"
 
-#: translation.js:142
+#: translation.js:242
 msgid "02-value-0"
 msgstr "02-valor-0"
 
-#: translation.js:143
+#: translation.js:243
 msgid "Generic: 2-bits generic constant (0/1)"
 msgstr "Constante genérica de 2 bits (0-3)"
 
-#: translation.js:144
+#: translation.js:244
 msgid ""
 "## 2-bits Value 0: Turning off two LEDs\n"
 "\n"
@@ -502,11 +1014,11 @@ msgstr ""
 "\n"
 "Se apagan dos LEDs"
 
-#: translation.js:145
+#: translation.js:245
 msgid "03-value-1"
 msgstr "03-valor-1"
 
-#: translation.js:146
+#: translation.js:246
 msgid ""
 "## 2-bits Value 1: Tests on LEDs\n"
 "\n"
@@ -516,11 +1028,11 @@ msgstr ""
 "\n"
 "Se enciende un LED"
 
-#: translation.js:147
+#: translation.js:247
 msgid "04-value-2"
 msgstr "04-valor-3"
 
-#: translation.js:148
+#: translation.js:248
 msgid ""
 "## 2-bits Value 2: Test on leds\n"
 "\n"
@@ -530,11 +1042,11 @@ msgstr ""
 "\n"
 "Se enciende un LED"
 
-#: translation.js:149 translation.js:154
+#: translation.js:249 translation.js:254
 msgid "05-value-3"
 msgstr "05-value-3"
 
-#: translation.js:150
+#: translation.js:250
 msgid ""
 "## 2-bits Value 3: Turning on two LEDs\n"
 "\n"
@@ -544,11 +1056,11 @@ msgstr ""
 "\n"
 "Enciende los dos LEDs"
 
-#: translation.js:151 translation.js:155
+#: translation.js:251 translation.js:255
 msgid "06-k-1"
 msgstr "06-k-1"
 
-#: translation.js:152
+#: translation.js:252
 msgid ""
 "Values for testing:  \n"
 "1, 2, 3 and 4"
@@ -556,7 +1068,7 @@ msgstr ""
 "Valores para probar:  \n"
 "1, 2, 3 y 4"
 
-#: translation.js:158
+#: translation.js:258
 msgid ""
 "## Changing the state of 3 LEDs\n"
 "\n"
@@ -568,7 +1080,7 @@ msgstr ""
 "Sacar el valor indicado por el parámetro. Este valor \n"
 "encenderá o apagará los LEDs"
 
-#: translation.js:159
+#: translation.js:259
 msgid ""
 "Values for testing:  \n"
 "0-7"
@@ -576,7 +1088,7 @@ msgstr ""
 "Valores para probar:  \n"
 "0-7"
 
-#: translation.js:161
+#: translation.js:261
 msgid ""
 "## 3-bits Value 0: Test on LEDs\n"
 "\n"
@@ -586,7 +1098,7 @@ msgstr ""
 "\n"
 "Se apagan los tres LEDs"
 
-#: translation.js:163
+#: translation.js:263
 msgid ""
 "## 3-bits Value 1: Test on LEDs\n"
 "\n"
@@ -596,7 +1108,7 @@ msgstr ""
 "\n"
 "Mostrar el valor en los LEDs"
 
-#: translation.js:165
+#: translation.js:265
 msgid ""
 "## 3-bits Value 2: Test on LEDs\n"
 "\n"
@@ -606,7 +1118,7 @@ msgstr ""
 "\n"
 "Mostrar el valor en los LEDs"
 
-#: translation.js:167
+#: translation.js:267
 msgid ""
 "## 3-bits Value 4: Test on LEDs\n"
 "\n"
@@ -616,7 +1128,7 @@ msgstr ""
 "\n"
 "Mostrar el valor en los LEDs"
 
-#: translation.js:169
+#: translation.js:269
 msgid ""
 "## 3-bits Value 7: Turning on three LEDs\n"
 "\n"
@@ -626,7 +1138,7 @@ msgstr ""
 "\n"
 "Mostrar el valor en los LEDs"
 
-#: translation.js:172
+#: translation.js:272
 msgid ""
 "## Changing the state of 4 LEDs\n"
 "\n"
@@ -638,7 +1150,7 @@ msgstr ""
 "Sacar el valor indicado por el parámetro. Este valor \n"
 "encenderá o apagará los LEDs"
 
-#: translation.js:173
+#: translation.js:273
 msgid ""
 "Values for testing:  \n"
 "0-15"
@@ -646,7 +1158,7 @@ msgstr ""
 "Valores para probar:  \n"
 "0-15"
 
-#: translation.js:175
+#: translation.js:275
 msgid ""
 "## 4-bits Value 0: Test on LEDs\n"
 "\n"
@@ -656,7 +1168,7 @@ msgstr ""
 "\n"
 "Mostrar el valor en los LEDs"
 
-#: translation.js:177
+#: translation.js:277
 msgid ""
 "## 4-bits Value 15: Test on LEDs\n"
 "\n"
@@ -666,7 +1178,7 @@ msgstr ""
 "\n"
 "Mostrar el valor en los LEDs"
 
-#: translation.js:179
+#: translation.js:279
 msgid ""
 "## 4-bits Value 1: Test on LEDs\n"
 "\n"
@@ -676,7 +1188,7 @@ msgstr ""
 "\n"
 "Mostrar el valor en los LEDs"
 
-#: translation.js:181
+#: translation.js:281
 msgid ""
 "## 4-bits Value 2: Test on LEDs\n"
 "\n"
@@ -686,7 +1198,7 @@ msgstr ""
 "\n"
 "Mostrar el valor en los LEDs"
 
-#: translation.js:183
+#: translation.js:283
 msgid ""
 "## 4-bits Value 4: Test on LEDs\n"
 "\n"
@@ -696,7 +1208,7 @@ msgstr ""
 "\n"
 "Mostrar el valor en los LEDs"
 
-#: translation.js:185
+#: translation.js:285
 msgid ""
 "## 4-bits Value 8: Test on LEDs\n"
 "\n"
@@ -706,15 +1218,15 @@ msgstr ""
 "\n"
 "Mostrar el valor en los LEDs"
 
-#: translation.js:186 translation.js:191
+#: translation.js:286 translation.js:291
 msgid "value-F"
 msgstr "valor-F"
 
-#: translation.js:187
+#: translation.js:287
 msgid "4bits constant value: 15"
 msgstr "Valor constante 15 de 4 bits"
 
-#: translation.js:194
+#: translation.js:294
 msgid ""
 "## Changing the state of 5 LEDs\n"
 "\n"
@@ -726,7 +1238,7 @@ msgstr ""
 "Sacar el valor indicado por el parámetro. Este valor \n"
 "encenderá o apagará los LEDs"
 
-#: translation.js:195
+#: translation.js:295
 msgid ""
 "Values for testing:  \n"
 "0-31"
@@ -734,7 +1246,7 @@ msgstr ""
 "Valores para probar:  \n"
 "0-31"
 
-#: translation.js:197
+#: translation.js:297
 msgid ""
 "## 5-bits Value 0: Test on LEDs\n"
 "\n"
@@ -744,7 +1256,7 @@ msgstr ""
 "\n"
 "Mostrar el valor en los LEDs"
 
-#: translation.js:202
+#: translation.js:302
 msgid ""
 "## Changing the state of 6 LEDs\n"
 "\n"
@@ -756,7 +1268,7 @@ msgstr ""
 "Sacar el valor indicado por el parámetro. Este valor \n"
 "encenderá o apagará los LEDs"
 
-#: translation.js:203
+#: translation.js:303
 msgid ""
 "Values for testing:  \n"
 "0-63"
@@ -764,7 +1276,7 @@ msgstr ""
 "Valores para probar:  \n"
 "0-63"
 
-#: translation.js:205
+#: translation.js:305
 msgid ""
 "## 6-bits Value 0: Test on LEDs\n"
 "\n"
@@ -774,7 +1286,7 @@ msgstr ""
 "\n"
 "Mostrar el valor en los LEDs"
 
-#: translation.js:210
+#: translation.js:310
 msgid ""
 "## Changing the state of 7 LEDs\n"
 "\n"
@@ -786,7 +1298,7 @@ msgstr ""
 "Sacar el valor indicado por el parámetro. Este valor \n"
 "encenderá o apagará los LEDs"
 
-#: translation.js:211
+#: translation.js:311
 msgid ""
 "Values for testing:  \n"
 "0-127"
@@ -794,7 +1306,7 @@ msgstr ""
 "Valores para probar:  \n"
 "0-127"
 
-#: translation.js:213
+#: translation.js:313
 msgid ""
 "## 7-bits Value 0: Test on LEDs\n"
 "\n"
@@ -804,7 +1316,7 @@ msgstr ""
 "\n"
 "Mostrar el valor en los LEDs"
 
-#: translation.js:218
+#: translation.js:318
 msgid ""
 "## Changing the state of 8 LEDs\n"
 "\n"
@@ -816,7 +1328,7 @@ msgstr ""
 "Sacar el valor indicado por el parámetro. Este valor \n"
 "encenderá o apagará los LEDs"
 
-#: translation.js:219
+#: translation.js:319
 msgid ""
 "Values for testing:  \n"
 "0-255"
@@ -824,7 +1336,7 @@ msgstr ""
 "Valores para probar:  \n"
 "0-255"
 
-#: translation.js:221
+#: translation.js:321
 msgid ""
 "## 8-bits Value 0: Test on LEDs\n"
 "\n"
@@ -834,11 +1346,11 @@ msgstr ""
 "\n"
 "Mostrar el valor en los LEDs"
 
-#: translation.js:225
+#: translation.js:325
 msgid "01-bit-0"
 msgstr "01-bit-0"
 
-#: translation.js:226
+#: translation.js:326
 msgid ""
 "## Turn off an LED\n"
 "\n"
@@ -848,11 +1360,11 @@ msgstr ""
 "\n"
 "Sacar el valor 0. El LED se apagará"
 
-#: translation.js:227
+#: translation.js:327
 msgid "02-bit-1"
 msgstr "02-bit-1"
 
-#: translation.js:228
+#: translation.js:328
 msgid ""
 "## Turn on an LED\n"
 "\n"
@@ -862,11 +1374,11 @@ msgstr ""
 "\n"
 "Sacar el bit 1.  Se encenderá el LED"
 
-#: translation.js:229
+#: translation.js:329
 msgid "03-generic-bit"
 msgstr "03-generic-bit"
 
-#: translation.js:230
+#: translation.js:330
 msgid ""
 "## Changing the state of an LED\n"
 "\n"
