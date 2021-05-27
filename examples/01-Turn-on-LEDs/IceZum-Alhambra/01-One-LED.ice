@@ -82,7 +82,7 @@
           "id": "8396c252-072a-4cea-8149-66dbdd3a63ea",
           "type": "basic.info",
           "data": {
-            "info": "## Result\n\nThe LED0 is on\n\n(If you are connected to Internet you will see a picture)  \n\n![Icezum Alhambra image]()  ",
+            "info": "## Result\n\nThe LED0 is on\n\n(If you are connected to Internet you will see a picture)  \n\n![Icezum Alhambra image](https://github.com/FPGAwars/iceK/raw/main/wiki/images/Icezum-Alhambra/Example-01-01-2.png)  ",
             "readonly": true
           },
           "position": {
