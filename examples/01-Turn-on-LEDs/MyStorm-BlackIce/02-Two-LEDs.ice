@@ -88,7 +88,7 @@
           "id": "7a3b8e5f-11d3-4198-b15b-49a6ba3323f6",
           "type": "basic.info",
           "data": {
-            "info": "## Result:\n\nThe LEDs 1 (blue) and 2 (green) are turned on  \n\n(If you are connected to internet you will see a picture)  \n\n![Mystorm Blackice]()\n\n",
+            "info": "## Result:\n\nThe LEDs 1 (blue) and 2 (green) are turned on  \n\n(If you are connected to internet you will see a picture)  \n\n![Mystorm Blackice](https://raw.githubusercontent.com/FPGAwars/iceK/main/wiki/images/MyStorm-Blackice/Example-01-01-2.png)\n\n",
             "readonly": true
           },
           "position": {
