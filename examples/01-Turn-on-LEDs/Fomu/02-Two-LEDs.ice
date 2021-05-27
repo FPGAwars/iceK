@@ -121,16 +121,16 @@
           "id": "8396c252-072a-4cea-8149-66dbdd3a63ea",
           "type": "basic.info",
           "data": {
-            "info": "## Result\n\nThe components Green and Red of the RGB LED are turned on, so that  \nthe color displayed is Yellow\n\n(If you are connected to Internet you will see a picture)  \n\n![Fomu image]()",
+            "info": "## Result\n\nThe components Green and Red of the RGB LED are turned on, so that  \nthe color displayed is Yellow\n\n(If you are connected to Internet you will see a picture)  \n\n![Fomu image](https://github.com/FPGAwars/iceK/raw/main/wiki/images/Fomu/Example-01-02-2.png)",
             "readonly": true
           },
           "position": {
-            "x": 896,
-            "y": 80
+            "x": 880,
+            "y": 8
           },
           "size": {
-            "width": 528,
-            "height": 160
+            "width": 408,
+            "height": 192
           }
         },
         {
