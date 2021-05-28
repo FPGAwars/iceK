@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="377.65045mm"
+   height="97.824982mm"
+   viewBox="0 0 377.65045 97.824982"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1 (c22cd4935e, 2021-05-26)"
+   sodipodi:docname="organization-4.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="0.64052329"
+     inkscape:cx="633.07612"
+     inkscape:cy="288.04573"
+     inkscape:window-width="1860"
+     inkscape:window-height="1016"
+     inkscape:window-x="60"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer2" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="back"
+     transform="translate(62.300536,-72.414441)">
+    <rect
+       style="fill:#ffffff;stroke:#ffffff;stroke-width:1.5875"
+       id="rect902"
+       width="376.06296"
+       height="96.23748"
+       x="-61.506786"
+       y="73.208191" />
+  </g>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(62.300536,-72.414441)">
+    <path
+       d="m 24.634031,130.51786 q 2.55574,1.89314 5.774078,4.82751 3.218341,2.83972 6.342025,6.15271 3.218338,3.313 6.058049,6.81531 2.839712,3.40765 4.543538,6.34202 h -9.27639 q -1.798484,-2.93437 -4.448881,-5.96339 -2.650397,-3.12369 -5.679423,-5.9634 -2.934369,-2.83971 -5.963395,-5.20613 -2.934366,-2.36643 -5.300794,-3.9756 v 21.10852 H 8.8263043 V 90.383275 l 7.8565337,-1.325197 v 40.039932 q 5.206139,-4.54354 10.412276,-8.99242 5.206136,-4.54354 9.371048,-9.37105 h 9.181733 q -4.070254,4.82751 -9.844332,9.93899 -5.679423,5.11148 -11.169532,9.84433 z"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:335.399px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none;stroke-width:0.282222px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path832" />
+    <g
+       id="layer1-6"
+       inkscape:label="Layer 1"
+       style="display:inline"
+       transform="matrix(0.30103422,0,0,0.30103422,89.107745,103.15523)">
+      <path
+         style="fill:none;stroke:#008000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round"
+         inkscape:connector-curvature="0"
+         id="path6"
+         d="m 69.663915,107.28527 13.49404,29.37368 -12.43879,31.77467 13.78754,4.28259 m -42.76081,-62.91564 c 0,0 -3.59775,26.95639 -8.52446,29.13197 -4.92342,2.17885 -32.22147896,22.40266 -32.22147896,22.40266 l 8.72891556,10.6362"
+         inkscape:export-filename="/home/obijuan/develop/FPGAwars/Icestudio-block-icons/Bits/png/0-legs.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <g
+         aria-label="o"
+         transform="matrix(0.9118541,0,0,1.0966667,-128.06239,35.709923)"
+         id="text4142-6"
+         style="font-style:normal;font-weight:normal;font-size:12px;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#008000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1">
+        <path
+           d="m 212.31328,-10.227385 q -10.41157,0 -17.41094,7.5243289 -6.91189,7.4368361 -9.71164,21.5230791 -2.79975,14.086242 1.1374,21.610571 3.93715,7.436836 14.34872,7.436836 10.23659,0 17.14847,-7.436836 6.99938,-7.524329 9.79913,-21.610571 2.79975,-14.086243 -1.1374,-21.5230791 -3.93715,-7.5243289 -14.17374,-7.5243289 z m 4.4621,-22.398 q 25.28525,0 36.74672,13.648781 11.54897,13.6487821 6.7369,37.796627 -4.81207,24.147844 -21.78555,37.796626 -16.97349,13.648782 -42.25873,13.648782 -25.37274,0 -36.92171,-13.648782 -11.54896,-13.648782 -6.73689,-37.796626 4.81207,-24.1478449 21.78555,-37.796627 17.06098,-13.648781 42.43371,-13.648781 z"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:179.184px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold Italic';fill:#008000;stroke-width:1px"
+           id="path77" />
+      </g>
+    </g>
+    <g
+       aria-label="'A'"
+       id="text2733"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:298.572px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'Ubuntu Mono';letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none;stroke-width:53.3421px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       transform="matrix(0.28222221,0,0,0.28222221,-6.0964958,-29.861312)">
+      <path
+         d="m 611.96859,435.383 v 80.91185 H 587.18478 V 435.383 Z"
+         id="path7447" />
+      <path
+         d="m 742.59384,464.39464 -39.94567,108.31982 h 80.03712 z M 725.97411,435.383 h 33.38524 l 82.95287,217.66015 h -30.6153 l -19.82704,-55.83646 h -98.11472 l -19.82705,55.83646 h -31.05265 z"
+         id="path7449" />
+      <path
+         d="m 898.29446,435.383 v 80.91185 H 873.51065 V 435.383 Z"
+         id="path7451" />
+    </g>
+  </g>
+</svg>
