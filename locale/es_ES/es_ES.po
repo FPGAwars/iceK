@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2021-05-27 19:32+0200\n"
+"POT-Creation-Date: 2021-05-28 12:34+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -495,7 +495,7 @@ msgstr ""
 
 #: translation.js:131
 msgid "usb pins must be \"0\""
-msgstr "Los pines USB deben estar a \"0\""
+msgstr "los pines USB deben estar a \"0\""
 
 #: translation.js:132
 msgid "usb_dp_pu"
