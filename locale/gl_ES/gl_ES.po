@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Icestudio 0.3.3\n"
 "POT-Creation-Date: 2021-05-26 10:24+0200\n"
 "PO-Revision-Date: \n"
-"Last-Translator: Xoan Sampaiño <xoansampainho@gmail.com>\n"
+"Last-Translator: Xoan Sampaiño <xoansampainho@gmail.com>, Diego Vazquez <contacto@diegovazquez.me>\n"
 "Language-Team: \n"
 "Language: gl_ES\n"
 "MIME-Version: 1.0\n"
@@ -16,86 +16,88 @@ msgstr ""
 
 #: translation.js:10
 msgid "Bits"
-msgstr ""
+msgstr "Bits"
 
 #: translation.js:11 translation.js:100
 msgid "Bus"
-msgstr ""
+msgstr "Bus"
 
 #: translation.js:12
 msgid "bit-0"
-msgstr ""
+msgstr "bit-0"
 
 #: translation.js:13
 msgid "Constant bit 0"
-msgstr ""
+msgstr "bit 0 costante"
 
 #: translation.js:14
 msgid "bit-1"
-msgstr ""
+msgstr "bit-1"
 
 #: translation.js:15
 msgid "Constant bit 1"
-msgstr ""
+msgstr "Bit 1 constante"
 
 #: translation.js:16 translation.js:25 translation.js:39 translation.js:51
 #: translation.js:65 translation.js:69 translation.js:73 translation.js:80
 msgid "generic"
-msgstr ""
+msgstr "xenerico"
 
 #: translation.js:17
 msgid "1-bit generic constant (0/1)"
-msgstr ""
+msgstr "constante xenérica de 1 bit (0/1)"
 
 #: translation.js:18 translation.js:102
 msgid "Bus-02"
-msgstr ""
+msgstr "Bus-02"
 
 #: translation.js:19 translation.js:103
 msgid "Bus-03"
-msgstr ""
+msgstr "Bus-03"
 
 #: translation.js:20 translation.js:104
 msgid "Bus-04"
-msgstr ""
+msgstr "Bus-04"
 
 #: translation.js:21 translation.js:105
 msgid "Bus-05"
-msgstr ""
+msgstr "Bus-05"
 
 #: translation.js:22 translation.js:106
 msgid "Bus-06"
-msgstr ""
+msgstr "Bus-06"
 
 #: translation.js:23 translation.js:107
 msgid "Bus-07"
-msgstr ""
+msgstr "Bus-07"
 
 #: translation.js:24 translation.js:108
 msgid "Bus-08"
-msgstr ""
+msgstr "Bus-08"
 
 #: translation.js:26
 msgid "Generic: 2-bits generic constant (0,1,2,3)"
-msgstr ""
+msgstr "Constante xenérica de 2 bits (0, 1, 2, 3)"
 
 #: translation.js:27
 msgid "k-1"
-msgstr ""
+msgstr "k-1"
 
 #: translation.js:28
 msgid ""
 "Generic: 2-bits k-1 constant (Input values: 1,2,3,4). It returns the value "
 "input by the user minus 1. Outputs: 0,1,2,3"
 msgstr ""
+"Xenérico: Constante k-1 de 2 bits (valores de entrada 1,2,3,4). Devolve o "
+"valor de entrada dado por o usuario menos 1. Saidas: 0,1,2,3"
 
 #: translation.js:29
 msgid "Output: 0,1,2,3"
-msgstr ""
+msgstr "Saida: 0,1,2,3"
 
 #: translation.js:30
 msgid "Inputs: 1,2,3,4"
-msgstr ""
+msgstr "Entradas: 1,2,3,4"
 
 #: translation.js:31 translation.js:41 translation.js:53 translation.js:67
 #: translation.js:71 translation.js:75 translation.js:81 translation.js:131
@@ -103,229 +105,229 @@ msgstr ""
 #: translation.js:171 translation.js:174 translation.js:179 translation.js:182
 #: translation.js:187 translation.js:190
 msgid "value-0"
-msgstr ""
+msgstr "valor-0"
 
 #: translation.js:32
 msgid "2bits constant value: 0"
-msgstr ""
+msgstr "Valor constante 0 de 2 bits"
 
 #: translation.js:33 translation.js:43 translation.js:55 translation.js:133
 #: translation.js:147
 msgid "value-1"
-msgstr ""
+msgstr "valor-1"
 
 #: translation.js:34
 msgid "2bits constant value: 1"
-msgstr ""
+msgstr "Valor constante 1 de 2 bits"
 
 #: translation.js:35 translation.js:45 translation.js:57 translation.js:135
 #: translation.js:149
 msgid "value-2"
-msgstr ""
+msgstr "valor-2"
 
 #: translation.js:36
 msgid "2bits constant value: 2"
-msgstr ""
+msgstr "Valor constante 2 de 2 bits"
 
 #: translation.js:37
 msgid "value-3"
-msgstr ""
+msgstr "valor-3"
 
 #: translation.js:38
 msgid "2bits constant value: 3"
-msgstr ""
+msgstr "Valor constante 3 de 2 bits"
 
 #: translation.js:40
 msgid "Generic: 3-bits generic constant (0-7)"
-msgstr ""
+msgstr "Constante xenérica de 3 bits (0-7)"
 
 #: translation.js:42
 msgid "3bits constant value: 0"
-msgstr ""
+msgstr "Valor constante 0 de 3 bits"
 
 #: translation.js:44
 msgid "3bits constant value: 1"
-msgstr ""
+msgstr "Valor constante 1 de 3 bits"
 
 #: translation.js:46
 msgid "3bits constant value: 2"
-msgstr ""
+msgstr "Valor constante 2 de 3 bits"
 
 #: translation.js:47 translation.js:59 translation.js:137 translation.js:151
 msgid "value-4"
-msgstr ""
+msgstr "valor-4"
 
 #: translation.js:48
 msgid "3bits constant value: 4"
-msgstr ""
+msgstr "Valor constante 4 de 3 bits"
 
 #: translation.js:49 translation.js:139
 msgid "value-7"
-msgstr ""
+msgstr "valor-7"
 
 #: translation.js:50
 msgid "3bits constant value: 7"
-msgstr ""
+msgstr "Valor constante 7 de 3 bits"
 
 #: translation.js:52
 msgid "Generic: 4-bits generic constant (0-15)"
-msgstr ""
+msgstr "Constante xenérica de 4 bits (0-15)"
 
 #: translation.js:54
 msgid "4bits constant value: 0"
-msgstr ""
+msgstr "Valor constante 0 de 4 bits"
 
 #: translation.js:56
 msgid "4bits constant value: 1"
-msgstr ""
+msgstr "Valor constante 1 de 4 bits"
 
 #: translation.js:58
 msgid "4bits constant value: 2"
-msgstr ""
+msgstr "Valor constante 2 de 4 bits"
 
 #: translation.js:60
 msgid "4bits constant value: 4"
-msgstr ""
+msgstr "Valor constante 4 de 4 bits"
 
 #: translation.js:61 translation.js:153
 msgid "value-8"
-msgstr ""
+msgstr "valor-8"
 
 #: translation.js:62
 msgid "4bits constant value: 8"
-msgstr ""
+msgstr "Valor constante 8 de 4 bits"
 
 #: translation.js:63 translation.js:155
 msgid "value-F"
-msgstr ""
+msgstr "valor-F"
 
 #: translation.js:64
 msgid "4bits constant value: 15"
-msgstr ""
+msgstr "Valor constante 15 de 4 bits"
 
 #: translation.js:66
 msgid "Generic: 5-bits generic constant (0-31)"
-msgstr ""
+msgstr "Constante xenérica de 5 bits (0-31)"
 
 #: translation.js:68
 msgid "5bits constant value: 0"
-msgstr ""
+msgstr "Valor constante 0 de 5 bits"
 
 #: translation.js:70
 msgid "Generic: 6-bits generic constant (0-63)"
-msgstr ""
+msgstr "Constante xenérica de 6 bits (0-63)"
 
 #: translation.js:72
 msgid "6bits constant value: 0"
-msgstr ""
+msgstr "Valor constante 0 de 6 bits"
 
 #: translation.js:74
 msgid "Generic: 7-bits generic constant (0-127)"
-msgstr ""
+msgstr "Constante xenérica de 7 bits (0-127)"
 
 #: translation.js:76
 msgid "7bits constant value: 0"
-msgstr ""
+msgstr "Valor constante 0 de 7 bits"
 
 #: translation.js:77
 msgid "Ascii-A"
-msgstr ""
+msgstr "Ascii-A"
 
 #: translation.js:78
 msgid "8bits ASCII Letter A"
-msgstr ""
+msgstr "Letra A ASCII de 8 bits"
 
 #: translation.js:79
 msgid "Generic: 8-bits generic constant (0-255)"
-msgstr ""
+msgstr "Constante xenérica de 8 bits (0-255)"
 
 #: translation.js:82
 msgid "8bits constant value: 0"
-msgstr ""
+msgstr "Valor constante 0 de 8 bits"
 
 #: translation.js:83
 msgid "TESTs"
-msgstr ""
+msgstr "PROBAs"
 
 #: translation.js:84 translation.js:198
 msgid "00-Index"
-msgstr ""
+msgstr "00-Indice"
 
 #: translation.js:85
 msgid "# INDEX: IceK Collection"
-msgstr ""
+msgstr "# ÍNDICE: Colección iceK"
 
 #: translation.js:86
 msgid "bit 0"
-msgstr ""
+msgstr "bit 0"
 
 #: translation.js:87
 msgid "## Bits"
-msgstr ""
+msgstr "## Bits"
 
 #: translation.js:88
 msgid "bit 1"
-msgstr ""
+msgstr "bit 1"
 
 #: translation.js:89
 msgid "## Bus"
-msgstr ""
+msgstr "## Bus"
 
 #: translation.js:90
 msgid "### 1-bit constants"
-msgstr ""
+msgstr "### Constantes de 1 bit"
 
 #: translation.js:91
 msgid "Generic constant"
-msgstr ""
+msgstr "Constante xenérica"
 
 #: translation.js:92
 msgid "### 2-bits constants"
-msgstr ""
+msgstr "### Constantes de 2 bit"
 
 #: translation.js:93
 msgid "### 3-bits constants"
-msgstr ""
+msgstr "### Constantes de 3 bit"
 
 #: translation.js:94
 msgid "### 4-bits constants"
-msgstr ""
+msgstr "### Constantes de 4 bit"
 
 #: translation.js:95
 msgid "### 5-bits constants"
-msgstr ""
+msgstr "### Constantes de 5 bit"
 
 #: translation.js:96
 msgid "### 6-bits constants"
-msgstr ""
+msgstr "### Constantes de 6 bit"
 
 #: translation.js:97
 msgid "### 7-bits constants"
-msgstr ""
+msgstr "### Constantes de 7 bit"
 
 #: translation.js:98
 msgid "### 8-bits constants"
-msgstr ""
+msgstr "### Constantes de 8 bit"
 
 #: translation.js:99
 msgid "Ascii "
-msgstr ""
+msgstr "Ascii "
 
 #: translation.js:101
 msgid "bits"
-msgstr ""
+msgstr "bits"
 
 #: translation.js:109 translation.js:127 translation.js:141 translation.js:159
 #: translation.js:167 translation.js:175 translation.js:183 translation.js:191
 msgid "Alhambra-II"
-msgstr ""
+msgstr "Alhambra-II"
 
 #: translation.js:110 translation.js:124 translation.js:128 translation.js:142
 #: translation.js:157 translation.js:160 translation.js:165 translation.js:168
 #: translation.js:173 translation.js:176 translation.js:181 translation.js:184
 #: translation.js:189
 msgid "01-generic"
-msgstr ""
+msgstr "01-Xenerico"
 
 #: translation.js:111
 msgid ""
@@ -334,20 +336,25 @@ msgid ""
 "Output the value given by the parameter. This value  \n"
 "will turn on or off the LEDs"
 msgstr ""
-
+"## Cambiar o estado de dous LEDs\n"
+"\n"
+"Saida do valor dado por o parámetro. Este valor  \n"
+"acendera ou apagará os LEDs"
 #: translation.js:112
 msgid ""
 "Values for testing:  \n"
 "0, 1, 2 and 3"
 msgstr ""
+"Valores para probar:  \n"
+"0, 1, 2 e 3"
 
 #: translation.js:113
 msgid "02-value-0"
-msgstr ""
+msgstr "02-valor-0"
 
 #: translation.js:114
 msgid "Generic: 2-bits generic constant (0/1)"
-msgstr ""
+msgstr "Xenerico: constante xenérica de 2 bit (0/1)"
 
 #: translation.js:115
 msgid ""
@@ -355,10 +362,12 @@ msgid ""
 "\n"
 "It will turn off the Two LEDs"
 msgstr ""
-
+"## Valor 0 de 2 bits: Apagaro os dous LEDs\n"
+"\n"
+"Isto apagara os dous LEDs"
 #: translation.js:116
 msgid "03-value-1"
-msgstr ""
+msgstr "03-valor-1"
 
 #: translation.js:117
 msgid ""
@@ -366,10 +375,13 @@ msgid ""
 "\n"
 "It will turn on one LED"
 msgstr ""
+"## Valor 1 de 2 bits: Acender os LEDs\n"
+"\n"
+"Isto acenderá os LEDs"
 
 #: translation.js:118
 msgid "04-value-2"
-msgstr ""
+msgstr "04-valor-2"
 
 #: translation.js:119
 msgid ""
@@ -377,10 +389,12 @@ msgid ""
 "\n"
 "It will turn on one LED"
 msgstr ""
-
+"## Valor 2 de 2 bits: Acender os LEDs\n"
+"\n"
+"Isto acenderá os LEDs"
 #: translation.js:120 translation.js:125
 msgid "05-value-3"
-msgstr ""
+msgstr "05-valor-3"
 
 #: translation.js:121
 msgid ""
@@ -388,17 +402,20 @@ msgid ""
 "\n"
 "It will turn on the Two LEDs"
 msgstr ""
-
+"## Valor 3 de 2 bits: Acender os dous LEDs\n"
+"\n"
+"Isto acenderá os dous LEDs"
 #: translation.js:122 translation.js:126
 msgid "06-k-1"
-msgstr ""
+msgstr "06-k-1"
 
 #: translation.js:123
 msgid ""
 "Values for testing:  \n"
 "1, 2, 3 and 4"
 msgstr ""
-
+"Valores para probar:  \n"
+"1, 2, 3 e 4"
 #: translation.js:129
 msgid ""
 "## Changing the state of 3 LEDs\n"
@@ -406,13 +423,17 @@ msgid ""
 "Output the value given by the parameter. This value  \n"
 "will turn on or off the LEDs"
 msgstr ""
-
+"## Cambiar o estado de 3 LEDs\n"
+"\n"
+"Saida do valor dado por o parámetro. Este valor  \n"
+"apagará ou acenderá os LEDs"
 #: translation.js:130
 msgid ""
 "Values for testing:  \n"
 "0-7"
 msgstr ""
-
+"Valors para probar:  \n"
+"0-7"
 #: translation.js:132
 msgid ""
 "## 3-bits Value 0: Test on LEDs\n"
