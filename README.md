@@ -180,6 +180,8 @@ For installing and using this colection in Icestudio follow these steps:
 ## Authors
 * [Juan Gonzalez-Gomez (Obijuan)](https://github.com/Obijuan)
 
+## Contributors
+* [Diego Vazquez](https://github.com/DiegoDVG)
 
 
 <!-- Badges -->
