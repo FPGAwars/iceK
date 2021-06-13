@@ -1,13 +1,15 @@
+![](https://github.com/FPGAwars/iceK/raw/main/wiki/Logo/iceK-collection-github.png)
+
+
 # icek Collection
 
 [![Icestudio][icestudio-image]][icestudio-url]
 ![Version][version-image]
 
-![](wiki/Logo/iceK-logo.png)
 
 Working with Constant values
 ## Documentation
-Find more information in the [WIKI page](https://github.com/FPGAwars/iceK/wiki)  
+Find all the information on the [WIKI page](https://github.com/FPGAwars/iceK/wiki)  
 
 
 ## License
@@ -182,6 +184,10 @@ For installing and using this colection in Icestudio follow these steps:
 
 ## Contributors
 * [Diego Vazquez](https://github.com/DiegoDVG)
+
+
+-------
+![](https://github.com/FPGAwars/icestudio-wiki/raw/main/Logos/fgpawars-banner.svg)
 
 
 <!-- Badges -->

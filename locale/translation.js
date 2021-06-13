@@ -125,6 +125,7 @@ gettext('Output pins');
 gettext('2-bit constant value 3  \n(11 in binary)');
 gettext('## Result:\n\nThe LEDs 0 and 1 are turned on  \n\n(If you are connected to internet you will see a picture)  \n\n![Alhambra II board picture](https://raw.githubusercontent.com/FPGAwars/iceK/main/wiki/images/Alhambra-II/Example-01-02-2.png)\n\n');
 gettext('01-One-LED');
+gettext('01-One-LED');
 gettext('## Result\n\nThe RGB LED is turned GREEN\n\n(If you are connected to Internet you will see a picture)  \n\n![Fomu image](https://github.com/FPGAwars/iceK/raw/main/wiki/images/Fomu/Example-01-02-2.png)');
 gettext('usb pins must be \"0\"');
 gettext('usb_dp_pu');
