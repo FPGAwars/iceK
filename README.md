@@ -1,4 +1,4 @@
-![](https://github.com/FPGAwars/iceK/raw/main/wiki/Logo/iceK-collection-github.png)
+[![](https://github.com/FPGAwars/iceK/raw/main/wiki/Logo/iceK-collection-github.png)](https://github.com/FPGAwars/iceK/wiki)
 
 
 # icek Collection
