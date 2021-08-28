@@ -32,7 +32,7 @@ For installing and using this colection in Icestudio follow these steps:
 | CZech |  cs_CZ | ![](https://progress-bar.dev/0) |
 | German |  de_DE | ![](https://progress-bar.dev/0) |
 | Greek |  el_GR | ![](https://progress-bar.dev/0) |
-| Spanish |  es_ES | ![](https://progress-bar.dev/100) |
+| Spanish |  es_ES | ![](https://progress-bar.dev/68) |
 | Basque |  eu_ES | ![](https://progress-bar.dev/0) |
 | French |  fr_FR | ![](https://progress-bar.dev/0) |
 | Galician |  gl_ES | ![](https://progress-bar.dev/44) |
@@ -58,6 +58,7 @@ For installing and using this colection in Icestudio follow these steps:
     * value-3
   * **Bus-03**
     * generic
+    * k-1
     * value-0
     * value-1
     * value-2
@@ -65,6 +66,7 @@ For installing and using this colection in Icestudio follow these steps:
     * value-7
   * **Bus-04**
     * generic
+    * k-1
     * value-0
     * value-0xF
     * value-1
@@ -73,17 +75,69 @@ For installing and using this colection in Icestudio follow these steps:
     * value-8
   * **Bus-05**
     * generic
+    * k-1
     * value-0
   * **Bus-06**
     * generic
+    * k-1
     * value-0
   * **Bus-07**
     * generic
+    * k-1
     * value-0
   * **Bus-08**
     * Ascii-A
     * Ascii-Asterisk
     * generic
+    * k-1
+    * value-0
+  * **Bus-09**
+    * k
+    * value-0
+  * **Bus-10**
+    * k
+    * value-0
+  * **Bus-11**
+    * k
+    * value-0
+  * **Bus-12**
+    * generic
+    * k-1
+    * value-0
+  * **Bus-15**
+    * k
+    * value-0
+  * **Bus-16**
+    * k-1
+    * k
+    * value-0
+  * **Bus-19**
+    * k
+    * value-0
+  * **Bus-20**
+    * k-1
+    * k
+    * value-0
+  * **Bus-23**
+    * k
+    * value-0
+  * **Bus-24**
+    * k-1
+    * k
+    * value-0
+  * **Bus-27**
+    * k
+    * value-0
+  * **Bus-28**
+    * k-1
+    * k
+    * value-0
+  * **Bus-31**
+    * k
+    * value-0
+  * **Bus-32**
+    * k-1
+    * k
     * value-0
 
 ## Examples
@@ -142,6 +196,7 @@ For installing and using this colection in Icestudio follow these steps:
     * **Bus-03**
       * **Alhambra-II**
         * 01-generic
+        * k-1
         * value-0
         * value-1
         * value-2
@@ -150,6 +205,7 @@ For installing and using this colection in Icestudio follow these steps:
     * **Bus-04**
       * **Alhambra-II**
         * 01-generic
+        * k-1
         * value-0
         * value-0xF
         * value-1
@@ -160,19 +216,79 @@ For installing and using this colection in Icestudio follow these steps:
     * **Bus-05**
       * **Alhambra-II**
         * 01-generic
+        * k-1
         * value-0
     * **Bus-06**
       * **Alhambra-II**
         * 01-generic
+        * k-1
         * value-0
     * **Bus-07**
       * **Alhambra-II**
         * 01-generic
+        * k-1
         * value-0
     * **Bus-08**
       * **Alhambra-II**
         * 01-generic
+        * k-1
         * value-0
+    * **Bus-09**
+      * **Alhambra-II**
+        * 01-generic
+        * 02-value-0
+    * **Bus-10**
+      * **Alhambra-II**
+        * 01-manual-btns-leds
+        * 02-value-0
+    * **Bus-11**
+      * **Alhambra-II**
+        * 01-generic
+        * 02-value-0
+    * **Bus-12**
+      * **Alhambra-II**
+        * 01-generic
+        * k-1
+    * **Bus-15**
+      * **Alhambra-II**
+        * 01-manual-btns-leds
+        * 02-value-0
+    * **Bus-16**
+      * **Alhambra-II**
+        * 01-generic
+        * k-1
+    * **Bus-19**
+      * **Alhambra-II**
+        * 01-manual-btns-leds
+        * 02-value-0
+    * **Bus-20**
+      * **Alhambra-II**
+        * 01-generic
+        * k-1
+    * **Bus-23**
+      * **Alhambra-II**
+        * 01-manual-btns-leds
+        * 02-value-0
+    * **Bus-24**
+      * **Alhambra-II**
+        * 01-generic
+        * k-1
+    * **Bus-27**
+      * **Alhambra-II**
+        * 01-manual-btns-leds
+        * 02-value-0
+    * **Bus-28**
+      * **Alhambra-II**
+        * 01-generic
+        * k-1
+    * **Bus-31**
+      * **Alhambra-II**
+        * 01-manual-btns-leds
+        * 02-value-0
+    * **Bus-32**
+      * **Alhambra-II**
+        * 01-generic
+        * k-1
   * **bits**
     * **Alhambra-II**
       * 01-bit-0
