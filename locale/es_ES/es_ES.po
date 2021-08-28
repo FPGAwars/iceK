@@ -2026,15 +2026,15 @@ msgstr ""
 
 #: translation.js:454
 msgid "2-to-1 Multplexer (8-bit channels)"
-msgstr ""
+msgstr "Multiplexor 2-1 (Canales de  8 bits)"
 
 #: translation.js:455
 msgid "2-to-1 Multplexer (4-bit channels)"
-msgstr ""
+msgstr "Multiplexor 2-1 (Canales de  4 bits)"
 
 #: translation.js:456
 msgid "2-to-1 Multplexer (1-bit channels)"
-msgstr ""
+msgstr "Multiplexor 2-1 (Canales de  1 bit)"
 
 #: translation.js:457
 msgid "OR2: Two bits input OR gate"
@@ -2094,7 +2094,7 @@ msgstr "Salida"
 
 #: translation.js:471
 msgid "2-to-1 Multplexer (9-bit channels)"
-msgstr ""
+msgstr "Multiplexor 2-1 (Canales de  9 bits)"
 
 #: translation.js:472
 msgid "Bus8-Join-1-8: Join the two buses into an 9-bits Bus"
@@ -2118,7 +2118,7 @@ msgstr ""
 #: translation.js:542 translation.js:629 translation.js:640 translation.js:648
 #: translation.js:660 translation.js:667 translation.js:679 translation.js:687
 msgid "01-manual-btns-leds"
-msgstr ""
+msgstr "01-manual-btns-leds"
 
 #: translation.js:479
 msgid "Bus10-Split-half: Split the 10-bits bus into two buses of 2 and 8 wires"
@@ -2136,7 +2136,7 @@ msgstr "### Constantes de 10 bits: Prueba manual\n"
 
 #: translation.js:483
 msgid "2-to-1 Multplexer (10-bit channels)"
-msgstr ""
+msgstr "Multiplexor 2-1 (Canales de  10 bits)"
 
 #: translation.js:484
 msgid "Bus10-Split-2-8: Split the 10-bits bus into two buses of 2 and 8 wires"
@@ -2144,7 +2144,7 @@ msgstr ""
 
 #: translation.js:485
 msgid "2-to-1 Multplexer (2-bit channels)"
-msgstr ""
+msgstr "Multiplexor 2-1 (Canales de  2 bit)"
 
 #: translation.js:486
 msgid "Bus2-Join-all: Joint two wires into a 2-bits Bus"
@@ -2186,14 +2186,17 @@ msgid ""
 "\n"
 "The value is shown in 8 LEDs"
 msgstr ""
+"## Probando una constante de 11-bits\n"
+"\n"
+"El valor se muestra en los 8 LEDs"
 
 #: translation.js:499
 msgid "2-to-1 Multplexer (11-bit channels)"
-msgstr ""
+msgstr "Multiplexor 2-1 (Canales de  11 bit)"
 
 #: translation.js:500
 msgid "2-to-1 Multplexer (3-bit channels)"
-msgstr ""
+msgstr "Multiplexor 2-1 (Canales de  3 bits)"
 
 #: translation.js:501
 msgid "Bus3-Join-all: Joint three wires into a 3-bits Bus"
@@ -2232,6 +2235,11 @@ msgid ""
 "The value is shown in 8 LEDs. Initially only the less significant  \n"
 "bits. When the button is pressed, the Upper bits are displayed"
 msgstr ""
+"## Probando una constante de 12-bits\n"
+"\n"
+"El valor se muestra en los 8 LEDs. Inicialmente sólo los bits  \n"
+"menos significativos. Cuando se aprieta el botón, los bits superiores  \n"
+"se muestran"
 
 #: translation.js:512
 msgid ""
@@ -2243,7 +2251,7 @@ msgstr ""
 
 #: translation.js:515
 msgid "01-manual-testing"
-msgstr ""
+msgstr "01-manual-testing"
 
 #: translation.js:519
 msgid "Bus15-Split-7-8: Split the 15-bits bus into two buses of 7 and 8 wires"
@@ -2263,7 +2271,7 @@ msgstr ""
 
 #: translation.js:523
 msgid "2-to-1 Multplexer (15-bit channels)"
-msgstr ""
+msgstr "Multiplexor 2-1 (Canales de  15 bit)"
 
 #: translation.js:524
 msgid "Bus15-Split-7-8: Split the 15-bits bus into two buses of 7 and 8 bits"
@@ -2271,7 +2279,7 @@ msgstr ""
 
 #: translation.js:525
 msgid "2-to-1 Multplexer (7-bit channels)"
-msgstr ""
+msgstr "Multiplexor 2-1 (Canales de  7 bits)"
 
 #: translation.js:526
 msgid "Bus7-Join-3-4: Join the two buses into a 7-bits Bus"
@@ -2310,6 +2318,11 @@ msgid ""
 "The value is shown in 8 LEDs. Initially only the less significant  \n"
 "bits. When the button is pressed, the Upper bits are displayed"
 msgstr ""
+"## Probando una constante de 16-bits\n"
+"\n"
+"El valor se muestra en los 8 LEDs. Inicialmente sólo los bits  \n"
+"menos significativos. Cuando se aprieta el botón, los bits superiores  \n"
+"se muestran"
 
 #: translation.js:537
 msgid ""
@@ -2326,7 +2339,7 @@ msgstr ""
 
 #: translation.js:544
 msgid "4-to-1 Multplexer (8-bit channels)"
-msgstr ""
+msgstr "Multiplexor 4-1 (Canales de 8 bits)"
 
 #: translation.js:545
 msgid "Counter-x02: 2-bits counter"
@@ -2342,7 +2355,7 @@ msgstr ""
 
 #: translation.js:548
 msgid "2-to-1 Multplexer (1-bit channels). Fippled version"
-msgstr ""
+msgstr "Multiplexor 2-1 (canales de 1 bit). Versión girada"
 
 #: translation.js:549
 msgid "D Flip-flop (verilog implementation)"
@@ -2355,18 +2368,19 @@ msgstr ""
 #: translation.js:551
 msgid "AdderK-2bit: Adder of 2-bit operand and 2-bit constant"
 msgstr ""
+"AdderK-2bits: Sumador de un operando de 2 bits y una constante de 2 bits"
 
 #: translation.js:552
 msgid "Adder-2bits: Adder of two operands of 2 bits"
-msgstr ""
+msgstr "Adder-2bits: Sumador de dos operandos de 2 bits"
 
 #: translation.js:553
 msgid "Adder-1bit: Adder of two operands of 1 bit"
-msgstr ""
+msgstr "Adder-1bits: Sumador de dos operandos de 1 bit"
 
 #: translation.js:554
 msgid "AdderC-1bit: Adder of two operands of 1 bit plus the carry in"
-msgstr ""
+msgstr "AdderC-1bits: Sumador de dos operandos de  1 bit más el bit de acarreo"
 
 #: translation.js:555
 msgid "XOR gate: two bits input xor gate"
@@ -2429,7 +2443,7 @@ msgstr ""
 
 #: translation.js:568
 msgid "1bit register (implemented in verilog)"
-msgstr ""
+msgstr "Registro de 1 bit (implementado en verilog)"
 
 #: translation.js:569
 msgid ""
@@ -2439,7 +2453,7 @@ msgstr ""
 
 #: translation.js:570
 msgid "16-bits Syscounter with reset"
-msgstr ""
+msgstr "Contador del sistema de 16 bits con reset"
 
 #: translation.js:571
 msgid "DFF-rst-x16: 16 D flip-flops in paralell with reset"
@@ -2469,26 +2483,28 @@ msgstr ""
 #: translation.js:577
 msgid "AdderK-16bit: Adder of 16-bit operand and 16-bit constant"
 msgstr ""
+"AdderK-16bits: Sumador de un operando de 16 bits y una constante de 16 bits"
 
 #: translation.js:578
 msgid "Adder-16bits: Adder of two operands of 16 bits"
-msgstr ""
+msgstr "Adder-16bits: Sumador de dos operandos de 16 bits"
 
 #: translation.js:579
 msgid "Adder-8bits: Adder of two operands of 8 bits"
-msgstr ""
+msgstr "Adder-8bits: Sumador de dos operandos de 8 bits"
 
 #: translation.js:580
 msgid "Adder-4bits: Adder of two operands of 4 bits"
-msgstr ""
+msgstr "Adder-4bits: Sumador de dos operandos de 4bits"
 
 #: translation.js:581
 msgid "AdderC-4bits: Adder of two operands of 4 bits and Carry in"
 msgstr ""
+"AdderC-4bits: Sumador de dos operandos de  4 bits más el bit de acarreo"
 
 #: translation.js:582
 msgid "AdderC-8bits: Adder of two operands of 8 bits and Carry in"
-msgstr ""
+msgstr "AdderC-8bits: Sumador de dos operandos de 8 bits más el bit de acarreo"
 
 #: translation.js:583
 msgid "Bus16-Join-half: Join the two same halves into an 16-bits Bus"
@@ -2531,6 +2547,10 @@ msgid ""
 "It stores the input data that arrives at cycle n  \n"
 "Its output is shown in the cycle n+1"
 msgstr ""
+"# Biestable D  \n"
+"\n"
+"Almacena el dato de entrada que llega en el ciclo n  \n"
+"Su salida se muestra en el ciclo n+1"
 
 #: translation.js:591
 msgid "Button state signal"
@@ -2559,6 +2579,11 @@ msgid ""
 "It generates a 1-period pulse (tic) when a rising edge is detected on the  \n"
 "input signal"
 msgstr ""
+"### Detector de flancos de subida\n"
+"\n"
+"Se genera un pulso de un ciclo de reloj de anchura cuando se detecta un "
+"flanco  \n"
+"de subida en la señal de entrada"
 
 #: translation.js:597
 msgid "Input signal"
@@ -2628,6 +2653,10 @@ msgid ""
 "0: No pull-up  \n"
 "1: Pull-up activated"
 msgstr ""
+"### Parámetro pull-up:\n"
+"\n"
+"0: Sin pull-up\n"
+"1: Pull-up activado"
 
 #: translation.js:607
 msgid ""
@@ -2660,6 +2689,14 @@ msgid ""
 "| 1 | 0     |  1     | Not      |\n"
 "| 1 | 1     |  0     | Not      |"
 msgstr ""
+"### Tabla de verdad para XOR\n"
+"\n"
+"| k | entrada | salida | función |\n"
+"|---|-------|--------|----------|\n"
+"| 0 | 0     |  0     | cable     |\n"
+"| 0 | 1     |  1     | cable     |\n"
+"| 1 | 0     |  1     | Not      |\n"
+"| 1 | 1     |  0     | Not      |"
 
 #: translation.js:611
 msgid "Edge detector"
@@ -2687,6 +2724,12 @@ msgid ""
 "IF more time is needed for debouncing,  \n"
 "use a counter with more bits (17, 18...)"
 msgstr ""
+"### Cálculo de tiempo\n"
+"\n"
+"Para CLK=12MHZ, un contador de 16 bits alcanza  \n"
+"su valor máximo cada 2**16*1/F=5.5ms aprox  \n"
+"Si se requiere mayor tiempo para el antirrebores,  \n"
+"usa un contador con más bits (17, 18...)"
 
 #: translation.js:615
 msgid ""
@@ -2697,6 +2740,12 @@ msgid ""
 "aprox. When a value is stable it is  \n"
 "captured on the output flip-flop"
 msgstr ""
+"## Antirrebotes  \n"
+"\n"
+"Un valor se considera estable cuando  \n"
+"no hay cambios durante 5.5ms  \n"
+"aprox. Cuando un valor es estable, se  \n"
+"captura en el biestable de salida"
 
 #: translation.js:616
 msgid "Stable output"
@@ -2718,6 +2767,11 @@ msgid ""
 "detected on the  \n"
 "input signal"
 msgstr ""
+"## Detector de flancos\n"
+"\n"
+"Genera un pulso de un ciclo de anchura cuando se detecta un flanco (de "
+"subida o bajada)  \n"
+"en la señal de entrada"
 
 #: translation.js:620
 msgid ""
@@ -2748,7 +2802,7 @@ msgstr ""
 
 #: translation.js:626
 msgid "2-to-1 Multplexer (19-bit channels)"
-msgstr ""
+msgstr "Multiplexor 2-1 (Canales de  19 bit)"
 
 #: translation.js:627
 msgid "Bus19-Join-3-8-8: Join the three buses into a 19-bits Bus"
@@ -2776,6 +2830,11 @@ msgid ""
 "The value is shown in 8 LEDs. Initially only the less significant  \n"
 "bits. When the button is pressed, the Upper bits are displayed"
 msgstr ""
+"## Probando una constante de 20-bits\n"
+"\n"
+"El valor se muestra en los 8 LEDs. Inicialmente sólo los bits  \n"
+"menos significativos. Cuando se aprieta el botón, los bits superiores  \n"
+"se muestran"
 
 #: translation.js:635
 msgid ""
@@ -2800,7 +2859,7 @@ msgstr ""
 
 #: translation.js:644
 msgid "2-to-1 Multplexer (23-bit channels)"
-msgstr ""
+msgstr "Multiplexor 2-1 (Canales de 23 bits)"
 
 #: translation.js:645
 msgid ""
@@ -2835,6 +2894,11 @@ msgid ""
 "switches  \n"
 "between the 8 less significant bits and the 8 bits in the middle"
 msgstr ""
+"## Probando una constante de 24-bits\n"
+"\n"
+"La constante de 24-bits se muestra en los 8 LEDs. Cuando el botón SW1  \n"
+"se pulsa, los 8 bits más significativos se muestran. El botón sw2 cambia  \n"
+"entre los 8 bits menos significativos y los 8 de el medio"
 
 #: translation.js:654
 msgid ""
@@ -2853,6 +2917,11 @@ msgid ""
 "switches  \n"
 "between the 8 less significant bits and the 8 bits in the middle"
 msgstr ""
+"## Probando una constante genérica k-1 de 24-bits\n"
+"\n"
+"La constante de 24-bits se muestra en los 8 LEDs. Cuando el botón SW1  \n"
+"se pulsa, los 8 bits más significativos se muestran. El botón sw2 cambia  \n"
+"entre los 8 bits menos significativos y los 8 de el medio"
 
 #: translation.js:661
 msgid ""
@@ -2870,7 +2939,7 @@ msgstr ""
 
 #: translation.js:664
 msgid "2-to-1 Multplexer (27-bit channels)"
-msgstr ""
+msgstr "Multiplexor 2-1 (Canales de  27 bits)"
 
 #: translation.js:665
 msgid "Bus27-Join-3-8-8-8: Join the four buses into a 27-bits Bus"
@@ -2900,6 +2969,11 @@ msgid ""
 "switches  \n"
 "between the 8 less significant bits and the 8 bits in the middle"
 msgstr ""
+"## Constante genérica de 28 bits: Prueba manual\n"
+"\n"
+"La constante de 28 bits se muestra en los 8 LEDs. Cuando el botón SW1  \n"
+"se pulsa, los 8 bits más significativos se muestran. El botón sw2 cambia  \n"
+"entre los 8 bits menos significativos y los 8 bits del medio"
 
 #: translation.js:673
 msgid ""
@@ -2918,6 +2992,11 @@ msgid ""
 "switches  \n"
 "between the 8 less significant bits and the 8 bits in the middle"
 msgstr ""
+"## Constante genérica k-1 de 28 bits: Prueba manual\n"
+"\n"
+"La constante de 28 bits se muestra en los 8 LEDs. Cuando el botón SW1  \n"
+"se pulsa, los 8 bits más significativos se muestran. El botón sw2 cambia  \n"
+"entre los 8 bits menos significativos y los 8 bits del medio"
 
 #: translation.js:680
 msgid ""
@@ -2935,7 +3014,7 @@ msgstr ""
 
 #: translation.js:683
 msgid "2-to-1 Multplexer (31-bit channels)"
-msgstr ""
+msgstr "Multiplexor 2-1 (Canales de  31 bits)"
 
 #: translation.js:684
 msgid ""
@@ -2971,6 +3050,11 @@ msgid ""
 "switches  \n"
 "between the 8 less significant bits and the 8 bits in the middle"
 msgstr ""
+"## Constante de 32 Bits: Prueba manual\n"
+"\n"
+"La constante de 32 bits se muestra en los 8 LEDs. Cuando el botón SW1  \n"
+"se pulsa, los 8 bits más significativos se muestran. El botón sw2 cambia  \n"
+"entre los 8 bits menos significativos y los 8 bits del medio"
 
 #: translation.js:693
 msgid ""
@@ -2989,6 +3073,11 @@ msgid ""
 "switches  \n"
 "between the 8 less significant bits and the 8 bits in the middle"
 msgstr ""
+"## Constante de k-1 de 32 Bits: Prueba manual\n"
+"\n"
+"La constante de 32 bits se muestra en los 8 LEDs. Cuando el botón SW1  \n"
+"se pulsa, los 8 bits más significativos se muestran. El botón sw2 cambia  \n"
+"entre los 8 bits menos significativos y los 8 bits del medio"
 
 #: translation.js:699
 msgid "01-bit-0"
