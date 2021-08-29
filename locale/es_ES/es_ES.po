@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2021-08-29 09:53+0200\n"
+"POT-Creation-Date: 2021-08-29 17:50+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -143,9 +143,8 @@ msgstr "Constante genérica de 2 bits (0, 1, 2, 3)"
 #: translation.js:411 translation.js:416 translation.js:421 translation.js:426
 #: translation.js:430 translation.js:435 translation.js:439 translation.js:444
 #: translation.js:449 translation.js:513 translation.js:516 translation.js:538
-#: translation.js:540 translation.js:635 translation.js:637 translation.js:654
-#: translation.js:657 translation.js:673 translation.js:676 translation.js:693
-#: translation.js:696
+#: translation.js:540 translation.js:629 translation.js:631 translation.js:646
+#: translation.js:649 translation.js:663 translation.js:679
 msgid "k-1"
 msgstr "k-1"
 
@@ -630,7 +629,7 @@ msgstr "02-Generic-constants"
 msgid "TESTs"
 msgstr "PRUEBAs"
 
-#: translation.js:201 translation.js:704
+#: translation.js:201 translation.js:688
 msgid "00-Index"
 msgstr "00-Indice"
 
@@ -754,8 +753,8 @@ msgstr "### Constantes de 31 bits"
 #: translation.js:392 translation.js:412 translation.js:422 translation.js:431
 #: translation.js:440 translation.js:451 translation.js:477 translation.js:493
 #: translation.js:508 translation.js:517 translation.js:533 translation.js:541
-#: translation.js:630 translation.js:638 translation.js:649 translation.js:658
-#: translation.js:668 translation.js:677 translation.js:688 translation.js:697
+#: translation.js:624 translation.js:632 translation.js:641 translation.js:650
+#: translation.js:658 translation.js:665 translation.js:674 translation.js:681
 msgid "Alhambra-II"
 msgstr "Alhambra-II"
 
@@ -1588,9 +1587,8 @@ msgstr "bits"
 #: translation.js:420 translation.js:423 translation.js:432 translation.js:441
 #: translation.js:448 translation.js:452 translation.js:475 translation.js:494
 #: translation.js:506 translation.js:509 translation.js:514 translation.js:534
-#: translation.js:539 translation.js:631 translation.js:636 translation.js:650
-#: translation.js:656 translation.js:669 translation.js:675 translation.js:689
-#: translation.js:695
+#: translation.js:539 translation.js:625 translation.js:630 translation.js:642
+#: translation.js:648 translation.js:659 translation.js:675
 msgid "01-generic"
 msgstr "01-generic"
 
@@ -1616,9 +1614,8 @@ msgstr ""
 
 #: translation.js:361 translation.js:372 translation.js:470 translation.js:476
 #: translation.js:482 translation.js:492 translation.js:498 translation.js:507
-#: translation.js:522 translation.js:532 translation.js:624 translation.js:629
-#: translation.js:642 translation.js:648 translation.js:662 translation.js:667
-#: translation.js:681 translation.js:687
+#: translation.js:522 translation.js:532 translation.js:620 translation.js:636
+#: translation.js:654 translation.js:669
 msgid "02-value-0"
 msgstr "02-valor-0"
 
@@ -2042,7 +2039,7 @@ msgstr "OR2: Puerta OR de dos entradas de un bit"
 
 #: translation.js:458
 msgid "Two bits input And gate"
-msgstr ""
+msgstr "Puerta AND de dos bits de entrada"
 
 #: translation.js:459
 msgid "NOT gate (Verilog implementation)"
@@ -2103,7 +2100,7 @@ msgstr "Bus8-Join-1-8: Agrupar dos buses en un bus de 9 bits"
 
 #: translation.js:473
 msgid "UINT8-1bit:  Extend a 1-bit unsigned integer to 8-bits "
-msgstr ""
+msgstr "UINT8-1bit:  Extender un entero de 1 bit a 8 bits "
 
 #: translation.js:474
 msgid ""
@@ -2116,8 +2113,7 @@ msgstr ""
 "Mostrar el valor en los LEDs"
 
 #: translation.js:478 translation.js:491 translation.js:518 translation.js:531
-#: translation.js:542 translation.js:628 translation.js:639 translation.js:647
-#: translation.js:659 translation.js:666 translation.js:678 translation.js:686
+#: translation.js:542 translation.js:633 translation.js:651 translation.js:666
 msgid "01-manual-btns-leds"
 msgstr "01-manual-btns-leds"
 
@@ -2164,7 +2160,7 @@ msgstr "Bus10-Join-2-8: Juntar los dos buses en un bus de 10-bits"
 
 #: translation.js:489
 msgid "UINT8-2bits:  Extend a 2-bits unsigned integer to 8-bits "
-msgstr ""
+msgstr "UINT8-2bit:  Extender un entero de 2 bits a 8 bits "
 
 #: translation.js:490
 msgid ""
@@ -2217,7 +2213,7 @@ msgstr "Bus11-Join-3-8: Juntar los dos buses en un bus de 11-bits"
 
 #: translation.js:504
 msgid "UINT8-3bits:  Extend a 3-bits unsigned integer to 8-bits "
-msgstr ""
+msgstr "UINT8-3bit:  Extender un entero de 3 bit a 8 bits "
 
 #: translation.js:505
 msgid ""
@@ -2303,7 +2299,7 @@ msgstr "Bus15-Join-7-8: Agrupar dos buses en un bus de 15 bits"
 
 #: translation.js:529
 msgid "UINT8-7bits:  Extend a 7-bits unsigned integer to 8-bits "
-msgstr ""
+msgstr "UINT8-7bit:  Extender un entero de 7 bit a 8 bits "
 
 #: translation.js:530
 msgid ""
@@ -2361,7 +2357,7 @@ msgstr "Componente generico con entrada de clk"
 
 #: translation.js:547
 msgid "Reg: 1-Bit register"
-msgstr ""
+msgstr "Reg: Registro de 1-Bit"
 
 #: translation.js:548
 msgid "2-to-1 Multplexer (1-bit channels). Fippled version"
@@ -2394,111 +2390,100 @@ msgstr "AdderC-1bits: Sumador de dos operandos de  1 bit más el bit de acarreo"
 
 #: translation.js:555
 msgid "XOR gate: two bits input xor gate"
-msgstr ""
+msgstr "XOR gate: Puerta XOR de dos bits de entrada"
 
 #: translation.js:556
 msgid "Button-tic: Configurable button that emits a tic when it is pressed"
 msgstr "Button-tic: Botón configurable que emite un tic cuando se pulsa"
 
 #: translation.js:557
+msgid ""
+"Rising-edge detector. It generates a 1-period pulse (tic) when a rising edge "
+"is detected on the input"
+msgstr ""
+"Detector de flanco de subida. Se genera un pulso de un ciclo cuando se "
+"detecta un flanco de subida en la entrada"
+
+#: translation.js:558
 msgid "Configurable button (pull-up on/off. Not on/off)"
 msgstr "Botón configurable (pull-up on/off. Not on/off)"
 
-#: translation.js:558
+#: translation.js:559
 msgid "FPGA internal pull-up configuration on the input port"
 msgstr "Configuración del pull-up interno de la FPGA en el puerto de entrada"
 
-#: translation.js:559
-msgid "Sync 1-bit input with the system clock domain"
-msgstr ""
-
 #: translation.js:560
-msgid ""
-"Select positive or negative logic for the input (0=positive, 1=negative)"
-msgstr ""
+msgid "Remove the rebound on a mechanical switch"
+msgstr "Eliminar los rebotes de un interruptor mecánico"
 
 #: translation.js:561
-msgid ""
-"Valor genérico constante, de 1 bits. Su valor se introduce como parámetro. "
-"Por defecto vale 0"
-msgstr ""
-
-#: translation.js:562
-msgid "Puerta XOR"
-msgstr ""
-
-#: translation.js:563
-msgid "Remove the rebound on a mechanical switch"
-msgstr ""
-
-#: translation.js:564
 msgid "1bit register (implemented in verilog)"
 msgstr "Registro de 1 bit (implementado en verilog)"
 
-#: translation.js:565
+#: translation.js:562
 msgid "16-bits Syscounter with reset"
 msgstr "Contador del sistema de 16 bits con reset"
 
-#: translation.js:566
+#: translation.js:563
 msgid "DFF-rst-x16: 16 D flip-flops in paralell with reset"
 msgstr "DFF-rst-x16: 16 biestables D en paralelo, con reset"
 
-#: translation.js:567
+#: translation.js:564
 msgid "DFF-rst-x04: Three D flip-flops in paralell with reset"
 msgstr "DFF-rst-x04: Cuatro biestables D en paralelo, con reset"
 
-#: translation.js:568
+#: translation.js:565
 msgid "DFF-rst-x01: D Flip flop with reset input. When rst=1, the DFF is 0"
 msgstr ""
 "DFF-rst-x01: Biestable D con entrada de reset. Cuando rst=1, el biestable es "
 "0"
 
-#: translation.js:569
+#: translation.js:566
 msgid ""
 "Bus16-Split-quarter: Split the 16-bits bus into four buses of the same size"
 msgstr ""
 "Bus16-Split-quarter: Separar el bus de 16-bits en cuatro buses del mismo "
 "tamaño"
 
-#: translation.js:570
+#: translation.js:567
 msgid "Bus16-Join-quarter: Join the four same buses into an 16-bits Bus"
 msgstr "Bus16-Join-quarter: Agrupar cuatro buses iguales en uno de 16 bits"
 
-#: translation.js:571
+#: translation.js:568
 msgid "Inc1-16bit: Increment a 16-bits number by one"
 msgstr "Inc1-16bit: Incrementar un número de 16 bits en uno"
 
-#: translation.js:572
+#: translation.js:569
 msgid "AdderK-16bit: Adder of 16-bit operand and 16-bit constant"
 msgstr ""
 "AdderK-16bits: Sumador de un operando de 16 bits y una constante de 16 bits"
 
-#: translation.js:573
+#: translation.js:570
 msgid "Adder-16bits: Adder of two operands of 16 bits"
 msgstr "Adder-16bits: Sumador de dos operandos de 16 bits"
 
-#: translation.js:574
+#: translation.js:571
 msgid "Adder-8bits: Adder of two operands of 8 bits"
 msgstr "Adder-8bits: Sumador de dos operandos de 8 bits"
 
-#: translation.js:575
+#: translation.js:572
 msgid "Adder-4bits: Adder of two operands of 4 bits"
 msgstr "Adder-4bits: Sumador de dos operandos de 4bits"
 
-#: translation.js:576
+#: translation.js:573
 msgid "AdderC-4bits: Adder of two operands of 4 bits and Carry in"
 msgstr ""
 "AdderC-4bits: Sumador de dos operandos de  4 bits más el bit de acarreo"
 
-#: translation.js:577
+#: translation.js:574
 msgid "AdderC-8bits: Adder of two operands of 8 bits and Carry in"
 msgstr "AdderC-8bits: Sumador de dos operandos de 8 bits más el bit de acarreo"
 
-#: translation.js:578
+#: translation.js:575
 msgid "Bus16-Join-half: Join the two same halves into an 16-bits Bus"
 msgstr "Bus16-Join-half: Agrupar dos buses iguales en uno de 16 bits"
 
-#: translation.js:579
+#: translation.js:576
 msgid ""
 "Edges detector. It generates a 1-period pulse (tic) when either a rising "
 "edge or a falling edge is detected on the input"
@@ -2506,21 +2491,18 @@ msgstr ""
 "Detector de flancos. Se genera un pulso de un ciclo de anchura cuando se "
 "detecta un flanco de subida o de bajada en la entrada"
 
-#: translation.js:580
+#: translation.js:577
+msgid "Sync 1-bit input with the system clock domain"
+msgstr "Sincronizar una entrada de 1 bit con el dominio del reloj del sistema"
+
+#: translation.js:578
 msgid ""
-"Rising-edge detector. It generates a 1-period pulse (tic) when a rising edge "
-"is detected on the input"
+"Select positive or negative logic for the input (0=positive, 1=negative)"
 msgstr ""
+"Seleccionar lógica positiva o negativa para la entrada (0=positiva, "
+"1=negativa)"
 
-#: translation.js:581
-msgid "Puerta NOT"
-msgstr ""
-
-#: translation.js:582
-msgid "Puerta AND"
-msgstr ""
-
-#: translation.js:583
+#: translation.js:579
 msgid ""
 "## 19-bits constant: Manual testing\n"
 "\n"
@@ -2528,11 +2510,11 @@ msgstr ""
 "## Constante de 19 bits: Prueba manual\n"
 "\n"
 
-#: translation.js:584
+#: translation.js:580
 msgid "Mux 2-1"
 msgstr "Mux 2-1"
 
-#: translation.js:585
+#: translation.js:581
 msgid ""
 "D Flip-flip\n"
 "(System)"
@@ -2540,19 +2522,19 @@ msgstr ""
 "Biestable D\n"
 "(Sistema)"
 
-#: translation.js:586
+#: translation.js:582
 msgid "Parameter: Initial value"
 msgstr "Parámetro: Valor inicial"
 
-#: translation.js:587
+#: translation.js:583
 msgid "System clock"
-msgstr ""
+msgstr "Reloj del sistema"
 
-#: translation.js:588
+#: translation.js:584
 msgid "Input data"
 msgstr "Datos de entrada"
 
-#: translation.js:589
+#: translation.js:585
 msgid ""
 "# D Flip-Flop  \n"
 "\n"
@@ -2564,27 +2546,88 @@ msgstr ""
 "Almacena el dato de entrada que llega en el ciclo n  \n"
 "Su salida se muestra en el ciclo n+1"
 
-#: translation.js:590
+#: translation.js:586
 msgid "Button state signal"
 msgstr "Señal de estado del botón"
 
-#: translation.js:591
+#: translation.js:587
 msgid "Tic: button pressed"
-msgstr ""
+msgstr "Tic: button apretado"
 
-#: translation.js:592
+#: translation.js:588
 msgid "Rising edge detector"
-msgstr ""
+msgstr "Detector de flanco de subida"
 
-#: translation.js:593
+#: translation.js:589
 msgid "Pull up on/off"
-msgstr ""
+msgstr "Pull up on/off"
 
-#: translation.js:594
+#: translation.js:590
 msgid "Not on/off"
 msgstr "NOT activada/desactivada"
 
+#: translation.js:591
+msgid ""
+"## Rising edge detector\n"
+"\n"
+"It generates a 1-period pulse (tic) when a rising edge is detected on the  \n"
+"input signal"
+msgstr ""
+"### Detector de flancos de subida\n"
+"\n"
+"Se genera un pulso de un ciclo de reloj de anchura cuando se detecta un "
+"flanco  \n"
+"de subida en la señal de entrada"
+
+#: translation.js:592
+msgid "Input signal"
+msgstr "Señal de entrada"
+
+#: translation.js:593
+msgid ""
+"Current signal  \n"
+"state"
+msgstr ""
+"Estado actual  \n"
+"de la señal"
+
+#: translation.js:594
+msgid ""
+"Signal state in the previous  \n"
+"clock cycle"
+msgstr ""
+"Señal de estado en el ciclo  \n"
+"de reloj anterior"
+
 #: translation.js:595
+msgid ""
+"If the current signal is 1 and its value in  \n"
+"the previous clock cycle was 0, it means  \n"
+"that a rising edge has been detected!  \n"
+"The output es 1\n"
+"\n"
+"In any other case the output is 0"
+msgstr ""
+"Si la señal actual es 1 y su valor en el  \n"
+"ciclo anterior era 0, significa que  \n"
+"se ha detectado un flanco de subida!  \n"
+"La salida es 1\n"
+"\n"
+"En cualquier otro caso la salida es 0"
+
+#: translation.js:596
+msgid ""
+"**Delay**: 0 clock cycles \n"
+"\n"
+"There is no delay between the arrival of a rising edge  \n"
+"and its detection"
+msgstr ""
+"**Retardo**: 0 ciclos de reloj\n"
+"\n"
+"No hay retardo entre la llegada de un flanco de subida  \n"
+"y su detección"
+
+#: translation.js:597
 msgid ""
 "Internal pull-up  \n"
 "* 0: OFF\n"
@@ -2594,11 +2637,11 @@ msgstr ""
 "* 0: Apagado\n"
 "* 1: activado"
 
-#: translation.js:596
+#: translation.js:598
 msgid "Synchronization stage"
-msgstr ""
+msgstr "Etapa de sincronización"
 
-#: translation.js:597
+#: translation.js:599
 msgid ""
 "Normalization stage\n"
 "\n"
@@ -2610,11 +2653,11 @@ msgstr ""
 "* 0: Cable\n"
 "* 1: Señal invertida"
 
-#: translation.js:598
+#: translation.js:600
 msgid "Debouncing stage"
 msgstr "Etapa antirrebotes"
 
-#: translation.js:599
+#: translation.js:601
 msgid ""
 "### Pull-up parameter:\n"
 "\n"
@@ -2626,7 +2669,7 @@ msgstr ""
 "0: Sin pull-up\n"
 "1: Pull-up activado"
 
-#: translation.js:600
+#: translation.js:602
 msgid ""
 "Only an FPGA pin can  \n"
 "be connected here!!!"
@@ -2634,39 +2677,13 @@ msgstr ""
 "Sólo se puede conectar  \n"
 "aquí un pin de la FPGA!!!"
 
-#: translation.js:601
+#: translation.js:603
 msgid ""
 "The pull-up is connected  \n"
 "by default"
 msgstr ""
-
-#: translation.js:602
-msgid ""
-"When k=0, it works like a wire  \n"
-"(The output is equal to the input)  \n"
-"When k=1, it act as a not gate\n"
-"(The output is the inverse of the input)"
-msgstr ""
-
-#: translation.js:603
-msgid ""
-"### Truth table for XOR\n"
-"\n"
-"| k | input | output | function |\n"
-"|---|-------|--------|----------|\n"
-"| 0 | 0     |  0     | wire     |\n"
-"| 0 | 1     |  1     | wire     |\n"
-"| 1 | 0     |  1     | Not      |\n"
-"| 1 | 1     |  0     | Not      |"
-msgstr ""
-"### Tabla de verdad para XOR\n"
-"\n"
-"| k | entrada | salida | función |\n"
-"|---|-------|--------|----------|\n"
-"| 0 | 0     |  0     | cable     |\n"
-"| 0 | 1     |  1     | cable     |\n"
-"| 1 | 0     |  1     | Not      |\n"
-"| 1 | 1     |  0     | Not      |"
+"El pull-up se activa  \n"
+"por defecto"
 
 #: translation.js:604
 msgid "Edge detector"
@@ -2677,6 +2694,8 @@ msgid ""
 "Whenever there is a change in  \n"
 "the input, the counter is started"
 msgstr ""
+"Siempre que haya un cambio en  \n"
+"la entrada, el contador arranca"
 
 #: translation.js:606
 msgid ""
@@ -2722,7 +2741,7 @@ msgstr ""
 
 #: translation.js:609
 msgid "Stable output"
-msgstr ""
+msgstr "Salida estable"
 
 #: translation.js:610
 msgid "Counter"
@@ -2737,6 +2756,8 @@ msgid ""
 "Reset input: Active high  \n"
 "When rst = 1, the DFF is reset to 0"
 msgstr ""
+"Entrada de reset: Activa a nivel alto  \n"
+"Cuando rst=1, el DFF se pone a 0"
 
 #: translation.js:613
 msgid "Data input"
@@ -2765,84 +2786,60 @@ msgstr ""
 "en la señal de entrada"
 
 #: translation.js:616
-msgid "Input signal"
-msgstr "Señal de entrada"
-
-#: translation.js:617
-msgid ""
-"Current signal  \n"
-"state"
-msgstr ""
-"Estado actual  \n"
-"de la señal"
-
-#: translation.js:618
-msgid ""
-"Signal state in the previous  \n"
-"clock cycle"
-msgstr ""
-
-#: translation.js:619
 msgid ""
 "The output is 1 if the current value is 1 and the  \n"
 "previous 0, or if the current value is 0 and the  \n"
 "previous 1\n"
 msgstr ""
+"La salida es 1 si el valor actual es 1 y   \n"
+"el anterior 0, or si el valor actual es 0 y el  \n"
+"anterior 1\n"
 
-#: translation.js:620
+#: translation.js:617
 msgid "In any other case the output is 0"
 msgstr "En cualquier otro caso la salida es 0"
 
+#: translation.js:618
+msgid ""
+"When k=0, it works like a wire  \n"
+"(The output is equal to the input)  \n"
+"When k=1, it act as a not gate\n"
+"(The output is the inverse of the input)"
+msgstr ""
+"Cuando k=0, funciona como un cable  \n"
+"(La salida es igual a la entrada)  \n"
+"Cuando k=1, actúa como una puerta NOT\n"
+"(salida es la inversa de la entrada)"
+
+#: translation.js:619
+msgid ""
+"### Truth table for XOR\n"
+"\n"
+"| k | input | output | function |\n"
+"|---|-------|--------|----------|\n"
+"| 0 | 0     |  0     | wire     |\n"
+"| 0 | 1     |  1     | wire     |\n"
+"| 1 | 0     |  1     | Not      |\n"
+"| 1 | 1     |  0     | Not      |"
+msgstr ""
+"### Tabla de verdad para XOR\n"
+"\n"
+"| k | entrada | salida | función |\n"
+"|---|-------|--------|----------|\n"
+"| 0 | 0     |  0     | cable     |\n"
+"| 0 | 1     |  1     | cable     |\n"
+"| 1 | 0     |  1     | Not      |\n"
+"| 1 | 1     |  0     | Not      |"
+
 #: translation.js:621
-msgid ""
-"## Rising edge detector\n"
-"\n"
-"It generates a 1-period pulse (tic) when a rising edge is detected on the  \n"
-"input signal"
-msgstr ""
-"### Detector de flancos de subida\n"
-"\n"
-"Se genera un pulso de un ciclo de reloj de anchura cuando se detecta un "
-"flanco  \n"
-"de subida en la señal de entrada"
-
-#: translation.js:622
-msgid ""
-"If the current signal is 1 and its value in  \n"
-"the previous clock cycle was 0, it means  \n"
-"that a rising edge has been detected!  \n"
-"The output es 1\n"
-"\n"
-"In any other case the output is 0"
-msgstr ""
-"Si la señal actual es 1 y su valor en el  \n"
-"ciclo anterior era 0, significa que  \n"
-"se ha detectado un flanco de subida!  \n"
-"La salida es 1\n"
-"\n"
-"En cualquier otro caso la salida es 0"
-
-#: translation.js:623
-msgid ""
-"**Delay**: 0 clock cycles \n"
-"\n"
-"There is no delay between the arrival of a rising edge  \n"
-"and its detection"
-msgstr ""
-"**Retardo**: 0 ciclos de reloj\n"
-"\n"
-"No hay retardo entre la llegada de un flanco de subida  \n"
-"y su detección"
-
-#: translation.js:625
 msgid "2-to-1 Multplexer (19-bit channels)"
 msgstr "Multiplexor 2-1 (Canales de  19 bit)"
 
-#: translation.js:626
+#: translation.js:622
 msgid "Bus19-Join-3-8-8: Join the three buses into a 19-bits Bus"
 msgstr "Bus19-Join-3-8-8: Agrupar tres buses en uno de 19 bits"
 
-#: translation.js:627
+#: translation.js:623
 msgid ""
 "## 19-bits Value 0: Test on LEDs\n"
 "\n"
@@ -2852,13 +2849,13 @@ msgstr ""
 "\n"
 "Mostrar el valor en los LEDs"
 
-#: translation.js:632
+#: translation.js:626
 msgid ""
 "Bus20-Split-4-16: Split the 20-bits bus into two buses of 4 and 16 wires"
 msgstr ""
 "Bus20-Split-4-16: Separar el bus de 20 bits en dos buses de 4 y 16 cables"
 
-#: translation.js:633
+#: translation.js:627
 msgid ""
 "## Testing a 20-bits constant\n"
 "\n"
@@ -2871,7 +2868,7 @@ msgstr ""
 "menos significativos. Cuando se aprieta el botón, los bits superiores  \n"
 "se muestran"
 
-#: translation.js:634
+#: translation.js:628
 msgid ""
 "Values for testing:  \n"
 "0-FFFFF"
@@ -2879,13 +2876,13 @@ msgstr ""
 "Valores para probar:  \n"
 "0-FFFFF"
 
-#: translation.js:640
+#: translation.js:634
 msgid ""
 "Bus23-Split-7-8-8: Split the 23-bits bus into three buses of 7, 8 and 8 wires"
 msgstr ""
 "Bus23-Split-7-8-8: Separar el bus de 23-bits en tres buses de 7, 8 y 8 cables"
 
-#: translation.js:641
+#: translation.js:635
 msgid ""
 "## 23-bits constant: Manual testing\n"
 "\n"
@@ -2893,21 +2890,21 @@ msgstr ""
 "###Constante de 23 bits: Prueba manual\n"
 "\n"
 
-#: translation.js:643
+#: translation.js:637
 msgid "2-to-1 Multplexer (23-bit channels)"
 msgstr "Multiplexor 2-1 (Canales de 23 bits)"
 
-#: translation.js:644
+#: translation.js:638
 msgid ""
 "Bus19-Split-3-8-8: Split the 19-bits bus into three buses of 3,8 and 8 bits"
 msgstr ""
 "Bus19-Split-3-8-8: Separar el bus de 19-bits en tres buses de 1, 8 y 8 cables"
 
-#: translation.js:645
+#: translation.js:639
 msgid "Bus23-Join-7-8-8: Join the three buses into a 23-bits Bus"
 msgstr "Bus23-Join-7-8-8: Agrupar los tres buses en uno de 23 bits"
 
-#: translation.js:646
+#: translation.js:640
 msgid ""
 "## 23-bits Value 0: Test on LEDs\n"
 "\n"
@@ -2917,13 +2914,13 @@ msgstr ""
 "\n"
 "Mostrar el valor en los LEDs"
 
-#: translation.js:651
+#: translation.js:643
 msgid ""
 "Bus24-Split-8-16: Split the 24-bits bus into two buses of 8 and 16 wires"
 msgstr ""
 "Bus24-Split-8-16: Separar el bus de 24 bits en dos buses de 8 y 16 cables"
 
-#: translation.js:652
+#: translation.js:644
 msgid ""
 "## Testing the 24-bits generic constant\n"
 "\n"
@@ -2938,7 +2935,7 @@ msgstr ""
 "se pulsa, los 8 bits más significativos se muestran. El botón sw2 cambia  \n"
 "entre los 8 bits menos significativos y los 8 de el medio"
 
-#: translation.js:653
+#: translation.js:645
 msgid ""
 "Values for testing:  \n"
 "0-FFFFFF"
@@ -2946,7 +2943,7 @@ msgstr ""
 "Valores para probar:  \n"
 "0-FFFFFF"
 
-#: translation.js:655
+#: translation.js:647
 msgid ""
 "## Testing the 24-bits generic k-1 constant\n"
 "\n"
@@ -2961,7 +2958,7 @@ msgstr ""
 "se pulsa, los 8 bits más significativos se muestran. El botón sw2 cambia  \n"
 "entre los 8 bits menos significativos y los 8 de el medio"
 
-#: translation.js:660
+#: translation.js:652
 msgid ""
 "Bus27-Split-3-8-8-8: Split the 27-bits bus into four buses of 7,8, 8 and 8 "
 "bits"
@@ -2969,7 +2966,7 @@ msgstr ""
 "Bus27-Split-3-8-8-8: Separar el bus de 27-bits en cuatro buses de 3, 8,  8 y "
 "8 cables"
 
-#: translation.js:661
+#: translation.js:653
 msgid ""
 "## 27-bits constant: Manual testing\n"
 "\n"
@@ -2977,15 +2974,15 @@ msgstr ""
 "## Constante de 27-bits: Prueba manual\n"
 "\n"
 
-#: translation.js:663
+#: translation.js:655
 msgid "2-to-1 Multplexer (27-bit channels)"
 msgstr "Multiplexor 2-1 (Canales de  27 bits)"
 
-#: translation.js:664
+#: translation.js:656
 msgid "Bus27-Join-3-8-8-8: Join the four buses into a 27-bits Bus"
 msgstr "Bus27-Join-3-8-8-8: Agrupar los cuatro buses en un bus de 17 bits"
 
-#: translation.js:665
+#: translation.js:657
 msgid ""
 "## 27-bits Value 0: Test on LEDs\n"
 "\n"
@@ -2995,13 +2992,13 @@ msgstr ""
 "\n"
 "Mostrar el valor en los LEDs"
 
-#: translation.js:670
+#: translation.js:660
 msgid ""
 "Bus28-Split-4-24: Split the 28-bits bus into two buses of 4 and 24 wires"
 msgstr ""
 "Bus28-Split-4-24: Separar el bus de 28 bits en dos buses de 4 y 24 cables"
 
-#: translation.js:671
+#: translation.js:661
 msgid ""
 "## 28-bits generic constant: Manual testing\n"
 "\n"
@@ -3016,7 +3013,7 @@ msgstr ""
 "se pulsa, los 8 bits más significativos se muestran. El botón sw2 cambia  \n"
 "entre los 8 bits menos significativos y los 8 bits del medio"
 
-#: translation.js:672
+#: translation.js:662
 msgid ""
 "Values for testing:  \n"
 "0-FFFFFFF"
@@ -3024,7 +3021,7 @@ msgstr ""
 "Valores para probar:  \n"
 "0-FFFFFFF"
 
-#: translation.js:674
+#: translation.js:664
 msgid ""
 "## 28-bits generic k-1 constant: Manual testing\n"
 "\n"
@@ -3039,7 +3036,7 @@ msgstr ""
 "se pulsa, los 8 bits más significativos se muestran. El botón sw2 cambia  \n"
 "entre los 8 bits menos significativos y los 8 bits del medio"
 
-#: translation.js:679
+#: translation.js:667
 msgid ""
 "Bus31-Split-7-8-8-8: Split the 31-bits bus into four buses of 7, 8, 8 and 8 "
 "wires"
@@ -3047,7 +3044,7 @@ msgstr ""
 "Bus31-Split-7-8-8-8: Separar el bus de 31-bits en cuatro buses de 7, 8,  8 y "
 "8 cables"
 
-#: translation.js:680
+#: translation.js:668
 msgid ""
 "## 31-bits constant: Manual testing\n"
 "\n"
@@ -3055,11 +3052,11 @@ msgstr ""
 "## Constante de 31 bits: Prueba manual\n"
 "\n"
 
-#: translation.js:682
+#: translation.js:670
 msgid "2-to-1 Multplexer (31-bit channels)"
 msgstr "Multiplexor 2-1 (Canales de  31 bits)"
 
-#: translation.js:683
+#: translation.js:671
 msgid ""
 "Bus31-Split-7-8-8-8: Split the 31-bits bus into four buses of 7,8, 8 and 8 "
 "bits"
@@ -3067,11 +3064,11 @@ msgstr ""
 "Bus31-Split-7-8-8-8: Separar el bus de 31-bits en cuatro buses de 7, 8,  8 y "
 "8 cables"
 
-#: translation.js:684
+#: translation.js:672
 msgid "Bus31-Join-7-8-8-8: Join the four buses into a 31-bits Bus"
 msgstr "Bus31-Join-7-8-8-8: Agrupar los cuatro buses en un bus de 31 bits"
 
-#: translation.js:685
+#: translation.js:673
 msgid ""
 "## 31-bits Value 0: Test on LEDs\n"
 "\n"
@@ -3081,13 +3078,13 @@ msgstr ""
 "\n"
 "Mostrar el valor en los LEDs"
 
-#: translation.js:690
+#: translation.js:676
 msgid ""
 "Bus32-Split-8-24: Split the 28-bits bus into two buses of 8 and 24 wires"
 msgstr ""
 "Bus32-Split-8-24: Separar el bus de 28 bits en dos buses de 8 y 24 cables"
 
-#: translation.js:691
+#: translation.js:677
 msgid ""
 "## 32 Bits constant: Manual testing\n"
 "\n"
@@ -3102,7 +3099,7 @@ msgstr ""
 "se pulsa, los 8 bits más significativos se muestran. El botón sw2 cambia  \n"
 "entre los 8 bits menos significativos y los 8 bits del medio"
 
-#: translation.js:692
+#: translation.js:678
 msgid ""
 "Values for testing:  \n"
 "0-FFFFFFFF"
@@ -3110,7 +3107,7 @@ msgstr ""
 "Valores para probar:  \n"
 "0-FFFFFFFF"
 
-#: translation.js:694
+#: translation.js:680
 msgid ""
 "## 32 Bits k-1 constant: Manual testing\n"
 "\n"
@@ -3125,11 +3122,11 @@ msgstr ""
 "se pulsa, los 8 bits más significativos se muestran. El botón sw2 cambia  \n"
 "entre los 8 bits menos significativos y los 8 bits del medio"
 
-#: translation.js:698
+#: translation.js:682
 msgid "01-bit-0"
 msgstr "01-bit-0"
 
-#: translation.js:699
+#: translation.js:683
 msgid ""
 "## Turn off an LED\n"
 "\n"
@@ -3139,11 +3136,11 @@ msgstr ""
 "\n"
 "Sacar el valor 0. El LED se apagará"
 
-#: translation.js:700
+#: translation.js:684
 msgid "02-bit-1"
 msgstr "02-bit-1"
 
-#: translation.js:701
+#: translation.js:685
 msgid ""
 "## Turn on an LED\n"
 "\n"
@@ -3153,11 +3150,11 @@ msgstr ""
 "\n"
 "Sacar el bit 1.  Se encenderá el LED"
 
-#: translation.js:702
+#: translation.js:686
 msgid "03-generic-bit"
 msgstr "03-generic-bit"
 
-#: translation.js:703
+#: translation.js:687
 msgid ""
 "## Changing the state of an LED\n"
 "\n"
