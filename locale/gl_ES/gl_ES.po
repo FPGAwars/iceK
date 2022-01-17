@@ -1,7 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Icestudio 0.3.3\n"
-"POT-Creation-Date: 2021-06-01 19:14+0200\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-17 22:34+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Xoan Sampaiño <xoansampainho@gmail.com>, Diego Vazquez "
 "<contacto@diegovazquez.me>\n"
@@ -19,7 +20,7 @@ msgstr ""
 msgid "Bits"
 msgstr "Bits"
 
-#: translation.js:11 translation.js:203
+#: translation.js:11 translation.js:342
 msgid "Bus"
 msgstr "Bus"
 
@@ -39,8 +40,9 @@ msgstr "bit-1"
 msgid "Constant bit 1"
 msgstr "Bit 1 constante"
 
-#: translation.js:16 translation.js:25 translation.js:39 translation.js:51
-#: translation.js:65 translation.js:69 translation.js:73 translation.js:82
+#: translation.js:16 translation.js:42 translation.js:56 translation.js:72
+#: translation.js:90 translation.js:98 translation.js:106 translation.js:119
+#: translation.js:137
 msgid "generic"
 msgstr "xenerico"
 
@@ -48,43 +50,134 @@ msgstr "xenerico"
 msgid "1-bit generic constant (0/1)"
 msgstr "constante xenérica de 1 bit (0/1)"
 
-#: translation.js:18 translation.js:205
+#: translation.js:18 translation.js:344
 msgid "Bus-02"
 msgstr "Bus-02"
 
-#: translation.js:19 translation.js:206
+#: translation.js:19 translation.js:345
 msgid "Bus-03"
 msgstr "Bus-03"
 
-#: translation.js:20 translation.js:207
+#: translation.js:20 translation.js:346
 msgid "Bus-04"
 msgstr "Bus-04"
 
-#: translation.js:21 translation.js:208
+#: translation.js:21 translation.js:347
 msgid "Bus-05"
 msgstr "Bus-05"
 
-#: translation.js:22 translation.js:209
+#: translation.js:22 translation.js:348
 msgid "Bus-06"
 msgstr "Bus-06"
 
-#: translation.js:23 translation.js:210
+#: translation.js:23 translation.js:349
 msgid "Bus-07"
 msgstr "Bus-07"
 
-#: translation.js:24 translation.js:211
+#: translation.js:24 translation.js:350
 msgid "Bus-08"
 msgstr "Bus-08"
 
-#: translation.js:26
+#: translation.js:25 translation.js:351
+#, fuzzy
+msgid "Bus-09"
+msgstr "Bus-02"
+
+#: translation.js:26 translation.js:352
+#, fuzzy
+msgid "Bus-10"
+msgstr "Bus-02"
+
+#: translation.js:27 translation.js:353
+#, fuzzy
+msgid "Bus-11"
+msgstr "Bus-02"
+
+#: translation.js:28 translation.js:354
+#, fuzzy
+msgid "Bus-12"
+msgstr "Bus-02"
+
+#: translation.js:29 translation.js:355
+#, fuzzy
+msgid "Bus-15"
+msgstr "Bus-05"
+
+#: translation.js:30 translation.js:356
+#, fuzzy
+msgid "Bus-16"
+msgstr "Bus-06"
+
+#: translation.js:31 translation.js:357
+#, fuzzy
+msgid "Bus-17"
+msgstr "Bus-07"
+
+#: translation.js:32 translation.js:358
+#, fuzzy
+msgid "Bus-19"
+msgstr "Bus-02"
+
+#: translation.js:33 translation.js:359
+#, fuzzy
+msgid "Bus-20"
+msgstr "Bus-02"
+
+#: translation.js:34 translation.js:360
+#, fuzzy
+msgid "Bus-22"
+msgstr "Bus-02"
+
+#: translation.js:35 translation.js:361
+#, fuzzy
+msgid "Bus-23"
+msgstr "Bus-02"
+
+#: translation.js:36 translation.js:362
+#, fuzzy
+msgid "Bus-24"
+msgstr "Bus-02"
+
+#: translation.js:37 translation.js:363
+#, fuzzy
+msgid "Bus-27"
+msgstr "Bus-02"
+
+#: translation.js:38 translation.js:364
+#, fuzzy
+msgid "Bus-28"
+msgstr "Bus-02"
+
+#: translation.js:39 translation.js:365
+#, fuzzy
+msgid "Bus-29"
+msgstr "Bus-02"
+
+#: translation.js:40 translation.js:366
+#, fuzzy
+msgid "Bus-31"
+msgstr "Bus-03"
+
+#: translation.js:41 translation.js:367
+#, fuzzy
+msgid "Bus-32"
+msgstr "Bus-02"
+
+#: translation.js:43
 msgid "Generic: 2-bits generic constant (0,1,2,3)"
 msgstr "Constante xenérica de 2 bits (0, 1, 2, 3)"
 
-#: translation.js:27
+#: translation.js:44 translation.js:58 translation.js:74 translation.js:92
+#: translation.js:100 translation.js:108 translation.js:120 translation.js:139
+#: translation.js:149 translation.js:163 translation.js:177 translation.js:189
+#: translation.js:201 translation.js:387 translation.js:404 translation.js:423
+#: translation.js:431 translation.js:439 translation.js:447 translation.js:507
+#: translation.js:527 translation.js:621 translation.js:642 translation.js:657
+#: translation.js:677
 msgid "k-1"
 msgstr "k-1"
 
-#: translation.js:28
+#: translation.js:45
 msgid ""
 "Generic: 2-bits k-1 constant (Input values: 1,2,3,4). It returns the value "
 "input by the user minus 1. Outputs: 0,1,2,3"
@@ -92,326 +185,776 @@ msgstr ""
 "Xenérico: Constante k-1 de 2 bits (valores de entrada 1,2,3,4). Devolve o "
 "valor de entrada dado por o usuario menos 1. Saidas: 0,1,2,3"
 
-#: translation.js:29
+#: translation.js:46
 msgid "Output: 0,1,2,3"
 msgstr "Saida: 0,1,2,3"
 
-#: translation.js:30
+#: translation.js:47
 msgid "Inputs: 1,2,3,4"
 msgstr "Entradas: 1,2,3,4"
 
-#: translation.js:31 translation.js:41 translation.js:53 translation.js:67
-#: translation.js:71 translation.js:75 translation.js:83 translation.js:231
-#: translation.js:245 translation.js:263 translation.js:269 translation.js:275
-#: translation.js:281
+#: translation.js:48 translation.js:62 translation.js:78 translation.js:96
+#: translation.js:104 translation.js:112 translation.js:124 translation.js:128
+#: translation.js:131 translation.js:135 translation.js:143 translation.js:147
+#: translation.js:155 translation.js:161 translation.js:169 translation.js:175
+#: translation.js:183 translation.js:187 translation.js:193 translation.js:199
+#: translation.js:205 translation.js:390 translation.js:405 translation.js:425
+#: translation.js:433 translation.js:441 translation.js:449
 msgid "value-0"
 msgstr "valor-0"
 
-#: translation.js:32
+#: translation.js:49
 msgid "2bits constant value: 0"
 msgstr "Valor constante 0 de 2 bits"
 
-#: translation.js:33 translation.js:43 translation.js:57 translation.js:233
-#: translation.js:249
+#: translation.js:50 translation.js:64 translation.js:82 translation.js:392
+#: translation.js:409
 msgid "value-1"
 msgstr "valor-1"
 
-#: translation.js:34
+#: translation.js:51
 msgid "2bits constant value: 1"
 msgstr "Valor constante 1 de 2 bits"
 
-#: translation.js:35 translation.js:45 translation.js:59 translation.js:235
-#: translation.js:251
+#: translation.js:52 translation.js:66 translation.js:84 translation.js:394
+#: translation.js:411
 msgid "value-2"
 msgstr "valor-2"
 
-#: translation.js:36
+#: translation.js:53
 msgid "2bits constant value: 2"
 msgstr "Valor constante 2 de 2 bits"
 
-#: translation.js:37
+#: translation.js:54
 msgid "value-3"
 msgstr "valor-3"
 
-#: translation.js:38
+#: translation.js:55
 msgid "2bits constant value: 3"
 msgstr "Valor constante 3 de 2 bits"
 
-#: translation.js:40
+#: translation.js:57
 msgid "Generic: 3-bits generic constant (0-7)"
 msgstr "Constante xenérica de 3 bits (0-7)"
 
-#: translation.js:42
+#: translation.js:59
+#, fuzzy
+msgid ""
+"Generic: 3-bits k-1 constant (Input values: 1,2,...,8). It returns the value "
+"input by the user minus 1. Outputs: 0,1,2,...,7"
+msgstr ""
+"Xenérico: Constante k-1 de 2 bits (valores de entrada 1,2,3,4). Devolve o "
+"valor de entrada dado por o usuario menos 1. Saidas: 0,1,2,3"
+
+#: translation.js:60
+#, fuzzy
+msgid "Output: 0,1,2,...,7"
+msgstr "Saida: 0,1,2,3"
+
+#: translation.js:61
+#, fuzzy
+msgid "Inputs: 1,2,...,8"
+msgstr "Entradas: 1,2,3,4"
+
+#: translation.js:63
 msgid "3bits constant value: 0"
 msgstr "Valor constante 0 de 3 bits"
 
-#: translation.js:44
+#: translation.js:65
 msgid "3bits constant value: 1"
 msgstr "Valor constante 1 de 3 bits"
 
-#: translation.js:46
+#: translation.js:67
 msgid "3bits constant value: 2"
 msgstr "Valor constante 2 de 3 bits"
 
-#: translation.js:47 translation.js:61 translation.js:237 translation.js:253
+#: translation.js:68 translation.js:86 translation.js:396 translation.js:413
 msgid "value-4"
 msgstr "valor-4"
 
-#: translation.js:48
+#: translation.js:69
 msgid "3bits constant value: 4"
 msgstr "Valor constante 4 de 3 bits"
 
-#: translation.js:49 translation.js:239
+#: translation.js:70 translation.js:398
 msgid "value-7"
 msgstr "valor-7"
 
-#: translation.js:50
+#: translation.js:71
 msgid "3bits constant value: 7"
 msgstr "Valor constante 7 de 3 bits"
 
-#: translation.js:52
+#: translation.js:73
 msgid "Generic: 4-bits generic constant (0-15)"
 msgstr "Constante xenérica de 4 bits (0-15)"
 
-#: translation.js:54
+#: translation.js:75
+#, fuzzy
+msgid ""
+"Generic: 4-bits k-1 constant (Input values: 1,2,...,16). It returns the "
+"value input by the user minus 1. Outputs: 0,1,2,...,15"
+msgstr ""
+"Xenérico: Constante k-1 de 2 bits (valores de entrada 1,2,3,4). Devolve o "
+"valor de entrada dado por o usuario menos 1. Saidas: 0,1,2,3"
+
+#: translation.js:76
+#, fuzzy
+msgid "Output: 0,1,2,...,15"
+msgstr "Saida: 0,1,2,3"
+
+#: translation.js:77
+#, fuzzy
+msgid "Inputs: 1,2,...,16"
+msgstr "Entradas: 1,2,3,4"
+
+#: translation.js:79
 msgid "4bits constant value: 0"
 msgstr "Valor constante 0 de 4 bits"
 
-#: translation.js:55 translation.js:247
+#: translation.js:80 translation.js:407
 #, fuzzy
-#| msgid "value-0"
 msgid "value-0xF"
 msgstr "valor-0"
 
-#: translation.js:56
+#: translation.js:81
 #, fuzzy
-#| msgid "4bits constant value: 15"
 msgid "4bits constant value: 15 (0xF in hexadecimal)"
 msgstr "Valor constante 15 de 4 bits"
 
-#: translation.js:58
+#: translation.js:83
 msgid "4bits constant value: 1"
 msgstr "Valor constante 1 de 4 bits"
 
-#: translation.js:60
+#: translation.js:85
 msgid "4bits constant value: 2"
 msgstr "Valor constante 2 de 4 bits"
 
-#: translation.js:62
+#: translation.js:87
 msgid "4bits constant value: 4"
 msgstr "Valor constante 4 de 4 bits"
 
-#: translation.js:63 translation.js:255
+#: translation.js:88 translation.js:415
 msgid "value-8"
 msgstr "valor-8"
 
-#: translation.js:64
+#: translation.js:89
 msgid "4bits constant value: 8"
 msgstr "Valor constante 8 de 4 bits"
 
-#: translation.js:66
+#: translation.js:91
 msgid "Generic: 5-bits generic constant (0-31)"
 msgstr "Constante xenérica de 5 bits (0-31)"
 
-#: translation.js:68
+#: translation.js:93
+#, fuzzy
+msgid ""
+"Generic: 5-bits k-1 constant (Input values: 1,2,...,32). It returns the "
+"value input by the user minus 1. Outputs: 0,1,2,...,31"
+msgstr ""
+"Xenérico: Constante k-1 de 2 bits (valores de entrada 1,2,3,4). Devolve o "
+"valor de entrada dado por o usuario menos 1. Saidas: 0,1,2,3"
+
+#: translation.js:94
+#, fuzzy
+msgid "Output: 0,1,2,...,31"
+msgstr "Saida: 0,1,2,3"
+
+#: translation.js:95
+#, fuzzy
+msgid "Inputs: 1,2,...,32"
+msgstr "Entradas: 1,2,3,4"
+
+#: translation.js:97
 msgid "5bits constant value: 0"
 msgstr "Valor constante 0 de 5 bits"
 
-#: translation.js:70
+#: translation.js:99
 msgid "Generic: 6-bits generic constant (0-63)"
 msgstr "Constante xenérica de 6 bits (0-63)"
 
-#: translation.js:72
+#: translation.js:101
+#, fuzzy
+msgid ""
+"Generic: 6-bits k-1 constant (Input values: 1,2,...,64). It returns the "
+"value input by the user minus 1. Outputs: 0,1,2,...,63"
+msgstr ""
+"Xenérico: Constante k-1 de 2 bits (valores de entrada 1,2,3,4). Devolve o "
+"valor de entrada dado por o usuario menos 1. Saidas: 0,1,2,3"
+
+#: translation.js:102
+#, fuzzy
+msgid "Output: 0,1,2,...,63"
+msgstr "Saida: 0,1,2,3"
+
+#: translation.js:103
+#, fuzzy
+msgid "Inputs: 1,2,...,64"
+msgstr "Entradas: 1,2,3,4"
+
+#: translation.js:105
 msgid "6bits constant value: 0"
 msgstr "Valor constante 0 de 6 bits"
 
-#: translation.js:74
+#: translation.js:107
 msgid "Generic: 7-bits generic constant (0-127)"
 msgstr "Constante xenérica de 7 bits (0-127)"
 
-#: translation.js:76
+#: translation.js:109
+#, fuzzy
+msgid ""
+"Generic: 7-bits k-1 constant (Input values: 1,2,...,128). It returns the "
+"value input by the user minus 1. Outputs: 0,1,2,...,127"
+msgstr ""
+"Xenérico: Constante k-1 de 2 bits (valores de entrada 1,2,3,4). Devolve o "
+"valor de entrada dado por o usuario menos 1. Saidas: 0,1,2,3"
+
+#: translation.js:110
+#, fuzzy
+msgid "Output: 0,1,2,...,127"
+msgstr "Saida: 0,1,2,3"
+
+#: translation.js:111
+#, fuzzy
+msgid "Inputs: 1,2,...,128"
+msgstr "Entradas: 1,2,3,4"
+
+#: translation.js:113
 msgid "7bits constant value: 0"
 msgstr "Valor constante 0 de 7 bits"
 
-#: translation.js:77
+#: translation.js:114
 msgid "Ascii-A"
 msgstr "Ascii-A"
 
-#: translation.js:78
+#: translation.js:115
 msgid "8bits ASCII Letter A"
 msgstr "Letra A ASCII de 8 bits"
 
-#: translation.js:79
+#: translation.js:116
 msgid "Generic: 8-bits generic constant (0-255)"
 msgstr "Constante xenérica de 8 bits (0-255)"
 
-#: translation.js:80
+#: translation.js:117
 #, fuzzy
-#| msgid "Ascii-A"
 msgid "Ascii-Asterisk"
 msgstr "Ascii-A"
 
-#: translation.js:81
+#: translation.js:118
 #, fuzzy
-#| msgid "8bits ASCII Letter A"
 msgid "8bits ASCII asterisk symbol *"
 msgstr "Letra A ASCII de 8 bits"
 
-#: translation.js:84
+#: translation.js:121
+#, fuzzy
+msgid ""
+"Generic: 8-bits k-1 constant (Input values: 1,2,...,256). It returns the "
+"value input by the user minus 1. Outputs: 0,1,2,...,255"
+msgstr ""
+"Xenérico: Constante k-1 de 2 bits (valores de entrada 1,2,3,4). Devolve o "
+"valor de entrada dado por o usuario menos 1. Saidas: 0,1,2,3"
+
+#: translation.js:122
+#, fuzzy
+msgid "Output: 0,1,2,...,255"
+msgstr "Saida: 0,1,2,3"
+
+#: translation.js:123
+#, fuzzy
+msgid "Inputs: 1,2,...,256"
+msgstr "Entradas: 1,2,3,4"
+
+#: translation.js:125
 msgid "8bits constant value: 0"
 msgstr "Valor constante 0 de 8 bits"
 
-#: translation.js:85
+#: translation.js:126 translation.js:130 translation.js:133 translation.js:145
+#: translation.js:153 translation.js:157 translation.js:159 translation.js:167
+#: translation.js:171 translation.js:173 translation.js:181 translation.js:185
+#: translation.js:191 translation.js:195 translation.js:197 translation.js:203
+msgid "k"
+msgstr ""
+
+#: translation.js:127
+#, fuzzy
+msgid "Generic: 9-bits generic constant"
+msgstr "Constante xenérica de 3 bits (0-7)"
+
+#: translation.js:129
+#, fuzzy
+msgid "9bits constant value: 0"
+msgstr "Valor constante 0 de 2 bits"
+
+#: translation.js:132
+#, fuzzy
+msgid "10bits constant value: 0"
+msgstr "Valor constante 0 de 2 bits"
+
+#: translation.js:134
+#, fuzzy
+msgid "Generic: 11-bits generic constant"
+msgstr "Constante xenérica de 3 bits (0-7)"
+
+#: translation.js:136
+#, fuzzy
+msgid "11bits constant value: 0"
+msgstr "Valor constante 0 de 2 bits"
+
+#: translation.js:138
+#, fuzzy
+msgid "Generic: 12-bits generic constant (0-4095)"
+msgstr "Constante xenérica de 4 bits (0-15)"
+
+#: translation.js:140
+#, fuzzy
+msgid ""
+"Generic: 12-bits k-1 constant (Input values: 1,2,...,4096). It returns the "
+"value input by the user minus 1. Outputs: 0,1,2,...,4095"
+msgstr ""
+"Xenérico: Constante k-1 de 2 bits (valores de entrada 1,2,3,4). Devolve o "
+"valor de entrada dado por o usuario menos 1. Saidas: 0,1,2,3"
+
+#: translation.js:141
+#, fuzzy
+msgid "Output: 0,1,2,...,4095"
+msgstr "Saida: 0,1,2,3"
+
+#: translation.js:142
+#, fuzzy
+msgid "Inputs: 1,2,...,4096"
+msgstr "Entradas: 1,2,3,4"
+
+#: translation.js:144
+#, fuzzy
+msgid "12bits constant value: 0"
+msgstr "Valor constante 0 de 2 bits"
+
+#: translation.js:146
+#, fuzzy
+msgid "Generic: 15-bits generic constant"
+msgstr "Constante xenérica de 5 bits (0-31)"
+
+#: translation.js:148
+#, fuzzy
+msgid "15bits constant value: 0"
+msgstr "Valor constante 0 de 5 bits"
+
+#: translation.js:150
+#, fuzzy
+msgid ""
+"Generic: 16-bits k-1 constant (Input values: 1,2,...,h10000). It returns the "
+"value input by the user minus 1. Outputs: 0,1,2,...,FFFF"
+msgstr ""
+"Xenérico: Constante k-1 de 2 bits (valores de entrada 1,2,3,4). Devolve o "
+"valor de entrada dado por o usuario menos 1. Saidas: 0,1,2,3"
+
+#: translation.js:151
+#, fuzzy
+msgid "Output: 0,1,2,...,hffff"
+msgstr "Saida: 0,1,2,3"
+
+#: translation.js:152
+#, fuzzy
+msgid "Inputs: 1,2,...,h10000"
+msgstr "Entradas: 1,2,3,4"
+
+#: translation.js:154
+#, fuzzy
+msgid "Generic: 16-bits generic constant"
+msgstr "Constante xenérica de 6 bits (0-63)"
+
+#: translation.js:156
+#, fuzzy
+msgid "16bits constant value: 0"
+msgstr "Valor constante 0 de 6 bits"
+
+#: translation.js:158
+#, fuzzy
+msgid "Generic: 17-bits generic constant"
+msgstr "Constante xenérica de 7 bits (0-127)"
+
+#: translation.js:160
+#, fuzzy
+msgid "Generic: 19-bits generic constant"
+msgstr "Constante xenérica de 3 bits (0-7)"
+
+#: translation.js:162
+#, fuzzy
+msgid "19bits constant value: 0"
+msgstr "Valor constante 0 de 2 bits"
+
+#: translation.js:164
+#, fuzzy
+msgid ""
+"Generic: 20-bits k-1 constant (Input values: 1,2,...,h100000). It returns "
+"the value input by the user minus 1. Outputs: 0,1,2,...,FFFFF"
+msgstr ""
+"Xenérico: Constante k-1 de 2 bits (valores de entrada 1,2,3,4). Devolve o "
+"valor de entrada dado por o usuario menos 1. Saidas: 0,1,2,3"
+
+#: translation.js:165
+#, fuzzy
+msgid "Output: 0,1,2,...,hfffff"
+msgstr "Saida: 0,1,2,3"
+
+#: translation.js:166
+#, fuzzy
+msgid "Inputs: 1,2,...,h100000"
+msgstr "Entradas: 1,2,3,4"
+
+#: translation.js:168
+#, fuzzy
+msgid "Generic: 20-bits generic constant"
+msgstr "Xenerico: constante xenérica de 2 bit (0/1)"
+
+#: translation.js:170
+#, fuzzy
+msgid "20bits constant value: 0"
+msgstr "Valor constante 0 de 2 bits"
+
+#: translation.js:172
+#, fuzzy
+msgid "Generic: 22-bits generic constant"
+msgstr "Xenerico: constante xenérica de 2 bit (0/1)"
+
+#: translation.js:174
+#, fuzzy
+msgid "Generic: 23-bits generic constant"
+msgstr "Constante xenérica de 3 bits (0-7)"
+
+#: translation.js:176
+#, fuzzy
+msgid "23bits constant value: 0"
+msgstr "Valor constante 0 de 3 bits"
+
+#: translation.js:178
+#, fuzzy
+msgid ""
+"Generic: 24-bits k-1 constant (Input values: 1,2,...,h1000000). It returns "
+"the value input by the user minus 1. Outputs: 0,1,2,...,FFFFFF"
+msgstr ""
+"Xenérico: Constante k-1 de 2 bits (valores de entrada 1,2,3,4). Devolve o "
+"valor de entrada dado por o usuario menos 1. Saidas: 0,1,2,3"
+
+#: translation.js:179
+#, fuzzy
+msgid "Output: 0,1,2,...,hffffff"
+msgstr "Saida: 0,1,2,3"
+
+#: translation.js:180
+#, fuzzy
+msgid "Inputs: 1,2,...,h1000000"
+msgstr "Entradas: 1,2,3,4"
+
+#: translation.js:182
+#, fuzzy
+msgid "Generic: 24-bits generic constant"
+msgstr "Xenerico: constante xenérica de 2 bit (0/1)"
+
+#: translation.js:184
+#, fuzzy
+msgid "24bits constant value: 0"
+msgstr "Valor constante 0 de 4 bits"
+
+#: translation.js:186
+#, fuzzy
+msgid "Generic: 27-bits generic constant"
+msgstr "Xenerico: constante xenérica de 2 bit (0/1)"
+
+#: translation.js:188
+#, fuzzy
+msgid "27bits constant value: 0"
+msgstr "Valor constante 0 de 7 bits"
+
+#: translation.js:190
+#, fuzzy
+msgid ""
+"Generic: 28-bits k-1 constant (Input values: 1,2,...,h10000000). It returns "
+"the value input by the user minus 1. Outputs: 0,1,2,...,FFFFFFF"
+msgstr ""
+"Xenérico: Constante k-1 de 2 bits (valores de entrada 1,2,3,4). Devolve o "
+"valor de entrada dado por o usuario menos 1. Saidas: 0,1,2,3"
+
+#: translation.js:192
+#, fuzzy
+msgid "Generic: 28-bits generic constant"
+msgstr "Xenerico: constante xenérica de 2 bit (0/1)"
+
+#: translation.js:194
+#, fuzzy
+msgid "28bits constant value: 0"
+msgstr "Valor constante 0 de 8 bits"
+
+#: translation.js:196
+#, fuzzy
+msgid "Generic: 29-bits generic constant"
+msgstr "Xenerico: constante xenérica de 2 bit (0/1)"
+
+#: translation.js:198
+#, fuzzy
+msgid "Generic: 31-bits generic constant"
+msgstr "Constante xenérica de 3 bits (0-7)"
+
+#: translation.js:200
+#, fuzzy
+msgid "31bits constant value: 0"
+msgstr "Valor constante 0 de 3 bits"
+
+#: translation.js:202
+#, fuzzy
+msgid ""
+"Generic: 32-bits k-1 constant (Input values: 1,2,...,h100000000). It returns "
+"the value input by the user minus 1. Outputs: 0,1,2,...,FFFFFFFF"
+msgstr ""
+"Xenérico: Constante k-1 de 2 bits (valores de entrada 1,2,3,4). Devolve o "
+"valor de entrada dado por o usuario menos 1. Saidas: 0,1,2,3"
+
+#: translation.js:204
+#, fuzzy
+msgid "Generic: 32-bits generic constant"
+msgstr "Constante xenérica de 3 bits (0-7)"
+
+#: translation.js:206
+#, fuzzy
+msgid "32bits constant value: 0"
+msgstr "Valor constante 0 de 2 bits"
+
+#: translation.js:207
 msgid "01-Turn-on-LEDs"
 msgstr ""
 
-#: translation.js:86
+#: translation.js:208
 #, fuzzy
-#| msgid "Generic constant"
 msgid "02-Generic-constants"
 msgstr "Constante xenérica"
 
-#: translation.js:87
+#: translation.js:209
 msgid "TESTs"
 msgstr "PROBAs"
 
-#: translation.js:88 translation.js:290
+#: translation.js:210
 msgid "00-Index"
 msgstr "00-Indice"
 
-#: translation.js:89
+#: translation.js:211
 msgid "# INDEX: IceK Collection"
 msgstr "# ÍNDICE: Colección iceK"
 
-#: translation.js:90
+#: translation.js:212
 msgid "bit 0"
 msgstr "bit 0"
 
-#: translation.js:91
+#: translation.js:213
 msgid "## Bits"
 msgstr "## Bits"
 
-#: translation.js:92
+#: translation.js:214
 msgid "bit 1"
 msgstr "bit 1"
 
-#: translation.js:93
+#: translation.js:215
 msgid "## Bus"
 msgstr "## Bus"
 
-#: translation.js:94
+#: translation.js:216
 msgid "### 1-bit constants"
 msgstr "### Constantes de 1 bit"
 
-#: translation.js:95
+#: translation.js:217
 msgid "Generic constant"
 msgstr "Constante xenérica"
 
-#: translation.js:96
+#: translation.js:218
 msgid "### 2-bits constants"
 msgstr "### Constantes de 2 bit"
 
-#: translation.js:97
+#: translation.js:219
 msgid "### 3-bits constants"
 msgstr "### Constantes de 3 bit"
 
-#: translation.js:98
+#: translation.js:220
 msgid "### 4-bits constants"
 msgstr "### Constantes de 4 bit"
 
-#: translation.js:99
+#: translation.js:221
 msgid "### 5-bits constants"
 msgstr "### Constantes de 5 bit"
 
-#: translation.js:100
+#: translation.js:222
 msgid "### 6-bits constants"
 msgstr "### Constantes de 6 bit"
 
-#: translation.js:101
+#: translation.js:223
 msgid "### 7-bits constants"
 msgstr "### Constantes de 7 bit"
 
-#: translation.js:102
+#: translation.js:224
 msgid "### 8-bits constants"
 msgstr "### Constantes de 8 bit"
 
-#: translation.js:103 translation.js:104
+#: translation.js:225 translation.js:226
 msgid "Ascii "
 msgstr "Ascii "
 
-#: translation.js:105 translation.js:188 translation.js:212 translation.js:227
-#: translation.js:241 translation.js:259 translation.js:265 translation.js:271
-#: translation.js:277 translation.js:283
+#: translation.js:227
+#, fuzzy
+msgid "### 12-bits constants"
+msgstr "### Constantes de 2 bit"
+
+#: translation.js:228
+#, fuzzy
+msgid "### 16-bits constants"
+msgstr "### Constantes de 6 bit"
+
+#: translation.js:229
+#, fuzzy
+msgid "### 20-bits constants"
+msgstr "### Constantes de 2 bit"
+
+#: translation.js:230
+#, fuzzy
+msgid "### 24-bits constants"
+msgstr "### Constantes de 2 bit"
+
+#: translation.js:231
+#, fuzzy
+msgid "### 28-bits constants"
+msgstr "### Constantes de 2 bit"
+
+#: translation.js:232
+#, fuzzy
+msgid "### 32-bits constants"
+msgstr "### Constantes de 2 bit"
+
+#: translation.js:233
+#, fuzzy
+msgid "### 11-bits constants"
+msgstr "### Constantes de 1 bit"
+
+#: translation.js:234
+#, fuzzy
+msgid "### 9-bits constants"
+msgstr "### Constantes de 2 bit"
+
+#: translation.js:235
+#, fuzzy
+msgid "### 10-bits constants"
+msgstr "### Constantes de 1 bit"
+
+#: translation.js:236
+#, fuzzy
+msgid "### 15-bits constants"
+msgstr "### Constantes de 5 bit"
+
+#: translation.js:237
+#, fuzzy
+msgid "### 19-bits constants"
+msgstr "### Constantes de 1 bit"
+
+#: translation.js:238
+#, fuzzy
+msgid "### 23-bits constants"
+msgstr "### Constantes de 2 bit"
+
+#: translation.js:239
+#, fuzzy
+msgid "### 27-bits constants"
+msgstr "### Constantes de 2 bit"
+
+#: translation.js:240
+#, fuzzy
+msgid "### 31-bits constants"
+msgstr "### Constantes de 3 bit"
+
+#: translation.js:241
+#, fuzzy
+msgid "### 22-bits constants"
+msgstr "### Constantes de 2 bit"
+
+#: translation.js:242
+#, fuzzy
+msgid "### 17-bits constants"
+msgstr "### Constantes de 7 bit"
+
+#: translation.js:243
+#, fuzzy
+msgid "### 29-bits constants"
+msgstr "### Constantes de 2 bit"
+
+#: translation.js:244 translation.js:327 translation.js:368 translation.js:383
+#: translation.js:400 translation.js:419 translation.js:427 translation.js:435
+#: translation.js:443 translation.js:451 translation.js:475 translation.js:489
+#: translation.js:502 translation.js:508 translation.js:522 translation.js:528
+#: translation.js:603 translation.js:617 translation.js:622 translation.js:628
+#: translation.js:637 translation.js:644 translation.js:652 translation.js:659
+#: translation.js:663 translation.js:672 translation.js:679
 msgid "Alhambra-II"
 msgstr "Alhambra-II"
 
-#: translation.js:106
+#: translation.js:245
 msgid "Fomu"
 msgstr ""
 
-#: translation.js:107
+#: translation.js:246
 #, fuzzy
-#| msgid "Alhambra-II"
 msgid "IceZum-Alhambra"
 msgstr "Alhambra-II"
 
-#: translation.js:108
+#: translation.js:247
 msgid "MyStorm-BlackIce"
 msgstr ""
 
-#: translation.js:109
+#: translation.js:248
 msgid "Nandland-Go-board"
 msgstr ""
 
-#: translation.js:110
+#: translation.js:249
 msgid "Radiona-ULX3S-12F"
 msgstr ""
 
-#: translation.js:111
+#: translation.js:250
 msgid "iCE40HX8K-Breakout"
 msgstr ""
 
-#: translation.js:112
+#: translation.js:251
 msgid "iCE40UP-Breakout"
 msgstr ""
 
-#: translation.js:113
+#: translation.js:252
 msgid "iCESugar-1.5"
 msgstr ""
 
-#: translation.js:114
+#: translation.js:253
 msgid "iceBreaker"
 msgstr ""
 
-#: translation.js:115
+#: translation.js:254
 msgid "iceStick"
 msgstr ""
 
-#: translation.js:116
+#: translation.js:255
 msgid "tinyFPGA"
 msgstr ""
 
-#: translation.js:117 translation.js:127 translation.js:142 translation.js:146
-#: translation.js:151 translation.js:155 translation.js:160 translation.js:164
-#: translation.js:170 translation.js:175 translation.js:182 translation.js:186
+#: translation.js:256 translation.js:266 translation.js:281 translation.js:285
+#: translation.js:290 translation.js:294 translation.js:299 translation.js:303
+#: translation.js:309 translation.js:314 translation.js:321 translation.js:325
 msgid "01-One-LED"
 msgstr ""
 
-#: translation.js:118
+#: translation.js:257
 msgid "# Turn on a LED"
 msgstr ""
 
-#: translation.js:119
+#: translation.js:258
 #, fuzzy
-#| msgid "### 1-bit constants"
 msgid "1-bit constant"
 msgstr "### Constantes de 1 bit"
 
-#: translation.js:120
+#: translation.js:259
 msgid "Output pin"
 msgstr ""
 
-#: translation.js:121
+#: translation.js:260
 msgid ""
 "## Result\n"
 "\n"
@@ -423,13 +966,13 @@ msgid ""
 "Alhambra-II/Example-01-01.png)"
 msgstr ""
 
-#: translation.js:122 translation.js:136 translation.js:144 translation.js:149
-#: translation.js:153 translation.js:158 translation.js:162 translation.js:167
-#: translation.js:172 translation.js:179 translation.js:184 translation.js:193
+#: translation.js:261 translation.js:275 translation.js:283 translation.js:288
+#: translation.js:292 translation.js:297 translation.js:301 translation.js:306
+#: translation.js:311 translation.js:318 translation.js:323 translation.js:332
 msgid "02-Two-LEDs"
 msgstr ""
 
-#: translation.js:123
+#: translation.js:262
 msgid ""
 "# Turning on two LEDs\n"
 "\n"
@@ -437,19 +980,18 @@ msgid ""
 "two LEDs"
 msgstr ""
 
-#: translation.js:124
+#: translation.js:263
 msgid "Output pins"
 msgstr ""
 
-#: translation.js:125
+#: translation.js:264
 #, fuzzy
-#| msgid "2bits constant value: 1"
 msgid ""
 "2-bit constant value 3  \n"
 "(11 in binary)"
 msgstr "Valor constante 1 de 2 bits"
 
-#: translation.js:126
+#: translation.js:265
 msgid ""
 "## Result:\n"
 "\n"
@@ -462,7 +1004,7 @@ msgid ""
 "\n"
 msgstr ""
 
-#: translation.js:128
+#: translation.js:267
 msgid ""
 "## Result\n"
 "\n"
@@ -474,27 +1016,27 @@ msgid ""
 "Example-01-02-2.png)"
 msgstr ""
 
-#: translation.js:129
+#: translation.js:268
 msgid "usb pins must be \"0\""
 msgstr ""
 
-#: translation.js:130
+#: translation.js:269
 msgid "usb_dp_pu"
 msgstr ""
 
-#: translation.js:131
+#: translation.js:270
 msgid "Green"
 msgstr ""
 
-#: translation.js:132
+#: translation.js:271
 msgid "Red"
 msgstr ""
 
-#: translation.js:133
+#: translation.js:272
 msgid "Blue"
 msgstr ""
 
-#: translation.js:134
+#: translation.js:273
 msgid ""
 "RGB LED work with  \n"
 "negative logic:  \n"
@@ -504,17 +1046,17 @@ msgid ""
 "independent LEDs"
 msgstr ""
 
-#: translation.js:135
+#: translation.js:274
 msgid ""
 "The Red and Blue components  \n"
 "are turned off"
 msgstr ""
 
-#: translation.js:137
+#: translation.js:276
 msgid "# Turn on two LEDs"
 msgstr ""
 
-#: translation.js:138
+#: translation.js:277
 msgid ""
 "## Result\n"
 "\n"
@@ -527,15 +1069,14 @@ msgid ""
 "Example-01-02-2.png)"
 msgstr ""
 
-#: translation.js:139
+#: translation.js:278
 #, fuzzy
-#| msgid "2bits constant value: 0"
 msgid ""
 "2-bit constant value 0  \n"
 "(00 in binary)"
 msgstr "Valor constante 0 de 2 bits"
 
-#: translation.js:140
+#: translation.js:279
 msgid ""
 "LEDs R and G work with  \n"
 "negative logic:  \n"
@@ -543,14 +1084,14 @@ msgid ""
 "* 1: Turn LED off"
 msgstr ""
 
-#: translation.js:141
+#: translation.js:280
 msgid ""
 "The RGB2 is turned off   \n"
 "(No blue color)  \n"
 "(negative logic)"
 msgstr ""
 
-#: translation.js:143
+#: translation.js:282
 msgid ""
 "## Result\n"
 "\n"
@@ -562,7 +1103,7 @@ msgid ""
 "images/Icezum-Alhambra/Example-01-01-2.png)  "
 msgstr ""
 
-#: translation.js:145
+#: translation.js:284
 msgid ""
 "## Result:\n"
 "\n"
@@ -575,7 +1116,7 @@ msgid ""
 "\n"
 msgstr ""
 
-#: translation.js:147
+#: translation.js:286
 msgid ""
 "## Result\n"
 "\n"
@@ -587,14 +1128,14 @@ msgid ""
 "main/wiki/images/MyStorm-Blackice/Example-01-01-2.png)  "
 msgstr ""
 
-#: translation.js:148
+#: translation.js:287
 msgid ""
 "Turn off LED2  \n"
 "(The FPGA pins are in high impedance state  \n"
 "so that not driven LEDs bright a little bit)  "
 msgstr ""
 
-#: translation.js:150
+#: translation.js:289
 msgid ""
 "## Result:\n"
 "\n"
@@ -607,7 +1148,7 @@ msgid ""
 "\n"
 msgstr ""
 
-#: translation.js:152
+#: translation.js:291
 msgid ""
 "## Result\n"
 "\n"
@@ -619,7 +1160,7 @@ msgid ""
 "main/wiki/images/NandLand-Go-Board/Example-01-01-2.png)  "
 msgstr ""
 
-#: translation.js:154
+#: translation.js:293
 msgid ""
 "## Result:\n"
 "\n"
@@ -632,7 +1173,7 @@ msgid ""
 "\n"
 msgstr ""
 
-#: translation.js:156
+#: translation.js:295
 msgid ""
 "## Result\n"
 "\n"
@@ -644,13 +1185,13 @@ msgid ""
 "images/Radiona-ULX3S-12F/Example-01-01-2.png)"
 msgstr ""
 
-#: translation.js:157
+#: translation.js:296
 msgid ""
 "wifi_gpio0 should be 0 if wifi  \n"
 "is not used"
 msgstr ""
 
-#: translation.js:159
+#: translation.js:298
 msgid ""
 "## Result:\n"
 "\n"
@@ -662,7 +1203,7 @@ msgid ""
 "images/Radiona-ULX3S-12F/Example-01-02-2.png)"
 msgstr ""
 
-#: translation.js:161
+#: translation.js:300
 msgid ""
 "## Result\n"
 "\n"
@@ -674,7 +1215,7 @@ msgid ""
 "raw/main/wiki/images/iCE40HX8K-Breakout/Example-01-01-2.png)  "
 msgstr ""
 
-#: translation.js:163
+#: translation.js:302
 msgid ""
 "## Result:\n"
 "\n"
@@ -687,7 +1228,7 @@ msgid ""
 "\n"
 msgstr ""
 
-#: translation.js:165
+#: translation.js:304
 msgid ""
 "## Result\n"
 "\n"
@@ -699,13 +1240,13 @@ msgid ""
 "main/wiki/images/iCE40UP-Breakout/Example-01-01-2.png)  "
 msgstr ""
 
-#: translation.js:166
+#: translation.js:305
 msgid ""
 "The Green and Blue components  \n"
 "are turned off"
 msgstr ""
 
-#: translation.js:168
+#: translation.js:307
 msgid ""
 "## Result\n"
 "\n"
@@ -718,14 +1259,14 @@ msgid ""
 "main/wiki/images/iCE40UP-Breakout/Example-01-02-2.png)  "
 msgstr ""
 
-#: translation.js:169
+#: translation.js:308
 msgid ""
 "The LED_B is turned off   \n"
 "(No blue color)  \n"
 "(negative logitc)"
 msgstr ""
 
-#: translation.js:171
+#: translation.js:310
 msgid ""
 "## Result\n"
 "\n"
@@ -737,7 +1278,7 @@ msgid ""
 "iCESugar-1.5/Example-01-01-2.png)  "
 msgstr ""
 
-#: translation.js:173
+#: translation.js:312
 msgid ""
 "## Result\n"
 "\n"
@@ -750,18 +1291,18 @@ msgid ""
 "iCESugar-1.5/Example-01-02-2.png)  "
 msgstr ""
 
-#: translation.js:174
+#: translation.js:313
 msgid ""
 "The LED_G is turned off   \n"
 "(No blue color)  \n"
 "(negative logitc)"
 msgstr ""
 
-#: translation.js:176
+#: translation.js:315
 msgid "# Turn on the red LED"
 msgstr ""
 
-#: translation.js:177
+#: translation.js:316
 msgid ""
 "## Result\n"
 "\n"
@@ -773,7 +1314,7 @@ msgid ""
 "wiki/images/iceBreaker/Example-01-01-2.png)  "
 msgstr ""
 
-#: translation.js:178
+#: translation.js:317
 msgid ""
 "LEDs G and R works with  \n"
 "negative logic:  \n"
@@ -781,7 +1322,7 @@ msgid ""
 "* 1: Turn LED off"
 msgstr ""
 
-#: translation.js:180
+#: translation.js:319
 msgid ""
 "# Turning on two LEDs\n"
 "\n"
@@ -789,7 +1330,7 @@ msgid ""
 "two LEDs"
 msgstr ""
 
-#: translation.js:181
+#: translation.js:320
 msgid ""
 "## Result:\n"
 "\n"
@@ -802,7 +1343,7 @@ msgid ""
 "\n"
 msgstr ""
 
-#: translation.js:183
+#: translation.js:322
 msgid ""
 "## Result\n"
 "\n"
@@ -814,7 +1355,7 @@ msgid ""
 "iceStick/Example-01-01-2.png)  "
 msgstr ""
 
-#: translation.js:185
+#: translation.js:324
 msgid ""
 "## Result:\n"
 "\n"
@@ -827,7 +1368,7 @@ msgid ""
 "\n"
 msgstr ""
 
-#: translation.js:187
+#: translation.js:326
 msgid ""
 "## Result\n"
 "\n"
@@ -839,11 +1380,11 @@ msgid ""
 "images/TinyFPGA/Example-01-01-2.png)  "
 msgstr ""
 
-#: translation.js:189
+#: translation.js:328
 msgid "01-One-LEDs"
 msgstr ""
 
-#: translation.js:190
+#: translation.js:329
 msgid ""
 "# 1-bit Generic constant on one LED\n"
 "\n"
@@ -851,19 +1392,18 @@ msgid ""
 "on or off the LED"
 msgstr ""
 
-#: translation.js:191
+#: translation.js:330
 msgid ""
 "Set the value  \n"
 "of the k constant (0 / 1)"
 msgstr ""
 
-#: translation.js:192
+#: translation.js:331
 #, fuzzy
-#| msgid "1-bit generic constant (0/1)"
 msgid "1-bit generic constant"
 msgstr "constante xenérica de 1 bit (0/1)"
 
-#: translation.js:194
+#: translation.js:333
 msgid ""
 "# 2-bit Generic constant on two LEDs\n"
 "\n"
@@ -871,23 +1411,23 @@ msgid ""
 "on or off two LEDs"
 msgstr ""
 
-#: translation.js:195
+#: translation.js:334
 msgid ""
 "Set the value  \n"
 "of the k constant (0-3)"
 msgstr ""
 
-#: translation.js:196
+#: translation.js:335
 msgid ""
 "You can write the constants  \n"
 "in binary"
 msgstr ""
 
-#: translation.js:197
+#: translation.js:336
 msgid "03-Four-LEDs"
 msgstr ""
 
-#: translation.js:198
+#: translation.js:337
 msgid ""
 "# 4-bit Generic constant on four LEDs\n"
 "\n"
@@ -895,38 +1435,39 @@ msgid ""
 "on or off two LEDs"
 msgstr ""
 
-#: translation.js:199
+#: translation.js:338
 msgid ""
 "Set the value  \n"
 "of the k constant (0-15)"
 msgstr ""
 
-#: translation.js:200
+#: translation.js:339
 msgid ""
 "You can write the  \n"
 "constants in binary"
 msgstr ""
 
-#: translation.js:201
+#: translation.js:340
 msgid "..Or in hexa"
 msgstr ""
 
-#: translation.js:202
+#: translation.js:341
 #, fuzzy
-#| msgid "1-bit generic constant (0/1)"
 msgid "4-bit generic constant"
 msgstr "constante xenérica de 1 bit (0/1)"
 
-#: translation.js:204
+#: translation.js:343
 msgid "bits"
 msgstr "bits"
 
-#: translation.js:213 translation.js:228 translation.js:242 translation.js:260
-#: translation.js:266 translation.js:272 translation.js:278
+#: translation.js:369 translation.js:384 translation.js:401 translation.js:420
+#: translation.js:428 translation.js:436 translation.js:444 translation.js:452
+#: translation.js:490 translation.js:503 translation.js:523 translation.js:618
+#: translation.js:638 translation.js:653 translation.js:660 translation.js:673
 msgid "01-generic"
 msgstr "01-Xenerico"
 
-#: translation.js:214
+#: translation.js:370
 msgid ""
 "## Changing the state of two LEDs\n"
 "\n"
@@ -938,7 +1479,7 @@ msgstr ""
 "Saida do valor dado por o parámetro. Este valor  \n"
 "acendera ou apagará os LEDs"
 
-#: translation.js:215
+#: translation.js:371
 msgid ""
 "Values for testing:  \n"
 "0, 1, 2 and 3"
@@ -946,15 +1487,17 @@ msgstr ""
 "Valores para probar:  \n"
 "0, 1, 2 e 3"
 
-#: translation.js:216
+#: translation.js:372 translation.js:470 translation.js:480 translation.js:494
+#: translation.js:513 translation.js:613 translation.js:632 translation.js:648
+#: translation.js:667
 msgid "02-value-0"
 msgstr "02-valor-0"
 
-#: translation.js:217
+#: translation.js:373
 msgid "Generic: 2-bits generic constant (0/1)"
 msgstr "Xenerico: constante xenérica de 2 bit (0/1)"
 
-#: translation.js:218
+#: translation.js:374
 msgid ""
 "## 2-bits Value 0: Turning off two LEDs\n"
 "\n"
@@ -964,11 +1507,11 @@ msgstr ""
 "\n"
 "Isto apagara os dous LEDs"
 
-#: translation.js:219
+#: translation.js:375
 msgid "03-value-1"
 msgstr "03-valor-1"
 
-#: translation.js:220
+#: translation.js:376
 msgid ""
 "## 2-bits Value 1: Tests on LEDs\n"
 "\n"
@@ -978,11 +1521,11 @@ msgstr ""
 "\n"
 "Isto acenderá os LEDs"
 
-#: translation.js:221
+#: translation.js:377
 msgid "04-value-2"
 msgstr "04-valor-2"
 
-#: translation.js:222
+#: translation.js:378
 msgid ""
 "## 2-bits Value 2: Test on leds\n"
 "\n"
@@ -992,11 +1535,11 @@ msgstr ""
 "\n"
 "Isto acenderá os LEDs"
 
-#: translation.js:223
+#: translation.js:379
 msgid "05-value-3"
 msgstr "05-valor-3"
 
-#: translation.js:224
+#: translation.js:380
 msgid ""
 "## 2-bits Value 3: Turning on two LEDs\n"
 "\n"
@@ -1006,11 +1549,11 @@ msgstr ""
 "\n"
 "Isto acenderá os dous LEDs"
 
-#: translation.js:225
+#: translation.js:381
 msgid "06-k-1"
 msgstr "06-k-1"
 
-#: translation.js:226
+#: translation.js:382
 msgid ""
 "Values for testing:  \n"
 "1, 2, 3 and 4"
@@ -1018,7 +1561,7 @@ msgstr ""
 "Valores para probar:  \n"
 "1, 2, 3 e 4"
 
-#: translation.js:229
+#: translation.js:385
 msgid ""
 "## Changing the state of 3 LEDs\n"
 "\n"
@@ -1030,7 +1573,7 @@ msgstr ""
 "Saida do valor dado por o parámetro. Este valor  \n"
 "apagará ou acenderá os LEDs"
 
-#: translation.js:230
+#: translation.js:386
 msgid ""
 "Values for testing:  \n"
 "0-7"
@@ -1038,42 +1581,64 @@ msgstr ""
 "Valors para probar:  \n"
 "0-7"
 
-#: translation.js:232
+#: translation.js:388
+#, fuzzy
+msgid ""
+"## Changing the state of LEDs\n"
+"\n"
+"Output the value given by the parameter. This value  \n"
+"will turn on or off the LEDs"
+msgstr ""
+"## Cambiar o estado de 3 LEDs\n"
+"\n"
+"Saida do valor dado por o parámetro. Este valor  \n"
+"apagará ou acenderá os LEDs"
+
+#: translation.js:389
+#, fuzzy
+msgid ""
+"Values for testing:  \n"
+"1, 2, ..., 8"
+msgstr ""
+"Valores para probar:  \n"
+"1, 2, 3 e 4"
+
+#: translation.js:391
 msgid ""
 "## 3-bits Value 0: Test on LEDs\n"
 "\n"
 "It will turn off the Three LEDs"
 msgstr ""
 
-#: translation.js:234
+#: translation.js:393
 msgid ""
 "## 3-bits Value 1: Test on LEDs\n"
 "\n"
 "Show the value on the LEDs"
 msgstr ""
 
-#: translation.js:236
+#: translation.js:395
 msgid ""
 "## 3-bits Value 2: Test on LEDs\n"
 "\n"
 "Show the value on the LEDs"
 msgstr ""
 
-#: translation.js:238
+#: translation.js:397
 msgid ""
 "## 3-bits Value 4: Test on LEDs\n"
 "\n"
 "Show the value on the LEDs"
 msgstr ""
 
-#: translation.js:240
+#: translation.js:399
 msgid ""
 "## 3-bits Value 7: Turning on three LEDs\n"
 "\n"
 "It will turn on the Three LEDs"
 msgstr ""
 
-#: translation.js:243
+#: translation.js:402
 msgid ""
 "## Changing the state of 4 LEDs\n"
 "\n"
@@ -1081,63 +1646,63 @@ msgid ""
 "will turn on or off the LEDs"
 msgstr ""
 
-#: translation.js:244
+#: translation.js:403
 msgid ""
 "Values for testing:  \n"
 "0-15"
 msgstr ""
 
-#: translation.js:246
+#: translation.js:406
 msgid ""
 "## 4-bits Value 0: Test on LEDs\n"
 "\n"
 "Show the values on the LEDs"
 msgstr ""
 
-#: translation.js:248
+#: translation.js:408
 msgid ""
 "## 4-bits Value 15: Test on LEDs\n"
 "\n"
 "Show the values on the LEDs"
 msgstr ""
 
-#: translation.js:250
+#: translation.js:410
 msgid ""
 "## 4-bits Value 1: Test on LEDs\n"
 "\n"
 "Show the values on the LEDs"
 msgstr ""
 
-#: translation.js:252
+#: translation.js:412
 msgid ""
 "## 4-bits Value 2: Test on LEDs\n"
 "\n"
 "Show the values on the LEDs"
 msgstr ""
 
-#: translation.js:254
+#: translation.js:414
 msgid ""
 "## 4-bits Value 4: Test on LEDs\n"
 "\n"
 "Show the values on the LEDs"
 msgstr ""
 
-#: translation.js:256
+#: translation.js:416
 msgid ""
 "## 4-bits Value 8: Test on LEDs\n"
 "\n"
 "Show the values on the LEDs"
 msgstr ""
 
-#: translation.js:257
+#: translation.js:417
 msgid "value-F"
 msgstr "valor-F"
 
-#: translation.js:258
+#: translation.js:418
 msgid "4bits constant value: 15"
 msgstr "Valor constante 15 de 4 bits"
 
-#: translation.js:261
+#: translation.js:421
 msgid ""
 "## Changing the state of 5 LEDs\n"
 "\n"
@@ -1145,20 +1710,29 @@ msgid ""
 "will turn on or off the LEDs"
 msgstr ""
 
-#: translation.js:262
+#: translation.js:422
 msgid ""
 "Values for testing:  \n"
 "0-31"
 msgstr ""
 
-#: translation.js:264
+#: translation.js:424
+#, fuzzy
+msgid ""
+"Values for testing:  \n"
+"1, 2, ..., 32"
+msgstr ""
+"Valores para probar:  \n"
+"1, 2, 3 e 4"
+
+#: translation.js:426
 msgid ""
 "## 5-bits Value 0: Test on LEDs\n"
 "\n"
 "Show the values on the LEDs"
 msgstr ""
 
-#: translation.js:267
+#: translation.js:429
 msgid ""
 "## Changing the state of 6 LEDs\n"
 "\n"
@@ -1166,20 +1740,29 @@ msgid ""
 "will turn on or off the LEDs"
 msgstr ""
 
-#: translation.js:268
+#: translation.js:430
 msgid ""
 "Values for testing:  \n"
 "0-63"
 msgstr ""
 
-#: translation.js:270
+#: translation.js:432
+#, fuzzy
+msgid ""
+"Values for testing:  \n"
+"1, 2, ..., 64"
+msgstr ""
+"Valores para probar:  \n"
+"1, 2, 3 e 4"
+
+#: translation.js:434
 msgid ""
 "## 6-bits Value 0: Test on LEDs\n"
 "\n"
 "Show the values on the LEDs"
 msgstr ""
 
-#: translation.js:273
+#: translation.js:437
 msgid ""
 "## Changing the state of 7 LEDs\n"
 "\n"
@@ -1187,20 +1770,29 @@ msgid ""
 "will turn on or off the LEDs"
 msgstr ""
 
-#: translation.js:274
+#: translation.js:438
 msgid ""
 "Values for testing:  \n"
 "0-127"
 msgstr ""
 
-#: translation.js:276
+#: translation.js:440
+#, fuzzy
+msgid ""
+"Values for testing:  \n"
+"1, 2, ..., 128"
+msgstr ""
+"Valores para probar:  \n"
+"1, 2, 3 e 4"
+
+#: translation.js:442
 msgid ""
 "## 7-bits Value 0: Test on LEDs\n"
 "\n"
 "Show the values on the LEDs"
 msgstr ""
 
-#: translation.js:279
+#: translation.js:445
 msgid ""
 "## Changing the state of 8 LEDs\n"
 "\n"
@@ -1208,46 +1800,1050 @@ msgid ""
 "will turn on or off the LEDs"
 msgstr ""
 
-#: translation.js:280
+#: translation.js:446
 msgid ""
 "Values for testing:  \n"
 "0-255"
 msgstr ""
 
-#: translation.js:282
+#: translation.js:448
+#, fuzzy
+msgid ""
+"Values for testing:  \n"
+"1, 2, ..., 256"
+msgstr ""
+"Valores para probar:  \n"
+"1, 2, 3 e 4"
+
+#: translation.js:450
 msgid ""
 "## 8-bits Value 0: Test on LEDs\n"
 "\n"
 "Show the values on the LEDs"
 msgstr ""
 
-#: translation.js:284
+#: translation.js:453
+msgid "Bus9-Split-half: Split the 9-bits bus into two buses of 1 and 8 wires"
+msgstr ""
+
+#: translation.js:454
+msgid "2-to-1 Multplexer (8-bit channels)"
+msgstr ""
+
+#: translation.js:455
+msgid "2-to-1 Multplexer (4-bit channels)"
+msgstr ""
+
+#: translation.js:456
+msgid "2-to-1 Multplexer (1-bit channels)"
+msgstr ""
+
+#: translation.js:457
+msgid "OR2: Two bits input OR gate"
+msgstr ""
+
+#: translation.js:458
+msgid "Two bits input And gate"
+msgstr ""
+
+#: translation.js:459
+msgid "NOT gate (Verilog implementation)"
+msgstr ""
+
+#: translation.js:460
+msgid "Bus4-Join-all: Join all the wires into a 4-bits Bus"
+msgstr ""
+
+#: translation.js:461
+msgid "Bus4-Split-all: Split the 4-bits bus into its wires"
+msgstr ""
+
+#: translation.js:462
+msgid "Bus8-Join-half: Join the two same halves into an 8-bits Bus"
+msgstr ""
+
+#: translation.js:463
+msgid "Bus8-Split-half: Split the 8-bits bus into two buses of the same size"
+msgstr ""
+
+#: translation.js:464
+msgid "Bus7-Join-7-1: Join the two buses into an 8-bits Bus"
+msgstr ""
+
+#: translation.js:465
+#, fuzzy
+msgid ""
+"## 9-bits constant: Manual testing\n"
+"\n"
+msgstr "### Constantes de 2 bit"
+
+#: translation.js:466
+msgid "Channel B"
+msgstr ""
+
+#: translation.js:467
+msgid "Channel A"
+msgstr ""
+
+#: translation.js:468
+msgid "Input"
+msgstr ""
+
+#: translation.js:469
+msgid "Output"
+msgstr ""
+
+#: translation.js:471
+msgid "2-to-1 Multplexer (9-bit channels)"
+msgstr ""
+
+#: translation.js:472
+msgid "Bus8-Join-1-8: Join the two buses into an 9-bits Bus"
+msgstr ""
+
+#: translation.js:473
+msgid "UINT8-1bit:  Extend a 1-bit unsigned integer to 8-bits "
+msgstr ""
+
+#: translation.js:474
+#, fuzzy
+msgid ""
+"## 9-bits Value 0: Test on LEDs\n"
+"\n"
+"Show the values on the LEDs"
+msgstr ""
+"## Valor 1 de 2 bits: Acender os LEDs\n"
+"\n"
+"Isto acenderá os LEDs"
+
+#: translation.js:476 translation.js:509 translation.js:529 translation.js:604
+#: translation.js:623 translation.js:629 translation.js:645 translation.js:664
+msgid "01-manual-btns-leds"
+msgstr ""
+
+#: translation.js:477
+msgid "Bus10-Split-half: Split the 10-bits bus into two buses of 2 and 8 wires"
+msgstr ""
+
+#: translation.js:478
+msgid "Bus8-Join-6-2: Join the two buses into an 8-bits Bus"
+msgstr ""
+
+#: translation.js:479
+#, fuzzy
+msgid ""
+"## 10-bits constant: Manual testing\n"
+"\n"
+msgstr "### Constantes de 1 bit"
+
+#: translation.js:481
+msgid "2-to-1 Multplexer (10-bit channels)"
+msgstr ""
+
+#: translation.js:482
+msgid "Bus10-Split-2-8: Split the 10-bits bus into two buses of 2 and 8 wires"
+msgstr ""
+
+#: translation.js:483
+msgid "2-to-1 Multplexer (2-bit channels)"
+msgstr ""
+
+#: translation.js:484
+msgid "Bus2-Join-all: Joint two wires into a 2-bits Bus"
+msgstr ""
+
+#: translation.js:485
+msgid "Bus2-Split-all: Split the 2-bits bus into two wires"
+msgstr ""
+
+#: translation.js:486
+msgid "Bus10-Join-2-8: Join the two buses into an 10-bits Bus"
+msgstr ""
+
+#: translation.js:487
+msgid "UINT8-2bits:  Extend a 2-bits unsigned integer to 8-bits "
+msgstr ""
+
+#: translation.js:488
+#, fuzzy
+msgid ""
+"## 10-bits Value 0: Test on LEDs\n"
+"\n"
+"Show the values on the LEDs"
+msgstr ""
+"## Valor 1 de 2 bits: Acender os LEDs\n"
+"\n"
+"Isto acenderá os LEDs"
+
+#: translation.js:491
+msgid "Bus11-Split-3-8: Split the 11-bits bus into two buses of 3 and 8 wires"
+msgstr ""
+
+#: translation.js:492
+msgid "Bus8-Join-5-3: Join the two buses into an 8-bits Bus"
+msgstr ""
+
+#: translation.js:493
+msgid ""
+"## Testing a 11-bits constant\n"
+"\n"
+"The value is shown in 8 LEDs"
+msgstr ""
+
+#: translation.js:495
+msgid "2-to-1 Multplexer (11-bit channels)"
+msgstr ""
+
+#: translation.js:496
+msgid "2-to-1 Multplexer (3-bit channels)"
+msgstr ""
+
+#: translation.js:497
+msgid "Bus3-Join-all: Joint three wires into a 3-bits Bus"
+msgstr ""
+
+#: translation.js:498
+msgid "Bus3-Split-all: Split the 3-bits bus into three wires"
+msgstr ""
+
+#: translation.js:499
+msgid "Bus11-Join-3-8: Join the two buses into an 11-bits Bus"
+msgstr ""
+
+#: translation.js:500
+msgid "UINT8-3bits:  Extend a 3-bits unsigned integer to 8-bits "
+msgstr ""
+
+#: translation.js:501
+#, fuzzy
+msgid ""
+"## 11-bits Value 0: Test on LEDs\n"
+"\n"
+"Show the values on the LEDs"
+msgstr ""
+"## Valor 1 de 2 bits: Acender os LEDs\n"
+"\n"
+"Isto acenderá os LEDs"
+
+#: translation.js:504
+msgid "Bus12-Split-4-8: Split the 12-bits bus into two buses of 4 and 8 wires"
+msgstr ""
+
+#: translation.js:505
+msgid ""
+"## Testing a 12-bits constant\n"
+"\n"
+"The value is shown in 8 LEDs. Initially only the less significant  \n"
+"bits. When the button is pressed, the Upper bits are displayed"
+msgstr ""
+
+#: translation.js:506
+#, fuzzy
+msgid ""
+"Values for testing:  \n"
+"0-4096"
+msgstr ""
+"Valors para probar:  \n"
+"0-7"
+
+#: translation.js:510
+msgid "Bus15-Split-7-8: Split the 15-bits bus into two buses of 7 and 8 wires"
+msgstr ""
+
+#: translation.js:511
+msgid "Bus7-Join-1-7: Join the two buses into an 8-bits Bus"
+msgstr ""
+
+#: translation.js:512
+#, fuzzy
+msgid ""
+"## 15-bits constant: Manual testing\n"
+"\n"
+msgstr "### Constantes de 5 bit"
+
+#: translation.js:514
+msgid "2-to-1 Multplexer (15-bit channels)"
+msgstr ""
+
+#: translation.js:515
+msgid "Bus15-Split-7-8: Split the 15-bits bus into two buses of 7 and 8 bits"
+msgstr ""
+
+#: translation.js:516
+msgid "2-to-1 Multplexer (7-bit channels)"
+msgstr ""
+
+#: translation.js:517
+msgid "Bus7-Join-3-4: Join the two buses into a 7-bits Bus"
+msgstr ""
+
+#: translation.js:518
+msgid "Bus7-Split-3-4: Split the 7-bits bus into two buses of 3 and 4 wires"
+msgstr ""
+
+#: translation.js:519
+msgid "Bus15-Join-7-8: Join the two buses into a 15-bits Bus"
+msgstr ""
+
+#: translation.js:520
+msgid "UINT8-7bits:  Extend a 7-bits unsigned integer to 8-bits "
+msgstr ""
+
+#: translation.js:521
+#, fuzzy
+msgid ""
+"## 15-bits Value 0: Test on LEDs\n"
+"\n"
+"Show the values on the LEDs"
+msgstr ""
+"## Valor 1 de 2 bits: Acender os LEDs\n"
+"\n"
+"Isto acenderá os LEDs"
+
+#: translation.js:524
+msgid "Bus16-Split-half: Split the 16-bits bus into two buses of the same size"
+msgstr ""
+
+#: translation.js:525
+msgid ""
+"## Testing a 16-bits constant\n"
+"\n"
+"The value is shown in 8 LEDs. Initially only the less significant  \n"
+"bits. When the button is pressed, the Upper bits are displayed"
+msgstr ""
+
+#: translation.js:526
+#, fuzzy
+msgid ""
+"Values for testing:  \n"
+"0-FFFF"
+msgstr ""
+"Valors para probar:  \n"
+"0-7"
+
+#: translation.js:530
+msgid "Button-tic: Configurable button that emits a tic when it is pressed"
+msgstr ""
+
+#: translation.js:531
+msgid ""
+"Rising-edge detector. It generates a 1-period pulse (tic) when a rising edge "
+"is detected on the input"
+msgstr ""
+
+#: translation.js:532
+msgid "D Flip-flop (verilog implementation)"
+msgstr ""
+
+#: translation.js:533
+msgid "Configurable button (pull-up on/off. Not on/off)"
+msgstr ""
+
+#: translation.js:534
+msgid "FPGA internal pull-up configuration on the input port"
+msgstr ""
+
+#: translation.js:535
+msgid "Remove the rebound on a mechanical switch"
+msgstr ""
+
+#: translation.js:536
+msgid "1bit register (implemented in verilog)"
+msgstr ""
+
+#: translation.js:537
+msgid "16-bits Syscounter with reset"
+msgstr ""
+
+#: translation.js:538
+msgid "DFF-rst-x16: 16 D flip-flops in paralell with reset"
+msgstr ""
+
+#: translation.js:539
+msgid "DFF-rst-x04: Three D flip-flops in paralell with reset"
+msgstr ""
+
+#: translation.js:540
+msgid "DFF-rst-x01: D Flip flop with reset input. When rst=1, the DFF is 0"
+msgstr ""
+
+#: translation.js:541
+msgid ""
+"Bus16-Split-quarter: Split the 16-bits bus into four buses of the same size"
+msgstr ""
+
+#: translation.js:542
+msgid "Bus16-Join-quarter: Join the four same buses into an 16-bits Bus"
+msgstr ""
+
+#: translation.js:543
+msgid "Inc1-16bit: Increment a 16-bits number by one"
+msgstr ""
+
+#: translation.js:544
+msgid "AdderK-16bit: Adder of 16-bit operand and 16-bit constant"
+msgstr ""
+
+#: translation.js:545
+msgid "Adder-16bits: Adder of two operands of 16 bits"
+msgstr ""
+
+#: translation.js:546
+msgid "Adder-8bits: Adder of two operands of 8 bits"
+msgstr ""
+
+#: translation.js:547
+msgid "Adder-4bits: Adder of two operands of 4 bits"
+msgstr ""
+
+#: translation.js:548
+msgid "Adder-1bit: Adder of two operands of 1 bit"
+msgstr ""
+
+#: translation.js:549
+msgid "AdderC-1bit: Adder of two operands of 1 bit plus the carry in"
+msgstr ""
+
+#: translation.js:550
+msgid "XOR gate: two bits input xor gate"
+msgstr ""
+
+#: translation.js:551
+msgid "AdderC-4bits: Adder of two operands of 4 bits and Carry in"
+msgstr ""
+
+#: translation.js:552
+msgid "AdderC-8bits: Adder of two operands of 8 bits and Carry in"
+msgstr ""
+
+#: translation.js:553
+msgid "Bus16-Join-half: Join the two same halves into an 16-bits Bus"
+msgstr ""
+
+#: translation.js:554
+msgid ""
+"Edges detector. It generates a 1-period pulse (tic) when either a rising "
+"edge or a falling edge is detected on the input"
+msgstr ""
+
+#: translation.js:555
+msgid "Sync 1-bit input with the system clock domain"
+msgstr ""
+
+#: translation.js:556
+msgid ""
+"Select positive or negative logic for the input (0=positive, 1=negative)"
+msgstr ""
+
+#: translation.js:557
+msgid ""
+"Display16-8: Display a 16-bits value on an  8-LEDs. The sel input selects "
+"the byte to display "
+msgstr ""
+
+#: translation.js:558
+msgid "Counter-x01: 1-bit counter"
+msgstr ""
+
+#: translation.js:559
+msgid "Reg: 1-Bit register"
+msgstr ""
+
+#: translation.js:560
+msgid "2-to-1 Multplexer (1-bit channels). Fippled version"
+msgstr ""
+
+#: translation.js:561
+msgid ""
+"Bus20-Split-4-16: Split the 20-bits bus into two buses of 4 and 16 wires"
+msgstr ""
+
+#: translation.js:562
+#, fuzzy
+msgid ""
+"## 17-bits constant: Manual testing\n"
+"\n"
+msgstr "### Constantes de 7 bit"
+
+#: translation.js:563
+msgid "System clock"
+msgstr ""
+
+#: translation.js:564
+msgid "Button state signal"
+msgstr ""
+
+#: translation.js:565
+msgid "Tic: button pressed"
+msgstr ""
+
+#: translation.js:566
+msgid "Rising edge detector"
+msgstr ""
+
+#: translation.js:567
+msgid "Pull up on/off"
+msgstr ""
+
+#: translation.js:568
+msgid "Not on/off"
+msgstr ""
+
+#: translation.js:569
+msgid ""
+"## Rising edge detector\n"
+"\n"
+"It generates a 1-period pulse (tic) when a rising edge is detected on the  \n"
+"input signal"
+msgstr ""
+
+#: translation.js:570
+msgid "Input signal"
+msgstr ""
+
+#: translation.js:571
+msgid ""
+"Current signal  \n"
+"state"
+msgstr ""
+
+#: translation.js:572
+msgid ""
+"Signal state in the previous  \n"
+"clock cycle"
+msgstr ""
+
+#: translation.js:573
+msgid ""
+"If the current signal is 1 and its value in  \n"
+"the previous clock cycle was 0, it means  \n"
+"that a rising edge has been detected!  \n"
+"The output es 1\n"
+"\n"
+"In any other case the output is 0"
+msgstr ""
+
+#: translation.js:574
+msgid ""
+"**Delay**: 0 clock cycles \n"
+"\n"
+"There is no delay between the arrival of a rising edge  \n"
+"and its detection"
+msgstr ""
+
+#: translation.js:575
+msgid "Parameter: Initial value"
+msgstr ""
+
+#: translation.js:576
+msgid "Input data"
+msgstr ""
+
+#: translation.js:577
+msgid ""
+"# D Flip-Flop  \n"
+"\n"
+"It stores the input data that arrives at cycle n  \n"
+"Its output is shown in the cycle n+1"
+msgstr ""
+
+#: translation.js:578
+msgid ""
+"Internal pull-up  \n"
+"* 0: OFF\n"
+"* 1: ON"
+msgstr ""
+
+#: translation.js:579
+msgid "Synchronization stage"
+msgstr ""
+
+#: translation.js:580
+msgid ""
+"Normalization stage\n"
+"\n"
+"* 0: Wire\n"
+"* 1: signal inverted"
+msgstr ""
+
+#: translation.js:581
+msgid "Debouncing stage"
+msgstr ""
+
+#: translation.js:582
+msgid ""
+"### Pull-up parameter:\n"
+"\n"
+"0: No pull-up  \n"
+"1: Pull-up activated"
+msgstr ""
+
+#: translation.js:583
+msgid ""
+"Only an FPGA pin can  \n"
+"be connected here!!!"
+msgstr ""
+
+#: translation.js:584
+msgid ""
+"The pull-up is connected  \n"
+"by default"
+msgstr ""
+
+#: translation.js:585
+msgid "Edge detector"
+msgstr ""
+
+#: translation.js:586
+msgid ""
+"Whenever there is a change in  \n"
+"the input, the counter is started"
+msgstr ""
+
+#: translation.js:587
+msgid ""
+"If the counter reaches it maximum  \n"
+"value, the input is considered stable  \n"
+"and it is captured"
+msgstr ""
+
+#: translation.js:588
+msgid ""
+"### Time calculation\n"
+"\n"
+"For CLK=12MHZ, a 16-bit counter reaches its  \n"
+"maximum every 2 ** 16 * 1/F = 5.5ms aprox  \n"
+"IF more time is needed for debouncing,  \n"
+"use a counter with more bits (17, 18...)"
+msgstr ""
+
+#: translation.js:589
+msgid ""
+"## Debouncer  \n"
+"\n"
+"A value is considered stable when  \n"
+"there is no changes during 5.5ms  \n"
+"aprox. When a value is stable it is  \n"
+"captured on the output flip-flop"
+msgstr ""
+
+#: translation.js:590
+msgid "Stable output"
+msgstr ""
+
+#: translation.js:591
+msgid "Counter"
+msgstr ""
+
+#: translation.js:592
+msgid "Initial value"
+msgstr ""
+
+#: translation.js:593
+msgid ""
+"Reset input: Active high  \n"
+"When rst = 1, the DFF is reset to 0"
+msgstr ""
+
+#: translation.js:594
+msgid "Data input"
+msgstr ""
+
+#: translation.js:595
+msgid ""
+"Initial default  \n"
+"value: 0"
+msgstr ""
+
+#: translation.js:596
+msgid ""
+"## Edges detector\n"
+"\n"
+"It generates a 1-period pulse (tic) when an edge (Rising or falling) is "
+"detected on the  \n"
+"input signal"
+msgstr ""
+
+#: translation.js:597
+msgid ""
+"The output is 1 if the current value is 1 and the  \n"
+"previous 0, or if the current value is 0 and the  \n"
+"previous 1\n"
+msgstr ""
+
+#: translation.js:598
+msgid "In any other case the output is 0"
+msgstr ""
+
+#: translation.js:599
+msgid ""
+"When k=0, it works like a wire  \n"
+"(The output is equal to the input)  \n"
+"When k=1, it act as a not gate\n"
+"(The output is the inverse of the input)"
+msgstr ""
+
+#: translation.js:600
+msgid ""
+"### Truth table for XOR\n"
+"\n"
+"| k | input | output | function |\n"
+"|---|-------|--------|----------|\n"
+"| 0 | 0     |  0     | wire     |\n"
+"| 0 | 1     |  1     | wire     |\n"
+"| 1 | 0     |  1     | Not      |\n"
+"| 1 | 1     |  0     | Not      |"
+msgstr ""
+
+#: translation.js:601
+msgid "Mux 2-1"
+msgstr ""
+
+#: translation.js:602
+msgid ""
+"D Flip-flip\n"
+"(System)"
+msgstr ""
+
+#: translation.js:605
+msgid ""
+"Bus19-Split-3-8-8: Split the 19-bits bus into three buses of 3, 8 and 8 wires"
+msgstr ""
+
+#: translation.js:606
+msgid "4-to-1 Multplexer (8-bit channels)"
+msgstr ""
+
+#: translation.js:607
+msgid "Counter-x02: 2-bits counter"
+msgstr ""
+
+#: translation.js:608
+msgid "Generic component with clk input"
+msgstr ""
+
+#: translation.js:609
+msgid "Inc1-2bit: Increment a 2-bits number by one"
+msgstr ""
+
+#: translation.js:610
+msgid "AdderK-2bit: Adder of 2-bit operand and 2-bit constant"
+msgstr ""
+
+#: translation.js:611
+msgid "Adder-2bits: Adder of two operands of 2 bits"
+msgstr ""
+
+#: translation.js:612
+#, fuzzy
+msgid ""
+"## 19-bits constant: Manual testing\n"
+"\n"
+msgstr "### Constantes de 1 bit"
+
+#: translation.js:614
+msgid "2-to-1 Multplexer (19-bit channels)"
+msgstr ""
+
+#: translation.js:615
+msgid "Bus19-Join-3-8-8: Join the three buses into a 19-bits Bus"
+msgstr ""
+
+#: translation.js:616
+#, fuzzy
+msgid ""
+"## 19-bits Value 0: Test on LEDs\n"
+"\n"
+"Show the values on the LEDs"
+msgstr ""
+"## Valor 1 de 2 bits: Acender os LEDs\n"
+"\n"
+"Isto acenderá os LEDs"
+
+#: translation.js:619
+msgid ""
+"## Testing a 20-bits constant\n"
+"\n"
+"The value is shown in 8 LEDs. Initially only the less significant  \n"
+"bits. When the button is pressed, the Upper bits are displayed"
+msgstr ""
+
+#: translation.js:620
+#, fuzzy
+msgid ""
+"Values for testing:  \n"
+"0-FFFFF"
+msgstr ""
+"Valors para probar:  \n"
+"0-7"
+
+#: translation.js:624
+msgid ""
+"Display32-8: Display a 32-bits value on an  8-LEDs. The sel input selects "
+"the byte to display "
+msgstr ""
+
+#: translation.js:625
+msgid "Bus32-Split-quarter: Split the 32-bits bus into four buses of 8 wires"
+msgstr ""
+
+#: translation.js:626
+msgid "Bus32-Join-10-22: Join the two buses into an 32-bits Bus"
+msgstr ""
+
+#: translation.js:627
+#, fuzzy
+msgid ""
+"## 22-bits constant: Manual testing\n"
+"\n"
+msgstr "### Constantes de 2 bit"
+
+#: translation.js:630
+msgid ""
+"Bus23-Split-7-8-8: Split the 23-bits bus into three buses of 7, 8 and 8 wires"
+msgstr ""
+
+#: translation.js:631
+#, fuzzy
+msgid ""
+"## 23-bits constant: Manual testing\n"
+"\n"
+msgstr "### Constantes de 2 bit"
+
+#: translation.js:633
+msgid "2-to-1 Multplexer (23-bit channels)"
+msgstr ""
+
+#: translation.js:634
+msgid ""
+"Bus19-Split-3-8-8: Split the 19-bits bus into three buses of 3,8 and 8 bits"
+msgstr ""
+
+#: translation.js:635
+msgid "Bus23-Join-7-8-8: Join the three buses into a 23-bits Bus"
+msgstr ""
+
+#: translation.js:636
+#, fuzzy
+msgid ""
+"## 23-bits Value 0: Test on LEDs\n"
+"\n"
+"Show the values on the LEDs"
+msgstr ""
+"## Valor 1 de 2 bits: Acender os LEDs\n"
+"\n"
+"Isto acenderá os LEDs"
+
+#: translation.js:639
+msgid ""
+"Bus24-Split-8-16: Split the 24-bits bus into two buses of 8 and 16 wires"
+msgstr ""
+
+#: translation.js:640
+msgid ""
+"## Testing the 24-bits generic constant\n"
+"\n"
+"The 24-bits constants is displayed on the 8 LEDs. When the sw1 button  \n"
+"is pressed the 8 Most significant bits are displayed. The button sw2 "
+"switches  \n"
+"between the 8 less significant bits and the 8 bits in the middle"
+msgstr ""
+
+#: translation.js:641
+#, fuzzy
+msgid ""
+"Values for testing:  \n"
+"0-FFFFFF"
+msgstr ""
+"Valors para probar:  \n"
+"0-7"
+
+#: translation.js:643
+msgid ""
+"## Testing the 24-bits generic k-1 constant\n"
+"\n"
+"The 24-bits constants is displayed on the 8 LEDs. When the sw1 button  \n"
+"is pressed the 8 Most significant bits are displayed. The button sw2 "
+"switches  \n"
+"between the 8 less significant bits and the 8 bits in the middle"
+msgstr ""
+
+#: translation.js:646
+msgid ""
+"Bus27-Split-3-8-8-8: Split the 27-bits bus into four buses of 7,8, 8 and 8 "
+"bits"
+msgstr ""
+
+#: translation.js:647
+#, fuzzy
+msgid ""
+"## 27-bits constant: Manual testing\n"
+"\n"
+msgstr "### Constantes de 2 bit"
+
+#: translation.js:649
+msgid "2-to-1 Multplexer (27-bit channels)"
+msgstr ""
+
+#: translation.js:650
+msgid "Bus27-Join-3-8-8-8: Join the four buses into a 27-bits Bus"
+msgstr ""
+
+#: translation.js:651
+#, fuzzy
+msgid ""
+"## 27-bits Value 0: Test on LEDs\n"
+"\n"
+"Show the values on the LEDs"
+msgstr ""
+"## Valor 1 de 2 bits: Acender os LEDs\n"
+"\n"
+"Isto acenderá os LEDs"
+
+#: translation.js:654
+msgid ""
+"Bus28-Split-4-24: Split the 28-bits bus into two buses of 4 and 24 wires"
+msgstr ""
+
+#: translation.js:655
+msgid ""
+"## 28-bits generic constant: Manual testing\n"
+"\n"
+"The 28-bits constants is displayed on the 8 LEDs. When the sw1 button  \n"
+"is pressed the 8 Most significant bits are displayed. The button sw2 "
+"switches  \n"
+"between the 8 less significant bits and the 8 bits in the middle"
+msgstr ""
+
+#: translation.js:656
+#, fuzzy
+msgid ""
+"Values for testing:  \n"
+"0-FFFFFFF"
+msgstr ""
+"Valors para probar:  \n"
+"0-7"
+
+#: translation.js:658
+msgid ""
+"## 28-bits generic k-1 constant: Manual testing\n"
+"\n"
+"The 28-bits constants is displayed on the 8 LEDs. When the sw1 button  \n"
+"is pressed the 8 Most significant bits are displayed. The button sw2 "
+"switches  \n"
+"between the 8 less significant bits and the 8 bits in the middle"
+msgstr ""
+
+#: translation.js:661
+msgid "Bus32-Join-3-29: Join the two buses into an 32-bits Bus"
+msgstr ""
+
+#: translation.js:662
+msgid ""
+"## 29-bits generic constant: Manual testing\n"
+"\n"
+"The 29-bits constant is shown on the LEDs"
+msgstr ""
+
+#: translation.js:665
+msgid ""
+"Bus31-Split-7-8-8-8: Split the 31-bits bus into four buses of 7, 8, 8 and 8 "
+"wires"
+msgstr ""
+
+#: translation.js:666
+#, fuzzy
+msgid ""
+"## 31-bits constant: Manual testing\n"
+"\n"
+msgstr "### Constantes de 3 bit"
+
+#: translation.js:668
+msgid "2-to-1 Multplexer (31-bit channels)"
+msgstr ""
+
+#: translation.js:669
+msgid ""
+"Bus31-Split-7-8-8-8: Split the 31-bits bus into four buses of 7,8, 8 and 8 "
+"bits"
+msgstr ""
+
+#: translation.js:670
+msgid "Bus31-Join-7-8-8-8: Join the four buses into a 31-bits Bus"
+msgstr ""
+
+#: translation.js:671
+#, fuzzy
+msgid ""
+"## 31-bits Value 0: Test on LEDs\n"
+"\n"
+"Show the values on the LEDs"
+msgstr ""
+"## Valor 1 de 2 bits: Acender os LEDs\n"
+"\n"
+"Isto acenderá os LEDs"
+
+#: translation.js:674
+msgid ""
+"Bus32-Split-8-24: Split the 28-bits bus into two buses of 8 and 24 wires"
+msgstr ""
+
+#: translation.js:675
+msgid ""
+"## 32 Bits constant: Manual testing\n"
+"\n"
+"The 32-bits constants is displayed on the 8 LEDs. When the sw1 button  \n"
+"is pressed the 8 Most significant bits are displayed. The button sw2 "
+"switches  \n"
+"between the 8 less significant bits and the 8 bits in the middle"
+msgstr ""
+
+#: translation.js:676
+#, fuzzy
+msgid ""
+"Values for testing:  \n"
+"0-FFFFFFFF"
+msgstr ""
+"Valors para probar:  \n"
+"0-7"
+
+#: translation.js:678
+msgid ""
+"## 32 Bits k-1 constant: Manual testing\n"
+"\n"
+"The 32-bits constants is displayed on the 8 LEDs. When the sw1 button  \n"
+"is pressed the 8 Most significant bits are displayed. The button sw2 "
+"switches  \n"
+"between the 8 less significant bits and the 8 bits in the middle"
+msgstr ""
+
+#: translation.js:680
 msgid "01-bit-0"
 msgstr ""
 
-#: translation.js:285
+#: translation.js:681
 msgid ""
 "## Turn off an LED\n"
 "\n"
 "Output the 0-bit value. It will turn off the LED"
 msgstr ""
 
-#: translation.js:286
+#: translation.js:682
 msgid "02-bit-1"
 msgstr ""
 
-#: translation.js:287
+#: translation.js:683
 msgid ""
 "## Turn on an LED\n"
 "\n"
 "Output the 1-bit value. It will turn on the LED"
 msgstr ""
 
-#: translation.js:288
+#: translation.js:684
 msgid "03-generic-bit"
 msgstr ""
 
-#: translation.js:289
+#: translation.js:685
 msgid ""
 "## Changing the state of an LED\n"
 "\n"

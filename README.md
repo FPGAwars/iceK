@@ -32,10 +32,10 @@ For installing and using this colection in Icestudio follow these steps:
 | CZech |  cs_CZ | ![](https://progress-bar.dev/0) |
 | German |  de_DE | ![](https://progress-bar.dev/0) |
 | Greek |  el_GR | ![](https://progress-bar.dev/0) |
-| Spanish |  es_ES | ![](https://progress-bar.dev/100) |
+| Spanish |  es_ES | ![](https://progress-bar.dev/96) |
 | Basque |  eu_ES | ![](https://progress-bar.dev/0) |
 | French |  fr_FR | ![](https://progress-bar.dev/0) |
-| Galician |  gl_ES | ![](https://progress-bar.dev/44) |
+| Galician |  gl_ES | ![](https://progress-bar.dev/18) |
 | Italian |  it_IT | ![](https://progress-bar.dev/0) |
 | Korean |  ko_KR | ![](https://progress-bar.dev/0) |
 | Netherlands |  nl_NL | ![](https://progress-bar.dev/0) |
@@ -111,6 +111,8 @@ For installing and using this colection in Icestudio follow these steps:
     * k-1
     * k
     * value-0
+  * **Bus-17**
+    * k
   * **Bus-19**
     * k
     * value-0
@@ -118,6 +120,8 @@ For installing and using this colection in Icestudio follow these steps:
     * k-1
     * k
     * value-0
+  * **Bus-22**
+    * k
   * **Bus-23**
     * k
     * value-0
@@ -132,6 +136,8 @@ For installing and using this colection in Icestudio follow these steps:
     * k-1
     * k
     * value-0
+  * **Bus-29**
+    * k
   * **Bus-31**
     * k
     * value-0
@@ -257,6 +263,9 @@ For installing and using this colection in Icestudio follow these steps:
       * **Alhambra-II**
         * 01-generic
         * k-1
+    * **Bus-17**
+      * **Alhambra-II**
+        * 01-manual-btns-leds
     * **Bus-19**
       * **Alhambra-II**
         * 01-manual-btns-leds
@@ -265,6 +274,9 @@ For installing and using this colection in Icestudio follow these steps:
       * **Alhambra-II**
         * 01-generic
         * k-1
+    * **Bus-22**
+      * **Alhambra-II**
+        * 01-manual-btns-leds
     * **Bus-23**
       * **Alhambra-II**
         * 01-manual-btns-leds
@@ -281,6 +293,9 @@ For installing and using this colection in Icestudio follow these steps:
       * **Alhambra-II**
         * 01-generic
         * k-1
+    * **Bus-29**
+      * **Alhambra-II**
+        * 01-generic
     * **Bus-31**
       * **Alhambra-II**
         * 01-manual-btns-leds
