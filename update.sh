@@ -39,3 +39,4 @@ cd ..
 #-- 3. Update the readme file
 icm update < input.txt 
 
+rm input.txt
