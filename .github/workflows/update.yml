@@ -35,7 +35,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-              apt install gettext
+              sudo apt-get install gettext
               pip install icm
               icm --version
 
