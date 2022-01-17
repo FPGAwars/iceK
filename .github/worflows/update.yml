@@ -1,0 +1,32 @@
+name: 'Updating English texts and README'
+# -- Extract the English texts to the locale/translation.js
+# -- Update all the .po files
+# -- UPdate the README.md file
+
+# Controls when the action will run. 
+on:
+
+# Manual activation
+ workflow_dispatch:
+  
+  # Triggers the workflow on push or pull request events but only for the develop branch
+  #push:
+  #  branches: [ develop ]
+  #pull_request:
+  #  branches: [ develop ]
+
+ 
+# Only one Job
+jobs:
+
+  #-- Update the English texts
+  update:
+    runs-on: ubuntu-20.04
+
+    steps:
+      
+      # Checkout the main branch
+      - uses: actions/checkout@v2
+        with:
+          ref: main
+
