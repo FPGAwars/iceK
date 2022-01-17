@@ -26,7 +26,15 @@ jobs:
     steps:
       
       # Checkout the main branch
-      - uses: actions/checkout@v2
+      - name: Checkout sources
+        uses: actions/checkout@v2
         with:
           ref: main
 
+      - name: Set up Python
+        uses: actions/setup-python@v2
+
+      - name: Debug
+        run: |
+            python -V
+            
