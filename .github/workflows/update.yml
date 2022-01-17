@@ -8,12 +8,12 @@ on:
 
 # Manual activation
  workflow_dispatch:
-  
-  # Triggers the workflow on push or pull request events but only for the develop branch
-  #push:
-  #  branches: [ develop ]
-  #pull_request:
-  #  branches: [ develop ]
+
+ push:
+   branches: [ main ]
+   
+ pull_request:
+   branches: [ develop ]
 
  
 # Only one Job
