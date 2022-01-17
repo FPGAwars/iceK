@@ -102,9 +102,8 @@ msgid "Bus-16"
 msgstr "Bus-16"
 
 #: translation.js:31 translation.js:357
-#, fuzzy
 msgid "Bus-17"
-msgstr "Bus-10"
+msgstr "Bus-17"
 
 #: translation.js:32 translation.js:358
 msgid "Bus-19"
@@ -115,9 +114,8 @@ msgid "Bus-20"
 msgstr "Bus-20"
 
 #: translation.js:34 translation.js:360
-#, fuzzy
 msgid "Bus-22"
-msgstr "Bus-20"
+msgstr "Bus-22"
 
 #: translation.js:35 translation.js:361
 msgid "Bus-23"
@@ -136,9 +134,8 @@ msgid "Bus-28"
 msgstr "Bus-28"
 
 #: translation.js:39 translation.js:365
-#, fuzzy
 msgid "Bus-29"
-msgstr "Bus-20"
+msgstr "Bus-29"
 
 #: translation.js:40 translation.js:366
 msgid "Bus-31"
@@ -516,9 +513,8 @@ msgid "16bits constant value: 0"
 msgstr "Valor constante 0 de 16 bits"
 
 #: translation.js:158
-#, fuzzy
 msgid "Generic: 17-bits generic constant"
-msgstr "Constante genérica de 11 bits"
+msgstr "Constante genérica de 17 bits"
 
 #: translation.js:160
 msgid "Generic: 19-bits generic constant"
@@ -554,9 +550,8 @@ msgid "20bits constant value: 0"
 msgstr "Valor constante 0 de 20 bits"
 
 #: translation.js:172
-#, fuzzy
 msgid "Generic: 22-bits generic constant"
-msgstr "Constante genérica de 20 bits"
+msgstr "Constante genérica de 22 bits"
 
 #: translation.js:174
 msgid "Generic: 23-bits generic constant"
@@ -617,9 +612,8 @@ msgid "28bits constant value: 0"
 msgstr "Valor constante 0 de 28 bits"
 
 #: translation.js:196
-#, fuzzy
 msgid "Generic: 29-bits generic constant"
-msgstr "Constante genérica de 9 bits"
+msgstr "Constante genérica de 29 bits"
 
 #: translation.js:198
 msgid "Generic: 31-bits generic constant"
@@ -779,19 +773,16 @@ msgid "### 31-bits constants"
 msgstr "### Constantes de 31 bits"
 
 #: translation.js:241
-#, fuzzy
 msgid "### 22-bits constants"
-msgstr "### Constantes de 2 bits"
+msgstr "### Constantes de 21 bits"
 
 #: translation.js:242
-#, fuzzy
 msgid "### 17-bits constants"
-msgstr "### Constantes de 7 bits"
+msgstr "### Constantes de 17 bits"
 
 #: translation.js:243
-#, fuzzy
 msgid "### 29-bits constants"
-msgstr "### Constantes de 2 bits"
+msgstr "### Constantes de 29 bits"
 
 #: translation.js:244 translation.js:327 translation.js:368 translation.js:383
 #: translation.js:400 translation.js:419 translation.js:427 translation.js:435
@@ -2504,11 +2495,12 @@ msgid ""
 "Display16-8: Display a 16-bits value on an  8-LEDs. The sel input selects "
 "the byte to display "
 msgstr ""
+"Display16-8: Mostrar un valor de 16 birts en 8 LEDs. La entrada sel "
+"selecciona el byte a mostrar"
 
 #: translation.js:558
-#, fuzzy
 msgid "Counter-x01: 1-bit counter"
-msgstr "Counter-x02: Contador de 2 bits"
+msgstr "Counter-x01: Contador de 1 bit"
 
 #: translation.js:559
 msgid "Reg: 1-Bit register"
@@ -2525,11 +2517,10 @@ msgstr ""
 "Bus20-Split-4-16: Separar el bus de 20 bits en dos buses de 4 y 16 cables"
 
 #: translation.js:562
-#, fuzzy
 msgid ""
 "## 17-bits constant: Manual testing\n"
 "\n"
-msgstr "### Constantes de 10 bits: Prueba manual\n"
+msgstr "### Constantes de 17 bits: Prueba manual\n"
 
 #: translation.js:563
 msgid "System clock"
@@ -2935,26 +2926,25 @@ msgid ""
 "Display32-8: Display a 32-bits value on an  8-LEDs. The sel input selects "
 "the byte to display "
 msgstr ""
+"Display32-8: Mostrar un valor de 32 birts en 8 LEDs. La entrada sel "
+"selecciona el byte a mostrar"
 
 #: translation.js:625
-#, fuzzy
 msgid "Bus32-Split-quarter: Split the 32-bits bus into four buses of 8 wires"
 msgstr ""
-"Bus16-Split-quarter: Separar el bus de 16-bits en cuatro buses del mismo "
+"Bus32-Split-quarter: Separar el bus de 32-bits en cuatro buses del mismo "
 "tamaño"
 
 #: translation.js:626
-#, fuzzy
 msgid "Bus32-Join-10-22: Join the two buses into an 32-bits Bus"
-msgstr "Bus8-Join-1-8: Agrupar dos buses en un bus de 9 bits"
+msgstr "Bus32-Join-10-22: Agrupar dos buses en un bus de 32 bits"
 
 #: translation.js:627
-#, fuzzy
 msgid ""
 "## 22-bits constant: Manual testing\n"
 "\n"
 msgstr ""
-"###Constante de 23 bits: Prueba manual\n"
+"###Constante de 22 bits: Prueba manual\n"
 "\n"
 
 #: translation.js:630
@@ -3118,21 +3108,18 @@ msgstr ""
 "entre los 8 bits menos significativos y los 8 bits del medio"
 
 #: translation.js:661
-#, fuzzy
 msgid "Bus32-Join-3-29: Join the two buses into an 32-bits Bus"
-msgstr "Bus8-Join-6-2: Agrupar dos buses en un bus de 8 bits"
+msgstr "Bus32-Join-3-29: Agrupar dos buses en un bus de 32 bits"
 
 #: translation.js:662
-#, fuzzy
 msgid ""
 "## 29-bits generic constant: Manual testing\n"
 "\n"
 "The 29-bits constant is shown on the LEDs"
 msgstr ""
-"# Constante genérica de 2 bits en dos LEDs\n"
+"# Constante genérica de 29 bits: Prueba manual\n"
 "\n"
-"El valor de la constante genérica de 2-bits se usa para  \n"
-"encender o apagar dos LEDs"
+"La constante de 29-bits se muestra en los LEDs"
 
 #: translation.js:665
 msgid ""
