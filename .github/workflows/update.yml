@@ -44,6 +44,17 @@ jobs:
       - name: Execute the update script
         run: bash update.sh
 
-            
+      - name: Commit files 
+        run: |
+          git config --local user.email "test@github.com"
+          git config --local user.name "GitHub Action test"
+          git add *
+          git commit -m "Automatic English texts updated"
 
-      
+      - name: Push changes 
+        uses: ad-m/github-push-action@master
+        with:
+          branch: main
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          force: true
+            
