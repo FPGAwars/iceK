@@ -25,7 +25,6 @@ jobs:
 
     steps:
       
-      # Checkout the main branch
       - name: Checkout sources
         uses: actions/checkout@v2
         with:
@@ -34,7 +33,15 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v2
 
-      - name: Debug
+      - name: Install dependencies
         run: |
-            python -V
+              apt install gettext
+              pip install icm
+              icm --version
+
+      - name: Execute the update script
+        run: bash update.sh
+
             
+
+      
