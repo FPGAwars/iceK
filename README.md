@@ -132,6 +132,8 @@ For installing and using this colection in Icestudio follow these steps:
     * k-1
     * k
     * value-0
+  * **Bus-25**
+    * k
   * **Bus-26**
     * k
   * **Bus-27**
