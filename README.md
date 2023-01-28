@@ -106,6 +106,7 @@ For installing and using this colection in Icestudio follow these steps:
     * value-0
   * **Bus-13**
     * generic
+    * value-0
   * **Bus-14**
     * k
     * value-0

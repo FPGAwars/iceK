@@ -151,6 +151,8 @@ gettext('value-0');
 gettext('12bits constant value: 0');
 gettext('generic');
 gettext('Generic: 13-bits generic constant');
+gettext('value-0');
+gettext('13bits constant value: 0');
 gettext('k');
 gettext('Generic: 14-bits generic constant');
 gettext('value-0');
