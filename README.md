@@ -32,10 +32,10 @@ For installing and using this colection in Icestudio follow these steps:
 | CZech |  cs_CZ | ![](https://progress-bar.dev/0) |
 | German |  de_DE | ![](https://progress-bar.dev/0) |
 | Greek |  el_GR | ![](https://progress-bar.dev/0) |
-| Spanish |  es_ES | ![](https://progress-bar.dev/97) |
+| Spanish |  es_ES | ![](https://progress-bar.dev/96) |
 | Basque |  eu_ES | ![](https://progress-bar.dev/0) |
 | French |  fr_FR | ![](https://progress-bar.dev/0) |
-| Galician |  gl_ES | ![](https://progress-bar.dev/18) |
+| Galician |  gl_ES | ![](https://progress-bar.dev/17) |
 | Italian |  it_IT | ![](https://progress-bar.dev/0) |
 | Korean |  ko_KR | ![](https://progress-bar.dev/0) |
 | Netherlands |  nl_NL | ![](https://progress-bar.dev/0) |
@@ -104,6 +104,8 @@ For installing and using this colection in Icestudio follow these steps:
     * generic
     * k-1
     * value-0
+  * **Bus-13**
+    * generic
   * **Bus-14**
     * k
     * value-0
