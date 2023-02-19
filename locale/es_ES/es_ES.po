@@ -864,39 +864,32 @@ msgid "### 64-bits constants"
 msgstr "### Constantes de 64 bits"
 
 #: translation.js:273
-#, fuzzy
 msgid "### 13-bits constants"
-msgstr "### Constantes de 3 bits"
+msgstr "### Constantes de 13 bits"
 
 #: translation.js:274
-#, fuzzy
 msgid "### 14-bits constants"
-msgstr "### Constantes de 8 bits"
+msgstr "### Constantes de 14 bits"
 
 #: translation.js:275
-#, fuzzy
 msgid "### 18-bits constants"
-msgstr "### Constantes de 8 bits"
+msgstr "### Constantes de 18 bits"
 
 #: translation.js:276
-#, fuzzy
 msgid "### 21-bits constants"
-msgstr "### Constantes de 2 bits"
+msgstr "### Constantes de 21 bits"
 
 #: translation.js:277
-#, fuzzy
 msgid "### 25-bits constants"
-msgstr "### Constantes de 2 bits"
+msgstr "### Constantes de 25 bits"
 
 #: translation.js:278
-#, fuzzy
 msgid "### 26-bits constants"
-msgstr "### Constantes de 2 bits"
+msgstr "### Constantes de 26 bits"
 
 #: translation.js:279
-#, fuzzy
 msgid "### 30-bits constants"
-msgstr "### Constantes de 3 bits"
+msgstr "### Constantes de 30 bits"
 
 #: translation.js:280 translation.js:363 translation.js:404 translation.js:419
 #: translation.js:436 translation.js:455 translation.js:463 translation.js:471
