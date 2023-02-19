@@ -719,4 +719,3 @@ gettext('02-bit-1');
 gettext('## Turn on an LED\n\nOutput the 1-bit value. It will turn on the LED');
 gettext('03-generic-bit');
 gettext('## Changing the state of an LED\n\nOutput the value given by the parameter. This value  \nwill turn on or off the LED');
-gettext('00-Index');
