@@ -10,8 +10,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.3\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0.1\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-SearchPath-0: translation.js\n"
 
@@ -94,14 +94,12 @@ msgid "Bus-12"
 msgstr "Bus-12"
 
 #: translation.js:29
-#, fuzzy
 msgid "Bus-13"
-msgstr "Bus-10"
+msgstr "Bus-13"
 
 #: translation.js:30
-#, fuzzy
 msgid "Bus-14"
-msgstr "Bus-10"
+msgstr "Bus-4"
 
 #: translation.js:31 translation.js:384
 msgid "Bus-15"
@@ -116,9 +114,8 @@ msgid "Bus-17"
 msgstr "Bus-17"
 
 #: translation.js:34
-#, fuzzy
 msgid "Bus-18"
-msgstr "Bus-10"
+msgstr "Bus-18"
 
 #: translation.js:35 translation.js:387
 msgid "Bus-19"
@@ -129,9 +126,8 @@ msgid "Bus-20"
 msgstr "Bus-20"
 
 #: translation.js:37
-#, fuzzy
 msgid "Bus-21"
-msgstr "Bus-20"
+msgstr "Bus-21"
 
 #: translation.js:38 translation.js:389
 msgid "Bus-22"
@@ -146,14 +142,12 @@ msgid "Bus-24"
 msgstr "Bus-24"
 
 #: translation.js:41
-#, fuzzy
 msgid "Bus-25"
-msgstr "Bus-20"
+msgstr "Bus-25"
 
 #: translation.js:42
-#, fuzzy
 msgid "Bus-26"
-msgstr "Bus-20"
+msgstr "Bus-6"
 
 #: translation.js:43 translation.js:392
 msgid "Bus-27"
@@ -168,9 +162,8 @@ msgid "Bus-29"
 msgstr "Bus-29"
 
 #: translation.js:46
-#, fuzzy
 msgid "Bus-30"
-msgstr "Bus-31"
+msgstr "Bus-30"
 
 #: translation.js:47 translation.js:395
 msgid "Bus-31"
@@ -181,9 +174,8 @@ msgid "Bus-32"
 msgstr "Bus-32"
 
 #: translation.js:49
-#, fuzzy
 msgid "Bus-64"
-msgstr "Bus-04"
+msgstr "Bus-64"
 
 #: translation.js:51
 msgid "Generic: 2-bits generic constant (0,1,2,3)"
@@ -523,24 +515,20 @@ msgid "12bits constant value: 0"
 msgstr "Valor constante 0 de 12 bits"
 
 #: translation.js:154
-#, fuzzy
 msgid "Generic: 13-bits generic constant"
-msgstr "Constante genérica de 11 bits"
+msgstr "Constante genérica de 13 bits"
 
 #: translation.js:156
-#, fuzzy
 msgid "13bits constant value: 0"
-msgstr "Valor constante 0 de 3 bits"
+msgstr "Valor constante 0 de 13 bits"
 
 #: translation.js:158
-#, fuzzy
 msgid "Generic: 14-bits generic constant"
-msgstr "Constante genérica de 11 bits"
+msgstr "Constante genérica de 14 bits"
 
 #: translation.js:160
-#, fuzzy
 msgid "14bits constant value: 0"
-msgstr "Valor constante 0 de 4 bits"
+msgstr "Valor constante 0 de 14 bits"
 
 #: translation.js:162
 msgid "Generic: 15-bits generic constant"
@@ -580,9 +568,8 @@ msgid "Generic: 17-bits generic constant"
 msgstr "Constante genérica de 17 bits"
 
 #: translation.js:176
-#, fuzzy
 msgid "Generic: 18-bits generic constant"
-msgstr "Constante genérica de 11 bits"
+msgstr "Constante genérica de 18 bits"
 
 #: translation.js:178
 msgid "Generic: 19-bits generic constant"
@@ -618,9 +605,8 @@ msgid "20bits constant value: 0"
 msgstr "Valor constante 0 de 20 bits"
 
 #: translation.js:190
-#, fuzzy
 msgid "Generic: 21-bits generic constant"
-msgstr "Constante genérica de 11 bits"
+msgstr "Constante genérica de 21 bits"
 
 #: translation.js:192
 msgid "Generic: 22-bits generic constant"
@@ -660,14 +646,12 @@ msgid "24bits constant value: 0"
 msgstr "Valor constante 0 de 24 bits"
 
 #: translation.js:206
-#, fuzzy
 msgid "Generic: 25-bits generic constant"
-msgstr "Constante genérica de 15 bits"
+msgstr "Constante genérica de 25 bits"
 
 #: translation.js:208
-#, fuzzy
 msgid "Generic: 26-bits generic constant"
-msgstr "Constante genérica de 16 bits"
+msgstr "Constante genérica de 26 bits"
 
 #: translation.js:210
 msgid "Generic: 27-bits generic constant"
@@ -699,9 +683,8 @@ msgid "Generic: 29-bits generic constant"
 msgstr "Constante genérica de 29 bits"
 
 #: translation.js:222
-#, fuzzy
 msgid "Generic: 30-bits generic constant"
-msgstr "Constante genérica de 20 bits"
+msgstr "Constante genérica de 30 bits"
 
 #: translation.js:224
 msgid "Generic: 31-bits generic constant"
@@ -729,9 +712,8 @@ msgid "32bits constant value: 0"
 msgstr "Valor constante 0 de 32 bits"
 
 #: translation.js:234
-#, fuzzy
 msgid "Generic: 64-bits generic constant"
-msgstr "Constante genérica de 24 bits"
+msgstr "Constante genérica de 44 bits"
 
 #: translation.js:235
 msgid "01-Turn-on-LEDs"
@@ -878,9 +860,8 @@ msgid "### 29-bits constants"
 msgstr "### Constantes de 29 bits"
 
 #: translation.js:272
-#, fuzzy
 msgid "### 64-bits constants"
-msgstr "### Constantes de 8 bits"
+msgstr "### Constantes de 64 bits"
 
 #: translation.js:273 translation.js:356 translation.js:397 translation.js:412
 #: translation.js:429 translation.js:448 translation.js:456 translation.js:464
@@ -2594,7 +2575,7 @@ msgid ""
 "the byte to display "
 msgstr ""
 "Display16-8: Mostrar un valor de 16 birts en 8 LEDs. La entrada sel "
-"selecciona el byte a mostrar"
+"selecciona el byte a mostrar  "
 
 #: translation.js:587
 msgid "Counter-x01: 1-bit counter"
@@ -3025,7 +3006,7 @@ msgid ""
 "the byte to display "
 msgstr ""
 "Display32-8: Mostrar un valor de 32 birts en 8 LEDs. La entrada sel "
-"selecciona el byte a mostrar"
+"selecciona el byte a mostrar  "
 
 #: translation.js:654
 msgid "Bus32-Split-quarter: Split the 32-bits bus into four buses of 8 wires"
