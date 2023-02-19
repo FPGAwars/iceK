@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Icestudio 0.3.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-28 22:24+0000\n"
+"POT-Creation-Date: 2023-02-19 19:29+0100\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Xoan Sampaiño <xoansampainho@gmail.com>, Diego Vazquez "
 "<contacto@diegovazquez.me>\n"
@@ -11,8 +11,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.3\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0.1\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-SearchPath-0: translation.js\n"
 
@@ -79,129 +79,104 @@ msgid "Bus-08"
 msgstr "Bus-08"
 
 #: translation.js:25 translation.js:380
-#, fuzzy
 msgid "Bus-09"
-msgstr "Bus-02"
+msgstr "Bus-09"
 
 #: translation.js:26 translation.js:381
-#, fuzzy
 msgid "Bus-10"
-msgstr "Bus-02"
+msgstr "Bus-10"
 
 #: translation.js:27 translation.js:382
-#, fuzzy
 msgid "Bus-11"
-msgstr "Bus-02"
+msgstr "Bus-11"
 
 #: translation.js:28 translation.js:383
-#, fuzzy
 msgid "Bus-12"
-msgstr "Bus-02"
+msgstr "Bus-12"
 
 #: translation.js:29
-#, fuzzy
 msgid "Bus-13"
-msgstr "Bus-02"
+msgstr "Bus-13"
 
 #: translation.js:30
-#, fuzzy
 msgid "Bus-14"
-msgstr "Bus-02"
+msgstr "Bus-14"
 
 #: translation.js:31 translation.js:384
-#, fuzzy
 msgid "Bus-15"
-msgstr "Bus-05"
+msgstr "Bus-14"
 
 #: translation.js:32 translation.js:385
-#, fuzzy
 msgid "Bus-16"
-msgstr "Bus-06"
+msgstr "Bus-16"
 
 #: translation.js:33 translation.js:386
-#, fuzzy
 msgid "Bus-17"
-msgstr "Bus-07"
+msgstr "Bus-17"
 
 #: translation.js:34
-#, fuzzy
 msgid "Bus-18"
-msgstr "Bus-02"
+msgstr "Bus-18"
 
 #: translation.js:35 translation.js:387
-#, fuzzy
 msgid "Bus-19"
-msgstr "Bus-02"
+msgstr "Bus-19"
 
 #: translation.js:36 translation.js:388
-#, fuzzy
 msgid "Bus-20"
-msgstr "Bus-02"
+msgstr "Bus-20"
 
 #: translation.js:37
-#, fuzzy
 msgid "Bus-21"
-msgstr "Bus-02"
+msgstr "Bus-21"
 
 #: translation.js:38 translation.js:389
-#, fuzzy
 msgid "Bus-22"
-msgstr "Bus-02"
+msgstr "Bus-22"
 
 #: translation.js:39 translation.js:390
-#, fuzzy
 msgid "Bus-23"
-msgstr "Bus-02"
+msgstr "Bus-23"
 
 #: translation.js:40 translation.js:391
-#, fuzzy
 msgid "Bus-24"
-msgstr "Bus-02"
+msgstr "Bus-24"
 
 #: translation.js:41
-#, fuzzy
 msgid "Bus-25"
-msgstr "Bus-02"
+msgstr "Bus-25"
 
 #: translation.js:42
-#, fuzzy
 msgid "Bus-26"
-msgstr "Bus-02"
+msgstr "Bus-26"
 
 #: translation.js:43 translation.js:392
-#, fuzzy
 msgid "Bus-27"
-msgstr "Bus-02"
+msgstr "Bus-27"
 
 #: translation.js:44 translation.js:393
-#, fuzzy
 msgid "Bus-28"
-msgstr "Bus-02"
+msgstr "Bus-28"
 
 #: translation.js:45 translation.js:394
-#, fuzzy
 msgid "Bus-29"
-msgstr "Bus-02"
+msgstr "Bus-29"
 
 #: translation.js:46
-#, fuzzy
 msgid "Bus-30"
-msgstr "Bus-03"
+msgstr "Bus-30"
 
 #: translation.js:47 translation.js:395
-#, fuzzy
 msgid "Bus-31"
-msgstr "Bus-03"
+msgstr "Bus-31"
 
 #: translation.js:48 translation.js:396
-#, fuzzy
 msgid "Bus-32"
-msgstr "Bus-02"
+msgstr "Bus-32"
 
 #: translation.js:49
-#, fuzzy
 msgid "Bus-64"
-msgstr "Bus-04"
+msgstr "Bus-64"
 
 #: translation.js:51
 msgid "Generic: 2-bits generic constant (0,1,2,3)"
@@ -279,23 +254,20 @@ msgid "Generic: 3-bits generic constant (0-7)"
 msgstr "Constante xenérica de 3 bits (0-7)"
 
 #: translation.js:67
-#, fuzzy
 msgid ""
 "Generic: 3-bits k-1 constant (Input values: 1,2,...,8). It returns the value "
 "input by the user minus 1. Outputs: 0,1,2,...,7"
 msgstr ""
-"Xenérico: Constante k-1 de 2 bits (valores de entrada 1,2,3,4). Devolve o "
-"valor de entrada dado por o usuario menos 1. Saidas: 0,1,2,3"
+"Xenérico: Constante k-1 de 3 bits (valores de entrada 1-8). Devolve o valor "
+"de entrada dado por o usuario menos 1. Saidas: 0-8"
 
 #: translation.js:68
-#, fuzzy
 msgid "Output: 0,1,2,...,7"
-msgstr "Saida: 0,1,2,3"
+msgstr "Saida: 0,1,2,...,7"
 
 #: translation.js:69
-#, fuzzy
 msgid "Inputs: 1,2,...,8"
-msgstr "Entradas: 1,2,3,4"
+msgstr "Entradas: 1,2,...,8"
 
 #: translation.js:71
 msgid "3bits constant value: 0"
@@ -330,37 +302,32 @@ msgid "Generic: 4-bits generic constant (0-15)"
 msgstr "Constante xenérica de 4 bits (0-15)"
 
 #: translation.js:83
-#, fuzzy
 msgid ""
 "Generic: 4-bits k-1 constant (Input values: 1,2,...,16). It returns the "
 "value input by the user minus 1. Outputs: 0,1,2,...,15"
 msgstr ""
-"Xenérico: Constante k-1 de 2 bits (valores de entrada 1,2,3,4). Devolve o "
-"valor de entrada dado por o usuario menos 1. Saidas: 0,1,2,3"
+"Xenérico: Constante k-1 de 4 bits (valores de entrada 1-16). Devolve o valor "
+"de entrada dado por o usuario menos 1. Saidas: 0-15"
 
 #: translation.js:84
-#, fuzzy
 msgid "Output: 0,1,2,...,15"
-msgstr "Saida: 0,1,2,3"
+msgstr "Saida: 0,1,2,...,15"
 
 #: translation.js:85
-#, fuzzy
 msgid "Inputs: 1,2,...,16"
-msgstr "Entradas: 1,2,3,4"
+msgstr "Entradas: 1,2,...,16"
 
 #: translation.js:87
 msgid "4bits constant value: 0"
 msgstr "Valor constante 0 de 4 bits"
 
 #: translation.js:88 translation.js:436
-#, fuzzy
 msgid "value-0xF"
-msgstr "valor-0"
+msgstr "valor-0xF"
 
 #: translation.js:89
-#, fuzzy
 msgid "4bits constant value: 15 (0xF in hexadecimal)"
-msgstr "Valor constante 15 de 4 bits"
+msgstr "Valor constante 15 de 4 bits (0xF en hexadecimal)"
 
 #: translation.js:91
 msgid "4bits constant value: 1"
@@ -387,23 +354,20 @@ msgid "Generic: 5-bits generic constant (0-31)"
 msgstr "Constante xenérica de 5 bits (0-31)"
 
 #: translation.js:101
-#, fuzzy
 msgid ""
 "Generic: 5-bits k-1 constant (Input values: 1,2,...,32). It returns the "
 "value input by the user minus 1. Outputs: 0,1,2,...,31"
 msgstr ""
-"Xenérico: Constante k-1 de 2 bits (valores de entrada 1,2,3,4). Devolve o "
-"valor de entrada dado por o usuario menos 1. Saidas: 0,1,2,3"
+"Xenérico: Constante k-1 de 5 bits (valores de entrada 1-32). Devolve o valor "
+"de entrada dado por o usuario menos 1. Saidas: 0-31"
 
 #: translation.js:102
-#, fuzzy
 msgid "Output: 0,1,2,...,31"
-msgstr "Saida: 0,1,2,3"
+msgstr "Saida: 0,1,2,...,31"
 
 #: translation.js:103
-#, fuzzy
 msgid "Inputs: 1,2,...,32"
-msgstr "Entradas: 1,2,3,4"
+msgstr "Entradas: 1,2,...,32"
 
 #: translation.js:105
 msgid "5bits constant value: 0"
@@ -414,23 +378,20 @@ msgid "Generic: 6-bits generic constant (0-63)"
 msgstr "Constante xenérica de 6 bits (0-63)"
 
 #: translation.js:109
-#, fuzzy
 msgid ""
 "Generic: 6-bits k-1 constant (Input values: 1,2,...,64). It returns the "
 "value input by the user minus 1. Outputs: 0,1,2,...,63"
 msgstr ""
-"Xenérico: Constante k-1 de 2 bits (valores de entrada 1,2,3,4). Devolve o "
-"valor de entrada dado por o usuario menos 1. Saidas: 0,1,2,3"
+"Xenérico: Constante k-1 de 6 bits (valores de entrada 1,2,...,64). Devolve o "
+"valor de entrada dado por o usuario menos 1. Saidas: 0,1,2,...,63"
 
 #: translation.js:110
-#, fuzzy
 msgid "Output: 0,1,2,...,63"
-msgstr "Saida: 0,1,2,3"
+msgstr "Saida: 0,1,...,63"
 
 #: translation.js:111
-#, fuzzy
 msgid "Inputs: 1,2,...,64"
-msgstr "Entradas: 1,2,3,4"
+msgstr "Entradas: 1,2,...,64"
 
 #: translation.js:113
 msgid "6bits constant value: 0"
@@ -441,23 +402,20 @@ msgid "Generic: 7-bits generic constant (0-127)"
 msgstr "Constante xenérica de 7 bits (0-127)"
 
 #: translation.js:117
-#, fuzzy
 msgid ""
 "Generic: 7-bits k-1 constant (Input values: 1,2,...,128). It returns the "
 "value input by the user minus 1. Outputs: 0,1,2,...,127"
 msgstr ""
-"Xenérico: Constante k-1 de 2 bits (valores de entrada 1,2,3,4). Devolve o "
-"valor de entrada dado por o usuario menos 1. Saidas: 0,1,2,3"
+"Xenérico: Constante k-1 de 7 bits (valores de entrada 1,2,...,128). Devolve "
+"o valor de entrada dado por o usuario menos 1. Saidas: 0,1,2,...,127"
 
 #: translation.js:118
-#, fuzzy
 msgid "Output: 0,1,2,...,127"
-msgstr "Saida: 0,1,2,3"
+msgstr "Saida: 0,1,2,...,127"
 
 #: translation.js:119
-#, fuzzy
 msgid "Inputs: 1,2,...,128"
-msgstr "Entradas: 1,2,3,4"
+msgstr "Entradas: 1,2,...,128"
 
 #: translation.js:121
 msgid "7bits constant value: 0"
@@ -476,33 +434,28 @@ msgid "Generic: 8-bits generic constant (0-255)"
 msgstr "Constante xenérica de 8 bits (0-255)"
 
 #: translation.js:125
-#, fuzzy
 msgid "Ascii-Asterisk"
-msgstr "Ascii-A"
+msgstr "Ascii-Asterisk"
 
 #: translation.js:126
-#, fuzzy
 msgid "8bits ASCII asterisk symbol *"
-msgstr "Letra A ASCII de 8 bits"
+msgstr "Símbolo * ASCII de 8 bits"
 
 #: translation.js:129
-#, fuzzy
 msgid ""
 "Generic: 8-bits k-1 constant (Input values: 1,2,...,256). It returns the "
 "value input by the user minus 1. Outputs: 0,1,2,...,255"
 msgstr ""
-"Xenérico: Constante k-1 de 2 bits (valores de entrada 1,2,3,4). Devolve o "
-"valor de entrada dado por o usuario menos 1. Saidas: 0,1,2,3"
+"Xenérico: Constante k-1 de 8 bits (valores de entrada 1,2,...,256). Devolve "
+"o valor de entrada dado por o usuario menos 1. Saidas: 0,1,2,...,255"
 
 #: translation.js:130
-#, fuzzy
 msgid "Output: 0,1,2,...,255"
-msgstr "Saida: 0,1,2,3"
+msgstr "Saida: 0,1,...,255"
 
 #: translation.js:131
-#, fuzzy
 msgid "Inputs: 1,2,...,256"
-msgstr "Entradas: 1,2,3,4"
+msgstr "Entradas: 1,2,...,256"
 
 #: translation.js:133
 msgid "8bits constant value: 0"
@@ -515,91 +468,75 @@ msgstr "Valor constante 0 de 8 bits"
 #: translation.js:209 translation.js:215 translation.js:219 translation.js:221
 #: translation.js:223 translation.js:229 translation.js:233
 msgid "k"
-msgstr ""
+msgstr "k"
 
 #: translation.js:135
-#, fuzzy
 msgid "Generic: 9-bits generic constant"
-msgstr "Constante xenérica de 3 bits (0-7)"
+msgstr "Constante xenérica de 9 bits"
 
 #: translation.js:137
-#, fuzzy
 msgid "9bits constant value: 0"
-msgstr "Valor constante 0 de 2 bits"
+msgstr "Valor constante 0 de 9 bits"
 
 #: translation.js:140
-#, fuzzy
 msgid "10bits constant value: 0"
-msgstr "Valor constante 0 de 2 bits"
+msgstr "Valor constante 0 de 10 bits"
 
 #: translation.js:142
-#, fuzzy
 msgid "Generic: 11-bits generic constant"
-msgstr "Constante xenérica de 3 bits (0-7)"
+msgstr "Constante xenérica de 11 bits"
 
 #: translation.js:144
-#, fuzzy
 msgid "11bits constant value: 0"
-msgstr "Valor constante 0 de 2 bits"
+msgstr "Valor constante 0 de 11 bits"
 
 #: translation.js:146
-#, fuzzy
 msgid "Generic: 12-bits generic constant (0-4095)"
-msgstr "Constante xenérica de 4 bits (0-15)"
+msgstr "Constante xenérica de 12 bits (0-4095)"
 
 #: translation.js:148
-#, fuzzy
 msgid ""
 "Generic: 12-bits k-1 constant (Input values: 1,2,...,4096). It returns the "
 "value input by the user minus 1. Outputs: 0,1,2,...,4095"
 msgstr ""
-"Xenérico: Constante k-1 de 2 bits (valores de entrada 1,2,3,4). Devolve o "
-"valor de entrada dado por o usuario menos 1. Saidas: 0,1,2,3"
+"Xenérico: Constante k-1 de 12 bits (valores de entrada 1-4096). Devolve o "
+"valor de entrada dado por o usuario menos 1. Saidas: 0-4095"
 
 #: translation.js:149
-#, fuzzy
 msgid "Output: 0,1,2,...,4095"
-msgstr "Saida: 0,1,2,3"
+msgstr "Saida: 0,1,2,...,4095"
 
 #: translation.js:150
-#, fuzzy
 msgid "Inputs: 1,2,...,4096"
-msgstr "Entradas: 1,2,3,4"
+msgstr "Entradas: 1,2,...,4096"
 
 #: translation.js:152
-#, fuzzy
 msgid "12bits constant value: 0"
-msgstr "Valor constante 0 de 2 bits"
+msgstr "Valor constante 0 de 12 bits"
 
 #: translation.js:154
-#, fuzzy
 msgid "Generic: 13-bits generic constant"
-msgstr "Constante xenérica de 3 bits (0-7)"
+msgstr "Constante xenérica de 13 bits (0-7)"
 
 #: translation.js:156
-#, fuzzy
 msgid "13bits constant value: 0"
-msgstr "Valor constante 0 de 3 bits"
+msgstr "Valor constante 0 de 13 bits"
 
 #: translation.js:158
-#, fuzzy
 msgid "Generic: 14-bits generic constant"
-msgstr "Constante xenérica de 3 bits (0-7)"
+msgstr "Constante xenérica de 14 bits"
 
 #: translation.js:160
-#, fuzzy
 msgid "14bits constant value: 0"
-msgstr "Valor constante 0 de 4 bits"
+msgstr "Valor constante 0 de 14 bits"
 
 #: translation.js:162
-#, fuzzy
 msgid "Generic: 15-bits generic constant"
-msgstr "Constante xenérica de 5 bits (0-31)"
+msgstr "Constante xenérica de 15 bits"
 
 #: translation.js:164
-#, fuzzy
 msgid "15bits constant value: 0"
-msgstr "Valor constante 0 de 5 bits"
+msgstr "Valor constante 0 de 15 bits"
 
 #: translation.js:166
 #, fuzzy
