@@ -20,7 +20,7 @@ Licensed under [LGPL-3.0](https://opensource.org/licenses/LGPL-3.0).
 
 For installing and using this colection in Icestudio follow these steps:
 
-* Download the collection: [stable](https://github.com/FPGAwars/iceK/archive/refs/tags/v0.1.2.zip) or [development](https://github.com/FPGAwars/iceK/archive/refs/heads/main.zip)
+* Download the collection: [stable](https://github.com/FPGAwars/iceK/archive/refs/tags/v0.1.3.zip) or [development](https://github.com/FPGAwars/iceK/archive/refs/heads/main.zip)
 * Install the collection: *Tools > Collections > Add*
 * Select the collection: *Select > Collection*
 
@@ -342,4 +342,4 @@ For installing and using this colection in Icestudio follow these steps:
 <!-- Badges -->
 [icestudio-image]: https://img.shields.io/badge/collection-icestudio-blue.svg
 [icestudio-url]: https://github.com/FPGAwars/icestudio
-[version-image]: https://img.shields.io/badge/version-v0.1.2-orange.svg
+[version-image]: https://img.shields.io/badge/version-v0.1.3-orange.svg
