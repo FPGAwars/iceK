@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-27 06:07+0000\n"
+"POT-Creation-Date: 2024-05-27 08:33+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -422,12 +422,11 @@ msgstr "Valor constante 0 de 7 bits"
 
 #: translation.js:122
 msgid "ASCII-nl"
-msgstr ""
+msgstr "ASCII-nl"
 
 #: translation.js:123
-#, fuzzy
 msgid "8bits ASCII new line"
-msgstr "Letra ASCII de 8 bits"
+msgstr "ASCII de 8 bits para el salto de linea"
 
 #: translation.js:124
 msgid "Generic: 8-bits generic constant (0-255)"
@@ -532,19 +531,16 @@ msgid "13bits constant value: 0"
 msgstr "Valor constante 0 de 13 bits"
 
 #: translation.js:160
-#, fuzzy
 msgid ""
 "Generic: 14-bits k-1 constant (Input values: 1,2,...,). It returns the value "
 "input by the user minus 1. Outputs: 0,1,2,...,4095"
 msgstr ""
-"Generico: Constante k-1 de 12 bits (valores de entrada 1,2,...,4096). "
-"Devuelve el valor de entrada dado por el usuario menos 1. Salidas: "
-"0,1,2,...,4095"
+"Generico: Constante k-1 de 14 bits (valores de entrada 1,2,...). Devuelve el "
+"valor de entrada dado por el usuario menos 1. Salidas: 0,1,2"
 
 #: translation.js:161
-#, fuzzy
 msgid "Inputs: 1,2,..."
-msgstr "Entradas: 1,2,...,8"
+msgstr "Entradas: 1,2,.."
 
 #: translation.js:163
 msgid "Generic: 14-bits generic constant"
