@@ -35,7 +35,7 @@ For installing and using this colection in Icestudio follow these steps:
 | Spanish |  es_ES | ![](https://progress-bar.dev/100) |
 | Basque |  eu_ES | ![](https://progress-bar.dev/0) |
 | French |  fr_FR | ![](https://progress-bar.dev/0) |
-| Galician |  gl_ES | ![](https://progress-bar.dev/47) |
+| Galician |  gl_ES | ![](https://progress-bar.dev/74) |
 | Italian |  it_IT | ![](https://progress-bar.dev/0) |
 | Korean |  ko_KR | ![](https://progress-bar.dev/0) |
 | Netherlands |  nl_NL | ![](https://progress-bar.dev/0) |
