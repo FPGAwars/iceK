@@ -224,4 +224,4 @@ For installing and using this colection in Icestudio follow these steps:
 <!-- Badges -->
 [icestudio-image]: https://img.shields.io/badge/collection-icestudio-blue.svg
 [icestudio-url]: https://github.com/FPGAwars/icestudio
-[version-image]: https://img.shields.io/badge/version-v0.1.3-orange.svg
+[version-image]: https://img.shields.io/badge/version-v0.1.4-orange.svg
